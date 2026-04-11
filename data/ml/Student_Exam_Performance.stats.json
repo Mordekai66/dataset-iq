@@ -1,0 +1,8 @@
+{
+  "rows": 1000,
+  "columns": 9,
+  "missing_values": 683,
+  "duplicates": 0,
+  "numeric_columns": 5,
+  "categorical_columns": 4
+}
