@@ -1,0 +1,8 @@
+{
+  "rows": 55500,
+  "columns": 15,
+  "missing_values": 0,
+  "duplicates": 534,
+  "numeric_columns": 3,
+  "categorical_columns": 12
+}
