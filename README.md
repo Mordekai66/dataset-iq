@@ -3,9 +3,9 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
 ![Status](https://img.shields.io/badge/status-active-green.svg)
-![Last Commit](https://img.shields.io/github/last-commit/your-username/dataset-iq)
-![Repo Size](https://img.shields.io/github/repo-size/your-username/dataset-iq)
-![Visitors](https://komarev.com/ghpvc/?username=your-username&repo=dataset-iq)
+![Last Commit](https://img.shields.io/github/last-commit/Mordekai66/dataset-iq)
+![Repo Size](https://img.shields.io/github/repo-size/Moredekai66/dataset-iq)
+![Visitors](https://komarev.com/ghpvc/?username=Mordekai66&repo=dataset-iq)
 
 ---
 
