@@ -1,0 +1,61 @@
+{
+  "summary": {
+    "rows": 53,
+    "columns": 4,
+    "data_quality_score": 100,
+    "problem_type": "regression",
+    "target": "Degree of Illness"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Index",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 53,
+      "stats": {
+        "min": 1.0,
+        "max": 53.0,
+        "mean": 27.0
+      }
+    },
+    {
+      "name": "Retardation Index",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 40,
+      "stats": {
+        "min": 2.18,
+        "max": 3.78,
+        "mean": 2.992830188679245
+      }
+    },
+    {
+      "name": "Distrust Index",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 24,
+      "stats": {
+        "min": 5.1,
+        "max": 8.8,
+        "mean": 6.624528301886792
+      }
+    },
+    {
+      "name": "Degree of Illness",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 30,
+      "stats": {
+        "min": 4.0,
+        "max": 72.0,
+        "mean": 22.71698113207547
+      }
+    }
+  ]
+}

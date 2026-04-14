@@ -1,0 +1,160 @@
+{
+  "summary": {
+    "rows": 1599,
+    "columns": 13,
+    "data_quality_score": 100,
+    "problem_type": "classification",
+    "target": "quality"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Unnamed: 0",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 1599,
+      "stats": {
+        "min": 0.0,
+        "max": 1598.0,
+        "mean": 799.0
+      }
+    },
+    {
+      "name": "fixed acidity",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 96,
+      "stats": {
+        "min": 4.6,
+        "max": 15.9,
+        "mean": 8.31963727329581
+      }
+    },
+    {
+      "name": "volatile acidity",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 143,
+      "stats": {
+        "min": 0.12,
+        "max": 1.58,
+        "mean": 0.5278205128205128
+      }
+    },
+    {
+      "name": "citric acid",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 80,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.2709756097560976
+      }
+    },
+    {
+      "name": "residual sugar",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 91,
+      "stats": {
+        "min": 0.9,
+        "max": 15.5,
+        "mean": 2.53880550343965
+      }
+    },
+    {
+      "name": "chlorides",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 153,
+      "stats": {
+        "min": 0.012,
+        "max": 0.611,
+        "mean": 0.08746654158849279
+      }
+    },
+    {
+      "name": "free sulfur dioxide",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 60,
+      "stats": {
+        "min": 1.0,
+        "max": 72.0,
+        "mean": 15.874921826141339
+      }
+    },
+    {
+      "name": "total sulfur dioxide",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 144,
+      "stats": {
+        "min": 6.0,
+        "max": 289.0,
+        "mean": 46.46779237023139
+      }
+    },
+    {
+      "name": "density",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 436,
+      "stats": {
+        "min": 0.99007,
+        "max": 1.00369,
+        "mean": 0.9967466791744841
+      }
+    },
+    {
+      "name": "pH",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 89,
+      "stats": {
+        "min": 2.74,
+        "max": 4.01,
+        "mean": 3.3111131957473416
+      }
+    },
+    {
+      "name": "sulphates",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 96,
+      "stats": {
+        "min": 0.33,
+        "max": 2.0,
+        "mean": 0.6581488430268917
+      }
+    },
+    {
+      "name": "alcohol",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 65,
+      "stats": {
+        "min": 8.4,
+        "max": 14.9,
+        "mean": 10.422983114446529
+      }
+    },
+    {
+      "name": "quality",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 6,
+      "stats": {
+        "min": 3.0,
+        "max": 8.0,
+        "mean": 5.6360225140712945
+      }
+    }
+  ]
+}

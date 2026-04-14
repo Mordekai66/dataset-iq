@@ -1,0 +1,214 @@
+{
+  "summary": {
+    "rows": 17379,
+    "columns": 18,
+    "data_quality_score": 85.0,
+    "problem_type": "regression",
+    "target": "cnt"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [
+      "instant",
+      "atemp",
+      "cnt"
+    ],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Unnamed: 0",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 17379,
+      "stats": {
+        "min": 0.0,
+        "max": 17378.0,
+        "mean": 8689.0
+      }
+    },
+    {
+      "name": "instant",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 17379,
+      "stats": {
+        "min": 1.0,
+        "max": 17379.0,
+        "mean": 8690.0
+      }
+    },
+    {
+      "name": "dteday",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 731
+    },
+    {
+      "name": "season",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 4,
+      "stats": {
+        "min": 1.0,
+        "max": 4.0,
+        "mean": 2.5016399102364923
+      }
+    },
+    {
+      "name": "yr",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.5025605615973301
+      }
+    },
+    {
+      "name": "mnth",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 12,
+      "stats": {
+        "min": 1.0,
+        "max": 12.0,
+        "mean": 6.537775476149376
+      }
+    },
+    {
+      "name": "hr",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 24,
+      "stats": {
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 11.546751826917545
+      }
+    },
+    {
+      "name": "holiday",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.028770355026181024
+      }
+    },
+    {
+      "name": "weekday",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 7,
+      "stats": {
+        "min": 0.0,
+        "max": 6.0,
+        "mean": 3.003682605443351
+      }
+    },
+    {
+      "name": "workingday",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.6827205247712756
+      }
+    },
+    {
+      "name": "weathersit",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 4,
+      "stats": {
+        "min": 1.0,
+        "max": 4.0,
+        "mean": 1.425283387997008
+      }
+    },
+    {
+      "name": "temp",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 50,
+      "stats": {
+        "min": 0.02,
+        "max": 1.0,
+        "mean": 0.4969871684216583
+      }
+    },
+    {
+      "name": "atemp",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 65,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.4757751021347604
+      }
+    },
+    {
+      "name": "hum",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 89,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.6272288394038783
+      }
+    },
+    {
+      "name": "windspeed",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 30,
+      "stats": {
+        "min": 0.0,
+        "max": 0.8507,
+        "mean": 0.19009760630646177
+      }
+    },
+    {
+      "name": "casual",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 322,
+      "stats": {
+        "min": 0.0,
+        "max": 367.0,
+        "mean": 35.67621842453536
+      }
+    },
+    {
+      "name": "registered",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 776,
+      "stats": {
+        "min": 0.0,
+        "max": 886.0,
+        "mean": 153.78686920996606
+      }
+    },
+    {
+      "name": "cnt",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 869,
+      "stats": {
+        "min": 1.0,
+        "max": 977.0,
+        "mean": 189.46308763450142
+      }
+    }
+  ]
+}

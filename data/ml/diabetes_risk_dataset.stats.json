@@ -1,10 +1,84 @@
 {
-  "rows": 1000,
-  "columns": 7,
-  "missing_values": 300,
-  "duplicates": 48,
-  "numeric_columns": 5,
-  "categorical_columns": 2,
-  "target_column": "Diabetes Risk",
-  "problem_type": "classification"
+  "summary": {
+    "rows": 1000,
+    "columns": 7,
+    "data_quality_score": 96.9,
+    "problem_type": "classification",
+    "target": "Diabetes Risk"
+  },
+  "issues": {
+    "missing_values_total": 300,
+    "duplicate_rows": 48,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Age",
+      "type": "float64",
+      "missing_pct": 5.0,
+      "unique_values": 63,
+      "stats": {
+        "min": 18.0,
+        "max": 80.0,
+        "mean": 44.25052631578947
+      }
+    },
+    {
+      "name": "BMI",
+      "type": "float64",
+      "missing_pct": 5.0,
+      "unique_values": 945,
+      "stats": {
+        "min": 16.0,
+        "max": 40.73869695225629,
+        "mean": 25.949688438742687
+      }
+    },
+    {
+      "name": "Blood Pressure",
+      "type": "float64",
+      "missing_pct": 5.0,
+      "unique_values": 946,
+      "stats": {
+        "min": 90.0,
+        "max": 180.0,
+        "mean": 124.1467581747526
+      }
+    },
+    {
+      "name": "Physical Activity (hours/week)",
+      "type": "float64",
+      "missing_pct": 5.0,
+      "unique_values": 911,
+      "stats": {
+        "min": 0.0,
+        "max": 6.8981273176629,
+        "mean": 2.3290784048210957
+      }
+    },
+    {
+      "name": "Family History",
+      "type": "object",
+      "missing_pct": 5.0,
+      "unique_values": 2
+    },
+    {
+      "name": "Smoking Status",
+      "type": "object",
+      "missing_pct": 5.0,
+      "unique_values": 2
+    },
+    {
+      "name": "Diabetes Risk",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.5
+      }
+    }
+  ]
 }

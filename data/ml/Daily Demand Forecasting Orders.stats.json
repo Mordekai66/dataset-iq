@@ -1,0 +1,173 @@
+{
+  "summary": {
+    "rows": 60,
+    "columns": 14,
+    "data_quality_score": 95.0,
+    "problem_type": "regression",
+    "target": "Target (Total orders)"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [
+      "Target (Total orders)"
+    ],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Unnamed: 0",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 60,
+      "stats": {
+        "min": 0.0,
+        "max": 59.0,
+        "mean": 29.5
+      }
+    },
+    {
+      "name": "Week of the month (first week, second, third, fourth or fifth week",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 5,
+      "stats": {
+        "min": 1.0,
+        "max": 5.0,
+        "mean": 3.0166666666666666
+      }
+    },
+    {
+      "name": "Day of the week (Monday to Friday)",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 5,
+      "stats": {
+        "min": 2.0,
+        "max": 6.0,
+        "mean": 4.033333333333333
+      }
+    },
+    {
+      "name": "Non-urgent order",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 60,
+      "stats": {
+        "min": 43.651,
+        "max": 435.304,
+        "mean": 172.5549333333333
+      }
+    },
+    {
+      "name": "Urgent order",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 60,
+      "stats": {
+        "min": 77.37100000000001,
+        "max": 223.27,
+        "mean": 118.92085
+      }
+    },
+    {
+      "name": "Order type A",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 60,
+      "stats": {
+        "min": 21.826,
+        "max": 118.178,
+        "mean": 52.112216666666676
+      }
+    },
+    {
+      "name": "Order type B",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 60,
+      "stats": {
+        "min": 25.125,
+        "max": 267.342,
+        "mean": 109.22984999999998
+      }
+    },
+    {
+      "name": "Order type C",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 60,
+      "stats": {
+        "min": 74.372,
+        "max": 302.448,
+        "mean": 139.53125
+      }
+    },
+    {
+      "name": "Fiscal sector orders",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 48,
+      "stats": {
+        "min": 0.0,
+        "max": 865.0,
+        "mean": 77.39613333333334
+      }
+    },
+    {
+      "name": "Orders from the traffic controller sector",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 60,
+      "stats": {
+        "min": 11992.0,
+        "max": 71772.0,
+        "mean": 44504.35
+      }
+    },
+    {
+      "name": "Banking orders (1)",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 60,
+      "stats": {
+        "min": 3452.0,
+        "max": 210508.0,
+        "mean": 46640.833333333336
+      }
+    },
+    {
+      "name": "Banking orders (2)",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 60,
+      "stats": {
+        "min": 16411.0,
+        "max": 188411.0,
+        "mean": 79401.48333333334
+      }
+    },
+    {
+      "name": "Banking orders (3)",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 60,
+      "stats": {
+        "min": 7679.0,
+        "max": 73839.0,
+        "mean": 23114.633333333335
+      }
+    },
+    {
+      "name": "Target (Total orders)",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 60,
+      "stats": {
+        "min": 129.412,
+        "max": 616.453,
+        "mean": 300.8733166666667
+      }
+    }
+  ]
+}

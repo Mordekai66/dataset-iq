@@ -1,0 +1,344 @@
+{
+  "summary": {
+    "rows": 65554,
+    "columns": 30,
+    "data_quality_score": 70.0,
+    "problem_type": "classification",
+    "target": "edgeCount Integer"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [
+      "Characteristic Path Length Integer",
+      "Stress real",
+      "Degree real",
+      "Eccentricity real",
+      "NumberOfUndirectedEdges real",
+      "AverageShortestPathLength real"
+    ],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Unnamed: 0",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 65554,
+      "stats": {
+        "min": 0.0,
+        "max": 65553.0,
+        "mean": 32776.5
+      }
+    },
+    {
+      "name": "Pathway text",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 63009
+    },
+    {
+      "name": "Connected Components Integer",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 22,
+      "stats": {
+        "min": 1.0,
+        "max": 39.0,
+        "mean": 3.0774781096500594
+      }
+    },
+    {
+      "name": "Diameter Integer",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 26,
+      "stats": {
+        "min": 1.0,
+        "max": 46.0,
+        "mean": 4.292796778228636
+      }
+    },
+    {
+      "name": "Radius Integer",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 13,
+      "stats": {
+        "min": 1.0,
+        "max": 13.0,
+        "mean": 1.4362967934832351
+      }
+    },
+    {
+      "name": "Centralization Integer",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2733
+    },
+    {
+      "name": "Shortest Path Integer",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 838,
+      "stats": {
+        "min": 2.0,
+        "max": 23420.0,
+        "mean": 134.30088171583733
+      }
+    },
+    {
+      "name": "Characteristic Path Length Integer",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 7734,
+      "stats": {
+        "min": 1.0,
+        "max": 15.97292912,
+        "mean": 2.0955859992563686
+      }
+    },
+    {
+      "name": "Avg.num.Neighbours real",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 801,
+      "stats": {
+        "min": 0.666666667,
+        "max": 3.44,
+        "mean": 1.5576345255697897
+      }
+    },
+    {
+      "name": "Density real",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 1176,
+      "stats": {
+        "min": 0.008210181,
+        "max": 1.0,
+        "mean": 0.22219911492355918
+      }
+    },
+    {
+      "name": "Heterogeneity real",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 3998,
+      "stats": {
+        "min": 0.0,
+        "max": 1.796203075,
+        "mean": 0.37568100513440833
+      }
+    },
+    {
+      "name": "Isolated Nodes Integer",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 4,
+      "stats": {
+        "min": 0.0,
+        "max": 3.0,
+        "mean": 0.016886841382676876
+      }
+    },
+    {
+      "name": "Number of Self Loops Integer",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 5,
+      "stats": {
+        "min": 0.0,
+        "max": 4.0,
+        "mean": 0.027610824663636086
+      }
+    },
+    {
+      "name": "Multi-edge Node Pair Integer",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 47,
+      "stats": {
+        "min": 0.0,
+        "max": 220.0,
+        "mean": 4.120343533575373
+      }
+    },
+    {
+      "name": "NeighborhoodConnectivity real",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 7902,
+      "stats": {
+        "min": 0.666666667,
+        "max": 15.60481998,
+        "mean": 1.9524633584788267
+      }
+    },
+    {
+      "name": "NumberOfDirectedEdges real",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 1537,
+      "stats": {
+        "min": 0.666666667,
+        "max": 10.22222222,
+        "mean": 2.169461926009611
+      }
+    },
+    {
+      "name": "Stress real",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 7234,
+      "stats": {
+        "min": 0.0,
+        "max": 2112.055556,
+        "mean": 18.27213927392121
+      }
+    },
+    {
+      "name": "SelfLoops real",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 91,
+      "stats": {
+        "min": 0.0,
+        "max": 0.666666667,
+        "mean": 0.0017371865492723556
+      }
+    },
+    {
+      "name": "Partner Of MultiEdged NodePairs Integer",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 858,
+      "stats": {
+        "min": 0.0,
+        "max": 3.0,
+        "mean": 0.5054813277104677
+      }
+    },
+    {
+      "name": "Degree real",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 1529,
+      "stats": {
+        "min": 1.0,
+        "max": 10.22222222,
+        "mean": 2.1729362991068277
+      }
+    },
+    {
+      "name": "TopologicalCoefficient real",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 8649,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.16935793906435914
+      }
+    },
+    {
+      "name": "BetweennessCentrality real",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 9547,
+      "stats": {
+        "min": 0.0,
+        "max": 0.333333335,
+        "mean": 0.175087601112762
+      }
+    },
+    {
+      "name": "Radiality real",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 10099,
+      "stats": {
+        "min": 0.543727596,
+        "max": 30744573457.0,
+        "mean": 109382990.47657391
+      }
+    },
+    {
+      "name": "Eccentricity real",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 3471,
+      "stats": {
+        "min": 0.666666667,
+        "max": 25.03409091,
+        "mean": 2.998900544164429
+      }
+    },
+    {
+      "name": "NumberOfUndirectedEdges real",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 91,
+      "stats": {
+        "min": 0.0,
+        "max": 0.666666667,
+        "mean": 0.0017371865492723556
+      }
+    },
+    {
+      "name": "ClosenessCentrality real",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 13842,
+      "stats": {
+        "min": 0.1022062619999999,
+        "max": 1.0,
+        "mean": 0.6711338899534429
+      }
+    },
+    {
+      "name": "AverageShortestPathLength real",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 9984,
+      "stats": {
+        "min": 0.666666667,
+        "max": 12.66703176,
+        "mean": 1.9482255639798334
+      }
+    },
+    {
+      "name": "ClusteringCoefficient real",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 2249,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.030609688413613206
+      }
+    },
+    {
+      "name": "nodeCount Integer",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 84,
+      "stats": {
+        "min": 2.0,
+        "max": 232.0,
+        "mean": 13.696189401104434
+      }
+    },
+    {
+      "name": "edgeCount Integer",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 150,
+      "stats": {
+        "min": 1.0,
+        "max": 444.0,
+        "mean": 17.02134118436709
+      }
+    }
+  ]
+}

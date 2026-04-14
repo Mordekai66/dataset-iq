@@ -1,0 +1,61 @@
+{
+  "summary": {
+    "rows": 30,
+    "columns": 4,
+    "data_quality_score": 100,
+    "problem_type": "regression",
+    "target": "Systolic BP"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Index",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 30,
+      "stats": {
+        "min": 1.0,
+        "max": 30.0,
+        "mean": 15.5
+      }
+    },
+    {
+      "name": "One",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 1,
+      "stats": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0
+      }
+    },
+    {
+      "name": "Age",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 24,
+      "stats": {
+        "min": 17.0,
+        "max": 69.0,
+        "mean": 45.13333333333333
+      }
+    },
+    {
+      "name": "Systolic BP",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 23,
+      "stats": {
+        "min": 110.0,
+        "max": 220.0,
+        "mean": 142.53333333333333
+      }
+    }
+  ]
+}

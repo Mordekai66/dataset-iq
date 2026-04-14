@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "rows": 19,
+    "columns": 7,
+    "data_quality_score": 100,
+    "problem_type": "classification",
+    "target": "Expenses "
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Index",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 19,
+      "stats": {
+        "min": 1.0,
+        "max": 19.0,
+        "mean": 10.0
+      }
+    },
+    {
+      "name": "One",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 1,
+      "stats": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0
+      }
+    },
+    {
+      "name": "Cattle ",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 19,
+      "stats": {
+        "min": 1.025,
+        "max": 14.325,
+        "mean": 6.156263157894736
+      }
+    },
+    {
+      "name": "Calves ",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 19,
+      "stats": {
+        "min": 0.634,
+        "max": 9.043,
+        "mean": 3.812684210526315
+      }
+    },
+    {
+      "name": "Pigs ",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 19,
+      "stats": {
+        "min": 0.318,
+        "max": 15.175,
+        "mean": 2.845421052631579
+      }
+    },
+    {
+      "name": "Lambs ",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 19,
+      "stats": {
+        "min": 0.231,
+        "max": 36.863,
+        "mean": 5.920631578947368
+      }
+    },
+    {
+      "name": "Expenses ",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 19,
+      "stats": {
+        "min": 9.512,
+        "max": 101.334,
+        "mean": 35.25368421052631
+      }
+    }
+  ]
+}

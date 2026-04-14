@@ -1,0 +1,127 @@
+{
+  "summary": {
+    "rows": 546,
+    "columns": 10,
+    "data_quality_score": 100,
+    "problem_type": "regression",
+    "target": "quantitative response"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Unnamed: 0",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 546,
+      "stats": {
+        "min": 0.0,
+        "max": 545.0,
+        "mean": 272.5
+      }
+    },
+    {
+      "name": "TPSA(Tot)",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 227,
+      "stats": {
+        "min": 0.0,
+        "max": 347.32,
+        "mean": 48.4729304029304
+      }
+    },
+    {
+      "name": "SAacc",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 210,
+      "stats": {
+        "min": 0.0,
+        "max": 571.952,
+        "mean": 58.86901831501832
+      }
+    },
+    {
+      "name": "H-050",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 11,
+      "stats": {
+        "min": 0.0,
+        "max": 18.0,
+        "mean": 0.9377289377289377
+      }
+    },
+    {
+      "name": "MLOGP",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 405,
+      "stats": {
+        "min": -6.446000000000001,
+        "max": 9.148,
+        "mean": 2.3134926739926738
+      }
+    },
+    {
+      "name": "RDCHI",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 342,
+      "stats": {
+        "min": 1.0,
+        "max": 6.439,
+        "mean": 2.492298534798535
+      }
+    },
+    {
+      "name": "GATS1p",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 403,
+      "stats": {
+        "min": 0.281,
+        "max": 2.5,
+        "mean": 1.0462637362637361
+      }
+    },
+    {
+      "name": "nN",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 9,
+      "stats": {
+        "min": 0.0,
+        "max": 11.0,
+        "mean": 1.0036630036630036
+      }
+    },
+    {
+      "name": "C-040",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 6,
+      "stats": {
+        "min": 0.0,
+        "max": 11.0,
+        "mean": 0.3534798534798535
+      }
+    },
+    {
+      "name": "quantitative response",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 515,
+      "stats": {
+        "min": 0.122,
+        "max": 10.047,
+        "mean": 4.658421245421246
+      }
+    }
+  ]
+}

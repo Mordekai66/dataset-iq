@@ -1,0 +1,366 @@
+{
+  "summary": {
+    "rows": 913,
+    "columns": 54,
+    "data_quality_score": 100,
+    "problem_type": "classification",
+    "target": "Exp5"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Unnamed: 0",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 913,
+      "stats": {
+        "min": 0.0,
+        "max": 912.0,
+        "mean": 456.0
+      }
+    },
+    {
+      "name": "AGE",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 46,
+      "stats": {
+        "min": 23.0,
+        "max": 69.0,
+        "mean": 42.24644030668127
+      }
+    },
+    {
+      "name": "GENDER",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.4249726177437021
+      }
+    },
+    {
+      "name": "DOMAIN",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 7
+    },
+    {
+      "name": "PhD",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.4644030668127054
+      }
+    },
+    {
+      "name": "YEARSEXP",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 37
+    },
+    {
+      "name": "UNIVERSITY",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 1.0,
+        "max": 2.0,
+        "mean": 1.1237677984665937
+      }
+    },
+    {
+      "name": "UOC_POSITION",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 7
+    },
+    {
+      "name": "OTHER_POSITION",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 3
+    },
+    {
+      "name": "OTHERSTATUS",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 8
+    },
+    {
+      "name": "USERWIKI",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 3
+    },
+    {
+      "name": "PU1",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "PU2",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "PU3",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "PEU1",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "PEU2",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "PEU3",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "ENJ1",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "ENJ2",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Qu1",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Qu2",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Qu3",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Qu4",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Qu5",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Vis1",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Vis2",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Vis3",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Im1",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Im2",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Im3",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "SA1",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "SA2",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "SA3",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Use1",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Use2",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Use3",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Use4",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Use5",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Pf1",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Pf2",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Pf3",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "JR1",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "JR2",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "BI1",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "BI2",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Inc1",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Inc2",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Inc3",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Inc4",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Exp1",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Exp2",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Exp3",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Exp4",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Exp5",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    }
+  ]
+}

@@ -1,10 +1,149 @@
 {
-  "rows": 689,
-  "columns": 15,
-  "missing_values": 0,
-  "duplicates": 0,
-  "numeric_columns": 8,
-  "categorical_columns": 7,
-  "target_column": "Overtime Hours",
-  "problem_type": "regression"
+  "summary": {
+    "rows": 689,
+    "columns": 15,
+    "data_quality_score": 95.0,
+    "problem_type": "regression",
+    "target": "Overtime Hours"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [
+      "Annual Salary"
+    ],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "No",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 689,
+      "stats": {
+        "min": 1.0,
+        "max": 689.0,
+        "mean": 345.0
+      }
+    },
+    {
+      "name": "First Name",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 299
+    },
+    {
+      "name": "Last Name",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 579
+    },
+    {
+      "name": "Gender",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "Start Date",
+      "type": "datetime64[ns]",
+      "missing_pct": 0.0,
+      "unique_values": 539
+    },
+    {
+      "name": "Years",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 6,
+      "stats": {
+        "min": 0.0,
+        "max": 5.0,
+        "mean": 1.4760522496371553
+      }
+    },
+    {
+      "name": "Department",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 20
+    },
+    {
+      "name": "Country",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 5
+    },
+    {
+      "name": "Center",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 5
+    },
+    {
+      "name": "Monthly Salary",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 613,
+      "stats": {
+        "min": 703.0,
+        "max": 3450.0,
+        "mean": 2068.201741654572
+      }
+    },
+    {
+      "name": "Annual Salary",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 613,
+      "stats": {
+        "min": 8436.0,
+        "max": 41400.0,
+        "mean": 24818.420899854864
+      }
+    },
+    {
+      "name": "Job Rate",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 5,
+      "stats": {
+        "min": 1.0,
+        "max": 5.0,
+        "mean": 3.5863570391872277
+      }
+    },
+    {
+      "name": "Sick Leaves",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 7,
+      "stats": {
+        "min": 0.0,
+        "max": 6.0,
+        "mean": 1.6095791001451378
+      }
+    },
+    {
+      "name": "Unpaid Leaves",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 7,
+      "stats": {
+        "min": 0.0,
+        "max": 6.0,
+        "mean": 0.7590711175616836
+      }
+    },
+    {
+      "name": "Overtime Hours",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 74,
+      "stats": {
+        "min": 0.0,
+        "max": 198.0,
+        "mean": 13.702467343976778
+      }
+    }
+  ]
 }

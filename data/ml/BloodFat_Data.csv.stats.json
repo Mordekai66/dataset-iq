@@ -1,0 +1,72 @@
+{
+  "summary": {
+    "rows": 25,
+    "columns": 5,
+    "data_quality_score": 100,
+    "problem_type": "regression",
+    "target": "Blood Fat Content"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Index",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 25,
+      "stats": {
+        "min": 1.0,
+        "max": 25.0,
+        "mean": 13.0
+      }
+    },
+    {
+      "name": "One",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 1,
+      "stats": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0
+      }
+    },
+    {
+      "name": "Weight",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 19,
+      "stats": {
+        "min": 27.0,
+        "max": 89.0,
+        "mean": 68.68
+      }
+    },
+    {
+      "name": "Age",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 19,
+      "stats": {
+        "min": 20.0,
+        "max": 60.0,
+        "mean": 39.12
+      }
+    },
+    {
+      "name": "Blood Fat Content",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 24,
+      "stats": {
+        "min": 181.0,
+        "max": 451.0,
+        "mean": 310.72
+      }
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "summary": {
+    "rows": 798,
+    "columns": 40,
+    "data_quality_score": 100,
+    "problem_type": "classification",
+    "target": "classes"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Unnamed: 0",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 798,
+      "stats": {
+        "min": 0.0,
+        "max": 797.0,
+        "mean": 398.5
+      }
+    },
+    {
+      "name": "family",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 3
+    },
+    {
+      "name": "product",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 1
+    },
+    {
+      "name": "steel",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 8
+    },
+    {
+      "name": "carbon",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 10,
+      "stats": {
+        "min": 0.0,
+        "max": 70.0,
+        "mean": 3.5476190476190474
+      }
+    },
+    {
+      "name": "hardness",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 7,
+      "stats": {
+        "min": 0.0,
+        "max": 85.0,
+        "mean": 11.74812030075188
+      }
+    },
+    {
+      "name": "temper_rolling",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "condition",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 3
+    },
+    {
+      "name": "formability",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 5
+    },
+    {
+      "name": "strength",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 8,
+      "stats": {
+        "min": 0.0,
+        "max": 700.0,
+        "mean": 30.852130325814535
+      }
+    },
+    {
+      "name": "non-ageing",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "surface-finish",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "surface-quality",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 5
+    },
+    {
+      "name": "enamelability",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 3
+    },
+    {
+      "name": "bc",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "bf",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "bt",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "bw/me",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 3
+    },
+    {
+      "name": "bl",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "m",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 1
+    },
+    {
+      "name": "chrom",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "phos",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "cbond",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "marvi",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 1
+    },
+    {
+      "name": "exptl",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "ferro",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "corr",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 1
+    },
+    {
+      "name": "blue/bright/varn/clean",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 4
+    },
+    {
+      "name": "lustre",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "jurofm",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 1
+    },
+    {
+      "name": "s",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 1
+    },
+    {
+      "name": "p",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 1
+    },
+    {
+      "name": "shape",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "thick",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 49,
+      "stats": {
+        "min": 0.25,
+        "max": 4.0,
+        "mean": 1.1818471177944863
+      }
+    },
+    {
+      "name": "width",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 68,
+      "stats": {
+        "min": 0.0,
+        "max": 1525.0,
+        "mean": 781.7443609022556
+      }
+    },
+    {
+      "name": "len",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 23,
+      "stats": {
+        "min": 0.0,
+        "max": 4880.0,
+        "mean": 1273.0375939849623
+      }
+    },
+    {
+      "name": "oil",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 3
+    },
+    {
+      "name": "bore",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 3,
+      "stats": {
+        "min": 0.0,
+        "max": 600.0,
+        "mean": 28.195488721804512
+      }
+    },
+    {
+      "name": "packing",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 3
+    },
+    {
+      "name": "classes",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 5
+    }
+  ]
+}

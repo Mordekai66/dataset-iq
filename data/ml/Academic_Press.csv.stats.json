@@ -1,0 +1,63 @@
+{
+  "summary": {
+    "rows": 38,
+    "columns": 4,
+    "data_quality_score": 95.0,
+    "problem_type": "regression",
+    "target": "Order"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [
+      "Order"
+    ],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Index",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 38,
+      "stats": {
+        "min": 1.0,
+        "max": 38.0,
+        "mean": 19.5
+      }
+    },
+    {
+      "name": "Print Runs",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 24,
+      "stats": {
+        "min": 728.0,
+        "max": 2800.0,
+        "mean": 1978.1842105263158
+      }
+    },
+    {
+      "name": "Page Numbers",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 29,
+      "stats": {
+        "min": 14.0,
+        "max": 249.0,
+        "mean": 74.0
+      }
+    },
+    {
+      "name": "Order",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 37,
+      "stats": {
+        "min": 67.0,
+        "max": 2630.0,
+        "mean": 757.2894736842105
+      }
+    }
+  ]
+}

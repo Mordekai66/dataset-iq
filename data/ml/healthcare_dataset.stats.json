@@ -1,10 +1,122 @@
 {
-  "rows": 55500,
-  "columns": 15,
-  "missing_values": 0,
-  "duplicates": 534,
-  "numeric_columns": 3,
-  "categorical_columns": 12,
-  "target_column": "Test Results",
-  "problem_type": "classification"
+  "summary": {
+    "rows": 55500,
+    "columns": 15,
+    "data_quality_score": 99.81,
+    "problem_type": "classification",
+    "target": "Test Results"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 534,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Name",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 49992
+    },
+    {
+      "name": "Age",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 77,
+      "stats": {
+        "min": 13.0,
+        "max": 89.0,
+        "mean": 51.53945945945946
+      }
+    },
+    {
+      "name": "Gender",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "Blood Type",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 8
+    },
+    {
+      "name": "Medical Condition",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "Date of Admission",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 1827
+    },
+    {
+      "name": "Doctor",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 40341
+    },
+    {
+      "name": "Hospital",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 39876
+    },
+    {
+      "name": "Insurance Provider",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 5
+    },
+    {
+      "name": "Billing Amount",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 50000,
+      "stats": {
+        "min": -2008.4921398591305,
+        "max": 52764.276736469175,
+        "mean": 25539.316097211795
+      }
+    },
+    {
+      "name": "Room Number",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 400,
+      "stats": {
+        "min": 101.0,
+        "max": 500.0,
+        "mean": 301.1348288288288
+      }
+    },
+    {
+      "name": "Admission Type",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 3
+    },
+    {
+      "name": "Discharge Date",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 1856
+    },
+    {
+      "name": "Medication",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 5
+    },
+    {
+      "name": "Test Results",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 3
+    }
+  ]
 }

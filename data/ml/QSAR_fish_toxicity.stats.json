@@ -1,0 +1,105 @@
+{
+  "summary": {
+    "rows": 908,
+    "columns": 8,
+    "data_quality_score": 100,
+    "problem_type": "regression",
+    "target": "quantitative response LC50 [-LOG(mol/L)]"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Unnamed: 0",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 908,
+      "stats": {
+        "min": 0.0,
+        "max": 907.0,
+        "mean": 453.5
+      }
+    },
+    {
+      "name": "CIC0",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 502,
+      "stats": {
+        "min": 0.667,
+        "max": 5.926,
+        "mean": 2.898128854625551
+      }
+    },
+    {
+      "name": "SM1_Dz(Z)",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 186,
+      "stats": {
+        "min": 0.0,
+        "max": 2.171,
+        "mean": 0.6284680616740088
+      }
+    },
+    {
+      "name": "GATS1i",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 557,
+      "stats": {
+        "min": 0.396,
+        "max": 2.92,
+        "mean": 1.2935914096916301
+      }
+    },
+    {
+      "name": "NdsCH",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 5,
+      "stats": {
+        "min": 0.0,
+        "max": 4.0,
+        "mean": 0.2290748898678414
+      }
+    },
+    {
+      "name": "NdssC",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 7,
+      "stats": {
+        "min": 0.0,
+        "max": 6.0,
+        "mean": 0.4856828193832599
+      }
+    },
+    {
+      "name": "MLOGP",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 559,
+      "stats": {
+        "min": -2.884,
+        "max": 6.515,
+        "mean": 2.109285242290749
+      }
+    },
+    {
+      "name": "quantitative response LC50 [-LOG(mol/L)]",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 827,
+      "stats": {
+        "min": 0.053,
+        "max": 9.612,
+        "mean": 4.064430616740088
+      }
+    }
+  ]
+}

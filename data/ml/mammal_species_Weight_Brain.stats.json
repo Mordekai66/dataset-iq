@@ -1,0 +1,52 @@
+{
+  "summary": {
+    "rows": 63,
+    "columns": 3,
+    "data_quality_score": 94.21,
+    "problem_type": "regression",
+    "target": "Brain_weight"
+  },
+  "issues": {
+    "missing_values_total": 3,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [
+      "Brain_weight"
+    ],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Index",
+      "type": "float64",
+      "missing_pct": 1.59,
+      "unique_values": 62,
+      "stats": {
+        "min": 1.0,
+        "max": 62.0,
+        "mean": 31.5
+      }
+    },
+    {
+      "name": "Body_Weight",
+      "type": "float64",
+      "missing_pct": 1.59,
+      "unique_values": 60,
+      "stats": {
+        "min": 0.005,
+        "max": 6654.0,
+        "mean": 198.78998387096775
+      }
+    },
+    {
+      "name": "Brain_weight",
+      "type": "float64",
+      "missing_pct": 1.59,
+      "unique_values": 59,
+      "stats": {
+        "min": 0.14,
+        "max": 5712.0,
+        "mean": 283.13419354838715
+      }
+    }
+  ]
+}

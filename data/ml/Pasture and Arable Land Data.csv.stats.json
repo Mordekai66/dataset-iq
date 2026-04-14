@@ -1,0 +1,67 @@
+{
+  "summary": {
+    "rows": 67,
+    "columns": 5,
+    "data_quality_score": 100,
+    "problem_type": "regression",
+    "target": "Rental Price per grassy acre"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Index",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 67
+    },
+    {
+      "name": "Rent per acre",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 66,
+      "stats": {
+        "min": 6.17,
+        "max": 83.9,
+        "mean": 43.789104477611936
+      }
+    },
+    {
+      "name": "Milk cows per square Mile",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 67,
+      "stats": {
+        "min": 1.53,
+        "max": 58.6,
+        "mean": 20.563283582089557
+      }
+    },
+    {
+      "name": "Diff bet pasture and arable land",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 32,
+      "stats": {
+        "min": 0.02,
+        "max": 0.72,
+        "mean": 0.16970149253731345
+      }
+    },
+    {
+      "name": "Rental Price per grassy acre",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 58,
+      "stats": {
+        "min": 5.0,
+        "max": 99.17,
+        "mean": 42.466268656716416
+      }
+    }
+  ]
+}

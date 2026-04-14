@@ -1,0 +1,111 @@
+{
+  "summary": {
+    "rows": 16,
+    "columns": 8,
+    "data_quality_score": 75.0,
+    "problem_type": "classification",
+    "target": "number of people employed"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [
+      "the percentage price deflation",
+      "the GNP in millions of dollars",
+      "number of people over 14",
+      "the year",
+      "number of people employed"
+    ],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Index",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 16,
+      "stats": {
+        "min": 1.0,
+        "max": 16.0,
+        "mean": 8.5
+      }
+    },
+    {
+      "name": "the percentage price deflation",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 16,
+      "stats": {
+        "min": 83.0,
+        "max": 116.9,
+        "mean": 101.68125
+      }
+    },
+    {
+      "name": "the GNP in millions of dollars",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 16,
+      "stats": {
+        "min": 234289.0,
+        "max": 554894.0,
+        "mean": 387698.4375
+      }
+    },
+    {
+      "name": "the number of unemployed in thousands",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 16,
+      "stats": {
+        "min": 1870.0,
+        "max": 4806.0,
+        "mean": 3193.375
+      }
+    },
+    {
+      "name": "No. employed by the military",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 16,
+      "stats": {
+        "min": 1456.0,
+        "max": 3594.0,
+        "mean": 2606.6875
+      }
+    },
+    {
+      "name": "number of people over 14",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 16,
+      "stats": {
+        "min": 107608.0,
+        "max": 130081.0,
+        "mean": 117424.0
+      }
+    },
+    {
+      "name": "the year",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 16,
+      "stats": {
+        "min": 1947.0,
+        "max": 1962.0,
+        "mean": 1954.5
+      }
+    },
+    {
+      "name": "number of people employed",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 16,
+      "stats": {
+        "min": 60171.0,
+        "max": 70561.0,
+        "mean": 65317.625
+      }
+    }
+  ]
+}

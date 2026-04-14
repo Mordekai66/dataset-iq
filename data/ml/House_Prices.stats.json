@@ -1,10 +1,89 @@
 {
-  "rows": 1000,
-  "columns": 7,
-  "missing_values": 105,
-  "duplicates": 0,
-  "numeric_columns": 6,
-  "categorical_columns": 1,
-  "target_column": "Price",
-  "problem_type": "regression"
+  "summary": {
+    "rows": 1000,
+    "columns": 7,
+    "data_quality_score": 99.25,
+    "problem_type": "regression",
+    "target": "Price"
+  },
+  "issues": {
+    "missing_values_total": 105,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Location",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 3
+    },
+    {
+      "name": "Size (sqft)",
+      "type": "float64",
+      "missing_pct": 4.2,
+      "unique_values": 825,
+      "stats": {
+        "min": 801.0,
+        "max": 3999.0,
+        "mean": 2428.831941544885
+      }
+    },
+    {
+      "name": "Bedrooms",
+      "type": "float64",
+      "missing_pct": 3.5,
+      "unique_values": 6,
+      "stats": {
+        "min": 1.0,
+        "max": 6.0,
+        "mean": 3.477720207253886
+      }
+    },
+    {
+      "name": "Bathrooms",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 4,
+      "stats": {
+        "min": 1.0,
+        "max": 4.0,
+        "mean": 2.515
+      }
+    },
+    {
+      "name": "Year Built",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 74,
+      "stats": {
+        "min": 1950.0,
+        "max": 2023.0,
+        "mean": 1985.278
+      }
+    },
+    {
+      "name": "Condition",
+      "type": "float64",
+      "missing_pct": 2.8,
+      "unique_values": 5,
+      "stats": {
+        "min": 1.0,
+        "max": 5.0,
+        "mean": 2.9166666666666665
+      }
+    },
+    {
+      "name": "Price",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 969,
+      "stats": {
+        "min": 127783.0,
+        "max": 798554.0,
+        "mean": 399455.855
+      }
+    }
+  ]
 }

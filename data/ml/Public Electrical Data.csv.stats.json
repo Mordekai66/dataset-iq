@@ -1,0 +1,87 @@
+{
+  "summary": {
+    "rows": 16,
+    "columns": 6,
+    "data_quality_score": 85.0,
+    "problem_type": "classification",
+    "target": "Electrical output"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [
+      "Labor Costs",
+      "Energy Costs",
+      "Electrical output"
+    ],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Index",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 16,
+      "stats": {
+        "min": 1.0,
+        "max": 16.0,
+        "mean": 8.5
+      }
+    },
+    {
+      "name": "One",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 1,
+      "stats": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0
+      }
+    },
+    {
+      "name": "Capital Costs",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 16,
+      "stats": {
+        "min": 19.478,
+        "max": 946.766,
+        "mean": 357.3974375
+      }
+    },
+    {
+      "name": "Labor Costs",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 16,
+      "stats": {
+        "min": 0.115,
+        "max": 4.004,
+        "mean": 1.6125625000000001
+      }
+    },
+    {
+      "name": "Energy Costs",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 16,
+      "stats": {
+        "min": 1.739,
+        "max": 125.351,
+        "mean": 49.1874375
+      }
+    },
+    {
+      "name": "Electrical output",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 16,
+      "stats": {
+        "min": 0.125,
+        "max": 10.077,
+        "mean": 4.9197500000000005
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "summary": {
+    "rows": 2567,
+    "columns": 10,
+    "data_quality_score": 96.87,
+    "problem_type": "classification",
+    "target": "age_of_marriage"
+  },
+  "issues": {
+    "missing_values_total": 1608,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "id",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2567,
+      "stats": {
+        "min": 1.0,
+        "max": 2567.0,
+        "mean": 1284.0
+      }
+    },
+    {
+      "name": "gender",
+      "type": "object",
+      "missing_pct": 1.13,
+      "unique_values": 2
+    },
+    {
+      "name": "height",
+      "type": "object",
+      "missing_pct": 4.6,
+      "unique_values": 28
+    },
+    {
+      "name": "religion",
+      "type": "object",
+      "missing_pct": 24.74,
+      "unique_values": 5
+    },
+    {
+      "name": "caste",
+      "type": "object",
+      "missing_pct": 5.53,
+      "unique_values": 42
+    },
+    {
+      "name": "mother_tongue",
+      "type": "object",
+      "missing_pct": 6.39,
+      "unique_values": 27
+    },
+    {
+      "name": "profession",
+      "type": "object",
+      "missing_pct": 12.86,
+      "unique_values": 86
+    },
+    {
+      "name": "location",
+      "type": "object",
+      "missing_pct": 6.04,
+      "unique_values": 536
+    },
+    {
+      "name": "country",
+      "type": "object",
+      "missing_pct": 0.62,
+      "unique_values": 29
+    },
+    {
+      "name": "age_of_marriage",
+      "type": "float64",
+      "missing_pct": 0.74,
+      "unique_values": 17,
+      "stats": {
+        "min": 20.0,
+        "max": 36.0,
+        "mean": 29.64835164835165
+      }
+    }
+  ]
+}

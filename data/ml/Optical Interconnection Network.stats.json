@@ -1,0 +1,98 @@
+{
+  "summary": {
+    "rows": 640,
+    "columns": 11,
+    "data_quality_score": 100,
+    "problem_type": "classification",
+    "target": "Channel Utilization"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Unnamed: 0",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 640,
+      "stats": {
+        "min": 0.0,
+        "max": 639.0,
+        "mean": 319.5
+      }
+    },
+    {
+      "name": "Node Number",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 16.0,
+        "max": 64.0,
+        "mean": 40.0
+      }
+    },
+    {
+      "name": "Thread Number",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 4,
+      "stats": {
+        "min": 4.0,
+        "max": 10.0,
+        "mean": 7.0
+      }
+    },
+    {
+      "name": "Spatial Distribution",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 4
+    },
+    {
+      "name": "Temporal Distribution",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "T/R",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 10
+    },
+    {
+      "name": "Processor Utilization ",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 624
+    },
+    {
+      "name": "Channel Waiting Time",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 640
+    },
+    {
+      "name": "Input Waiting Time",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 640
+    },
+    {
+      "name": "Network Response Time",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 640
+    },
+    {
+      "name": "Channel Utilization",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 627
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "summary": {
+    "rows": 21,
+    "columns": 5,
+    "data_quality_score": 95.0,
+    "problem_type": "classification",
+    "target": "Unprocessed Percentage"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [
+      "Unprocessed Percentage"
+    ],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Index",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 21,
+      "stats": {
+        "min": 1.0,
+        "max": 21.0,
+        "mean": 11.0
+      }
+    },
+    {
+      "name": "Operation Time",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 7,
+      "stats": {
+        "min": 50.0,
+        "max": 80.0,
+        "mean": 60.42857142857143
+      }
+    },
+    {
+      "name": "Coolant Temp",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 9,
+      "stats": {
+        "min": 17.0,
+        "max": 27.0,
+        "mean": 21.095238095238095
+      }
+    },
+    {
+      "name": "TAC",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 11,
+      "stats": {
+        "min": 72.0,
+        "max": 93.0,
+        "mean": 86.28571428571429
+      }
+    },
+    {
+      "name": "Unprocessed Percentage",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 14,
+      "stats": {
+        "min": 7.0,
+        "max": 42.0,
+        "mean": 17.523809523809526
+      }
+    }
+  ]
+}

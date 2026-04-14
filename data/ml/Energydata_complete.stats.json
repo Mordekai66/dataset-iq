@@ -1,0 +1,346 @@
+{
+  "summary": {
+    "rows": 19735,
+    "columns": 30,
+    "data_quality_score": 85.0,
+    "problem_type": "regression",
+    "target": "rv2"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [
+      "T9",
+      "T_out",
+      "rv2"
+    ],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Unnamed: 0",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 19735,
+      "stats": {
+        "min": 0.0,
+        "max": 19734.0,
+        "mean": 9867.0
+      }
+    },
+    {
+      "name": "date",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 19735
+    },
+    {
+      "name": "Appliances",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 92,
+      "stats": {
+        "min": 10.0,
+        "max": 1080.0,
+        "mean": 97.6949581960983
+      }
+    },
+    {
+      "name": "lights",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 8,
+      "stats": {
+        "min": 0.0,
+        "max": 70.0,
+        "mean": 3.8018748416518875
+      }
+    },
+    {
+      "name": "T1",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 722,
+      "stats": {
+        "min": 16.79,
+        "max": 26.26,
+        "mean": 21.686571386747413
+      }
+    },
+    {
+      "name": "RH_1",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 2547,
+      "stats": {
+        "min": 27.0233333333333,
+        "max": 63.36,
+        "mean": 40.259739279782515
+      }
+    },
+    {
+      "name": "T2",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 1650,
+      "stats": {
+        "min": 16.1,
+        "max": 29.856666666666698,
+        "mean": 20.341219463847917
+      }
+    },
+    {
+      "name": "RH_2",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 3376,
+      "stats": {
+        "min": 20.463333333333296,
+        "max": 56.0266666666667,
+        "mean": 40.42042041370503
+      }
+    },
+    {
+      "name": "T3",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 1426,
+      "stats": {
+        "min": 17.2,
+        "max": 29.236,
+        "mean": 22.267610984878946
+      }
+    },
+    {
+      "name": "RH_3",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 2618,
+      "stats": {
+        "min": 28.766666666666698,
+        "max": 50.1633333333333,
+        "mean": 39.242500077205484
+      }
+    },
+    {
+      "name": "T4",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 1390,
+      "stats": {
+        "min": 15.1,
+        "max": 26.2,
+        "mean": 20.855334722409587
+      }
+    },
+    {
+      "name": "RH_4",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 2987,
+      "stats": {
+        "min": 27.66,
+        "max": 51.09,
+        "mean": 39.02690378814384
+      }
+    },
+    {
+      "name": "T5",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 2263,
+      "stats": {
+        "min": 15.33,
+        "max": 25.795,
+        "mean": 19.592106328017195
+      }
+    },
+    {
+      "name": "RH_5",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 7571,
+      "stats": {
+        "min": 29.815,
+        "max": 96.3216666666667,
+        "mean": 50.949282629621024
+      }
+    },
+    {
+      "name": "T6",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 4446,
+      "stats": {
+        "min": -6.065,
+        "max": 28.29,
+        "mean": 7.910939332403422
+      }
+    },
+    {
+      "name": "RH_6",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 9709,
+      "stats": {
+        "min": 1.0,
+        "max": 99.9,
+        "mean": 54.609083387582494
+      }
+    },
+    {
+      "name": "T7",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 1955,
+      "stats": {
+        "min": 15.39,
+        "max": 26.0,
+        "mean": 20.267106470135438
+      }
+    },
+    {
+      "name": "RH_7",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 5891,
+      "stats": {
+        "min": 23.2,
+        "max": 51.4,
+        "mean": 35.388200215083586
+      }
+    },
+    {
+      "name": "T8",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 2228,
+      "stats": {
+        "min": 16.306666666666697,
+        "max": 27.23,
+        "mean": 22.029106722979208
+      }
+    },
+    {
+      "name": "RH_8",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 6649,
+      "stats": {
+        "min": 29.6,
+        "max": 58.78,
+        "mean": 42.93616537238735
+      }
+    },
+    {
+      "name": "T9",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 924,
+      "stats": {
+        "min": 14.89,
+        "max": 24.5,
+        "mean": 19.485828160608307
+      }
+    },
+    {
+      "name": "RH_9",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 3388,
+      "stats": {
+        "min": 29.1666666666667,
+        "max": 53.326666666666696,
+        "mean": 41.55240075337498
+      }
+    },
+    {
+      "name": "T_out",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 1730,
+      "stats": {
+        "min": -5.0,
+        "max": 26.1,
+        "mean": 7.4116645553585006
+      }
+    },
+    {
+      "name": "Press_mm_hg",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 2189,
+      "stats": {
+        "min": 729.2999999999998,
+        "max": 772.2999999999998,
+        "mean": 755.5226019761843
+      }
+    },
+    {
+      "name": "RH_out",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 566,
+      "stats": {
+        "min": 24.0,
+        "max": 100.0,
+        "mean": 79.75041803901698
+      }
+    },
+    {
+      "name": "Windspeed",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 189,
+      "stats": {
+        "min": 0.0,
+        "max": 14.0,
+        "mean": 4.0397517101596145
+      }
+    },
+    {
+      "name": "Visibility",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 413,
+      "stats": {
+        "min": 1.0,
+        "max": 66.0,
+        "mean": 38.33083354446415
+      }
+    },
+    {
+      "name": "Tdewpoint",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 1408,
+      "stats": {
+        "min": -6.6,
+        "max": 15.5,
+        "mean": 3.760706865974157
+      }
+    },
+    {
+      "name": "rv1",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 19735,
+      "stats": {
+        "min": 0.0053216819651424,
+        "max": 49.9965296825394,
+        "mean": 24.988033485049435
+      }
+    },
+    {
+      "name": "rv2",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 19735,
+      "stats": {
+        "min": 0.0053216819651424,
+        "max": 49.9965296825394,
+        "mean": 24.988033485049435
+      }
+    }
+  ]
+}

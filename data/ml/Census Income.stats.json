@@ -1,10 +1,148 @@
 {
-  "rows": 48842,
-  "columns": 16,
-  "missing_values": 0,
-  "duplicates": 0,
-  "numeric_columns": 7,
-  "categorical_columns": 9,
-  "target_column": "income",
-  "problem_type": "classification"
+  "summary": {
+    "rows": 48842,
+    "columns": 16,
+    "data_quality_score": 100,
+    "problem_type": "classification",
+    "target": "income"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Unnamed: 0",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 32561,
+      "stats": {
+        "min": 0.0,
+        "max": 32560.0,
+        "mean": 13566.944453544082
+      }
+    },
+    {
+      "name": "age",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 74,
+      "stats": {
+        "min": 17.0,
+        "max": 90.0,
+        "mean": 38.64358543876172
+      }
+    },
+    {
+      "name": "workclass",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 9
+    },
+    {
+      "name": "fnlwgt",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 28523,
+      "stats": {
+        "min": 12285.0,
+        "max": 1490400.0,
+        "mean": 189664.13459727284
+      }
+    },
+    {
+      "name": "education",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 16
+    },
+    {
+      "name": "ducation-num",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 16,
+      "stats": {
+        "min": 1.0,
+        "max": 16.0,
+        "mean": 10.078088530363212
+      }
+    },
+    {
+      "name": "marital-status",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 7
+    },
+    {
+      "name": "occupation",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 15
+    },
+    {
+      "name": "relationship",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 6
+    },
+    {
+      "name": "race",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 5
+    },
+    {
+      "name": "sex",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "capital-gain",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 123,
+      "stats": {
+        "min": 0.0,
+        "max": 99999.0,
+        "mean": 1079.0676262233324
+      }
+    },
+    {
+      "name": "capital-loss",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 99,
+      "stats": {
+        "min": 0.0,
+        "max": 4356.0,
+        "mean": 87.50231358257237
+      }
+    },
+    {
+      "name": "hours-per-week",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 96,
+      "stats": {
+        "min": 1.0,
+        "max": 99.0,
+        "mean": 40.422382375824085
+      }
+    },
+    {
+      "name": "native-country",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 42
+    },
+    {
+      "name": "income",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 4
+    }
+  ]
 }

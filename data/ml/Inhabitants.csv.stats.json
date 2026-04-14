@@ -1,0 +1,72 @@
+{
+  "summary": {
+    "rows": 20,
+    "columns": 5,
+    "data_quality_score": 100,
+    "problem_type": "classification",
+    "target": "Murders/ annum/1,000k inhabitants"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Index",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 20,
+      "stats": {
+        "min": 1.0,
+        "max": 20.0,
+        "mean": 10.5
+      }
+    },
+    {
+      "name": "Inhabitants",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 19,
+      "stats": {
+        "min": 587000.0,
+        "max": 7895000.0,
+        "mean": 1433000.0
+      }
+    },
+    {
+      "name": "incomes below $5000",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 17,
+      "stats": {
+        "min": 14.3,
+        "max": 26.3,
+        "mean": 19.719999999999995
+      }
+    },
+    {
+      "name": "Percent unemployed",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 16,
+      "stats": {
+        "min": 4.9,
+        "max": 9.3,
+        "mean": 6.935
+      }
+    },
+    {
+      "name": "Murders/ annum/1,000k inhabitants",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 20,
+      "stats": {
+        "min": 5.3,
+        "max": 40.7,
+        "mean": 20.57
+      }
+    }
+  ]
+}

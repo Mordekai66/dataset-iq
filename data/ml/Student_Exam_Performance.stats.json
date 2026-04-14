@@ -1,10 +1,102 @@
 {
-  "rows": 1000,
-  "columns": 9,
-  "missing_values": 683,
-  "duplicates": 0,
-  "numeric_columns": 5,
-  "categorical_columns": 4,
-  "target_column": "Writing Score",
-  "problem_type": "regression"
+  "summary": {
+    "rows": 1000,
+    "columns": 9,
+    "data_quality_score": 81.21,
+    "problem_type": "regression",
+    "target": "Writing Score"
+  },
+  "issues": {
+    "missing_values_total": 683,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [
+      "Math Score",
+      "Reading Score",
+      "Writing Score"
+    ],
+    "columns_with_high_missing": [
+      "Test Preparation Course"
+    ]
+  },
+  "schema": [
+    {
+      "name": "Gender",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "Parental Education Level",
+      "type": "object",
+      "missing_pct": 3.4,
+      "unique_values": 5
+    },
+    {
+      "name": "Lunch Type",
+      "type": "object",
+      "missing_pct": 3.7,
+      "unique_values": 2
+    },
+    {
+      "name": "Test Preparation Course",
+      "type": "object",
+      "missing_pct": 52.3,
+      "unique_values": 1
+    },
+    {
+      "name": "Study Time",
+      "type": "float64",
+      "missing_pct": 4.5,
+      "unique_values": 11,
+      "stats": {
+        "min": 0.0,
+        "max": 10.0,
+        "mean": 4.973821989528796
+      }
+    },
+    {
+      "name": "Absences",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 21,
+      "stats": {
+        "min": 0.0,
+        "max": 20.0,
+        "mean": 9.978
+      }
+    },
+    {
+      "name": "Math Score",
+      "type": "float64",
+      "missing_pct": 4.4,
+      "unique_values": 918,
+      "stats": {
+        "min": 30.33034006163409,
+        "max": 100.0,
+        "mean": 69.40254726358827
+      }
+    },
+    {
+      "name": "Reading Score",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 964,
+      "stats": {
+        "min": 30.255916326266984,
+        "max": 100.0,
+        "mean": 69.28369941136398
+      }
+    },
+    {
+      "name": "Writing Score",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 971,
+      "stats": {
+        "min": 30.18063420257362,
+        "max": 100.0,
+        "mean": 69.04706639407517
+      }
+    }
+  ]
 }

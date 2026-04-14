@@ -1,0 +1,105 @@
+{
+  "summary": {
+    "rows": 30,
+    "columns": 8,
+    "data_quality_score": 100,
+    "problem_type": "regression",
+    "target": "B"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Index",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 30,
+      "stats": {
+        "min": 1.0,
+        "max": 30.0,
+        "mean": 15.5
+      }
+    },
+    {
+      "name": "A1",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 23,
+      "stats": {
+        "min": 37.0,
+        "max": 90.0,
+        "mean": 66.6
+      }
+    },
+    {
+      "name": "A2",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 24,
+      "stats": {
+        "min": 30.0,
+        "max": 83.0,
+        "mean": 53.13333333333333
+      }
+    },
+    {
+      "name": "A3",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 23,
+      "stats": {
+        "min": 34.0,
+        "max": 75.0,
+        "mean": 56.36666666666667
+      }
+    },
+    {
+      "name": "A4",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 21,
+      "stats": {
+        "min": 43.0,
+        "max": 88.0,
+        "mean": 64.63333333333334
+      }
+    },
+    {
+      "name": "A5",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 21,
+      "stats": {
+        "min": 49.0,
+        "max": 92.0,
+        "mean": 74.76666666666667
+      }
+    },
+    {
+      "name": "A6",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 20,
+      "stats": {
+        "min": 25.0,
+        "max": 72.0,
+        "mean": 42.93333333333333
+      }
+    },
+    {
+      "name": "B",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 22,
+      "stats": {
+        "min": 40.0,
+        "max": 85.0,
+        "mean": 64.63333333333334
+      }
+    }
+  ]
+}

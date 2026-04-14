@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "rows": 35717,
+    "columns": 5,
+    "data_quality_score": 100,
+    "problem_type": "classification",
+    "target": "LastUpdated"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Unnamed: 0",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 35717,
+      "stats": {
+        "min": 0.0,
+        "max": 35716.0,
+        "mean": 17858.0
+      }
+    },
+    {
+      "name": "SystemCodeNumber",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 30
+    },
+    {
+      "name": "Capacity",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 30,
+      "stats": {
+        "min": 220.0,
+        "max": 4675.0,
+        "mean": 1397.5501301901056
+      }
+    },
+    {
+      "name": "Occupancy",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 3013,
+      "stats": {
+        "min": -8.0,
+        "max": 4327.0,
+        "mean": 642.2289106027941
+      }
+    },
+    {
+      "name": "LastUpdated",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 1784
+    }
+  ]
+}

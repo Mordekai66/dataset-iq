@@ -1,10 +1,79 @@
 {
-  "rows": 1000,
-  "columns": 7,
-  "missing_values": 89,
-  "duplicates": 0,
-  "numeric_columns": 4,
-  "categorical_columns": 3,
-  "target_column": "Resale Price",
-  "problem_type": "regression"
+  "summary": {
+    "rows": 1000,
+    "columns": 7,
+    "data_quality_score": 99.36,
+    "problem_type": "regression",
+    "target": "Resale Price"
+  },
+  "issues": {
+    "missing_values_total": 89,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Brand",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 10
+    },
+    {
+      "name": "Model Year",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 25,
+      "stats": {
+        "min": 2000.0,
+        "max": 2024.0,
+        "mean": 2012.27
+      }
+    },
+    {
+      "name": "Mileage (miles)",
+      "type": "float64",
+      "missing_pct": 2.5,
+      "unique_values": 974,
+      "stats": {
+        "min": 10511.0,
+        "max": 199978.0,
+        "mean": 104028.36307692308
+      }
+    },
+    {
+      "name": "Fuel Type",
+      "type": "object",
+      "missing_pct": 3.1,
+      "unique_values": 4
+    },
+    {
+      "name": "Condition",
+      "type": "float64",
+      "missing_pct": 3.3,
+      "unique_values": 5,
+      "stats": {
+        "min": 1.0,
+        "max": 5.0,
+        "mean": 2.950361944157187
+      }
+    },
+    {
+      "name": "Transmission",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "Resale Price",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 853,
+      "stats": {
+        "min": 1000.0,
+        "max": 52279.0,
+        "mean": 16231.767
+      }
+    }
+  ]
 }

@@ -1,0 +1,61 @@
+{
+  "summary": {
+    "rows": 200,
+    "columns": 4,
+    "data_quality_score": 100,
+    "problem_type": "regression",
+    "target": "sales"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "TV",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 190,
+      "stats": {
+        "min": 0.7,
+        "max": 296.4,
+        "mean": 147.0425
+      }
+    },
+    {
+      "name": "radio",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 167,
+      "stats": {
+        "min": 0.0,
+        "max": 49.6,
+        "mean": 23.264000000000006
+      }
+    },
+    {
+      "name": "newspaper",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 172,
+      "stats": {
+        "min": 0.3,
+        "max": 114.0,
+        "mean": 30.553999999999995
+      }
+    },
+    {
+      "name": "sales",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 121,
+      "stats": {
+        "min": 1.6,
+        "max": 27.0,
+        "mean": 14.0225
+      }
+    }
+  ]
+}

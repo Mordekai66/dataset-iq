@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "rows": 46,
+    "columns": 7,
+    "data_quality_score": 100,
+    "problem_type": "regression",
+    "target": "Cirrhosis death rate"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Index",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 46,
+      "stats": {
+        "min": 1.0,
+        "max": 46.0,
+        "mean": 23.5
+      }
+    },
+    {
+      "name": "One",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 1,
+      "stats": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0
+      }
+    },
+    {
+      "name": "Urban population percent",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 29,
+      "stats": {
+        "min": 27.0,
+        "max": 87.0,
+        "mean": 56.26086956521739
+      }
+    },
+    {
+      "name": "Late births",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 39,
+      "stats": {
+        "min": 31.2,
+        "max": 56.1,
+        "mean": 41.47608695652173
+      }
+    },
+    {
+      "name": "Wine consumption per capita",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 24,
+      "stats": {
+        "min": 2.0,
+        "max": 31.0,
+        "mean": 11.58695652173913
+      }
+    },
+    {
+      "name": "Liquor consumption per capita",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 34,
+      "stats": {
+        "min": 26.0,
+        "max": 149.0,
+        "mean": 57.5
+      }
+    },
+    {
+      "name": "Cirrhosis death rate",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 45,
+      "stats": {
+        "min": 28.0,
+        "max": 129.9,
+        "mean": 63.49347826086955
+      }
+    }
+  ]
+}

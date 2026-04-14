@@ -1,0 +1,206 @@
+{
+  "summary": {
+    "rows": 60,
+    "columns": 17,
+    "data_quality_score": 95.0,
+    "problem_type": "regression",
+    "target": "B"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [
+      "A13"
+    ],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Index",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 60,
+      "stats": {
+        "min": 1.0,
+        "max": 60.0,
+        "mean": 30.5
+      }
+    },
+    {
+      "name": "A1",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 30,
+      "stats": {
+        "min": 10.0,
+        "max": 60.0,
+        "mean": 37.36666666666667
+      }
+    },
+    {
+      "name": "A2",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 29,
+      "stats": {
+        "min": 12.0,
+        "max": 83.0,
+        "mean": 34.81666666666667
+      }
+    },
+    {
+      "name": "A3",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 20,
+      "stats": {
+        "min": 63.0,
+        "max": 85.0,
+        "mean": 74.6
+      }
+    },
+    {
+      "name": "A4",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 39,
+      "stats": {
+        "min": 5.6,
+        "max": 11.8,
+        "mean": 8.798333333333334
+      }
+    },
+    {
+      "name": "A5",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 35,
+      "stats": {
+        "min": 2.92,
+        "max": 3.53,
+        "mean": 3.263166666666666
+      }
+    },
+    {
+      "name": "A6",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 26,
+      "stats": {
+        "min": 9.0,
+        "max": 12.3,
+        "mean": 10.973333333333333
+      }
+    },
+    {
+      "name": "A7",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 53,
+      "stats": {
+        "min": 66.8,
+        "max": 90.7,
+        "mean": 80.91333333333334
+      }
+    },
+    {
+      "name": "A8",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 60,
+      "stats": {
+        "min": 1441.0,
+        "max": 9699.0,
+        "mean": 3876.05
+      }
+    },
+    {
+      "name": "A9",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 54,
+      "stats": {
+        "min": 0.8,
+        "max": 38.5,
+        "mean": 11.873333333333333
+      }
+    },
+    {
+      "name": "A10",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 51,
+      "stats": {
+        "min": 33.8,
+        "max": 59.7,
+        "mean": 46.07333333333334
+      }
+    },
+    {
+      "name": "A11",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 46,
+      "stats": {
+        "min": 9.4,
+        "max": 26.4,
+        "mean": 14.373333333333333
+      }
+    },
+    {
+      "name": "A12",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 34,
+      "stats": {
+        "min": 1.0,
+        "max": 648.0,
+        "mean": 37.85
+      }
+    },
+    {
+      "name": "A13",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 29,
+      "stats": {
+        "min": 1.0,
+        "max": 319.0,
+        "mean": 22.516666666666666
+      }
+    },
+    {
+      "name": "A14",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 44,
+      "stats": {
+        "min": 1.0,
+        "max": 278.0,
+        "mean": 53.766666666666666
+      }
+    },
+    {
+      "name": "A15",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 18,
+      "stats": {
+        "min": 38.0,
+        "max": 73.0,
+        "mean": 57.53333333333333
+      }
+    },
+    {
+      "name": "B",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 60,
+      "stats": {
+        "min": 790.733,
+        "max": 1113.156,
+        "mean": 940.3584333333334
+      }
+    }
+  ]
+}

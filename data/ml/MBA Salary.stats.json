@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "rows": 50,
+    "columns": 3,
+    "data_quality_score": 100,
+    "problem_type": "regression",
+    "target": "Salary"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "S. No.",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 50,
+      "stats": {
+        "min": 1.0,
+        "max": 50.0,
+        "mean": 25.5
+      }
+    },
+    {
+      "name": "Percentage in Grade 10",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 36,
+      "stats": {
+        "min": 37.33,
+        "max": 83.0,
+        "mean": 63.922399999999996
+      }
+    },
+    {
+      "name": "Salary",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 25,
+      "stats": {
+        "min": 120000.0,
+        "max": 450000.0,
+        "mean": 258192.0
+      }
+    }
+  ]
+}

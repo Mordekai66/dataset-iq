@@ -1,0 +1,161 @@
+{
+  "summary": {
+    "rows": 517,
+    "columns": 14,
+    "data_quality_score": 100,
+    "problem_type": "regression",
+    "target": "area"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Unnamed: 0",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 517,
+      "stats": {
+        "min": 0.0,
+        "max": 516.0,
+        "mean": 258.0
+      }
+    },
+    {
+      "name": "X",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 9,
+      "stats": {
+        "min": 1.0,
+        "max": 9.0,
+        "mean": 4.669245647969052
+      }
+    },
+    {
+      "name": "Y",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 7,
+      "stats": {
+        "min": 2.0,
+        "max": 9.0,
+        "mean": 4.299806576402321
+      }
+    },
+    {
+      "name": "month",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 12
+    },
+    {
+      "name": "day",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 7
+    },
+    {
+      "name": "FFMC",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 106,
+      "stats": {
+        "min": 18.7,
+        "max": 96.2,
+        "mean": 90.64468085106384
+      }
+    },
+    {
+      "name": "DMC",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 215,
+      "stats": {
+        "min": 1.1,
+        "max": 291.3,
+        "mean": 110.87234042553192
+      }
+    },
+    {
+      "name": "DC",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 219,
+      "stats": {
+        "min": 7.9,
+        "max": 860.6,
+        "mean": 547.9400386847195
+      }
+    },
+    {
+      "name": "ISI",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 119,
+      "stats": {
+        "min": 0.0,
+        "max": 56.1,
+        "mean": 9.021663442940039
+      }
+    },
+    {
+      "name": "temp",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 192,
+      "stats": {
+        "min": 2.2,
+        "max": 33.3,
+        "mean": 18.88916827852998
+      }
+    },
+    {
+      "name": "RH",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 75,
+      "stats": {
+        "min": 15.0,
+        "max": 100.0,
+        "mean": 44.28820116054158
+      }
+    },
+    {
+      "name": "wind",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 21,
+      "stats": {
+        "min": 0.4,
+        "max": 9.4,
+        "mean": 4.017601547388782
+      }
+    },
+    {
+      "name": "rain",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 7,
+      "stats": {
+        "min": 0.0,
+        "max": 6.4,
+        "mean": 0.021663442940038684
+      }
+    },
+    {
+      "name": "area",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 251,
+      "stats": {
+        "min": 0.0,
+        "max": 1090.84,
+        "mean": 12.847292069632493
+      }
+    }
+  ]
+}

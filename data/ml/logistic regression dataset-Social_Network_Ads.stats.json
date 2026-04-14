@@ -1,10 +1,67 @@
 {
-  "rows": 400,
-  "columns": 5,
-  "missing_values": 0,
-  "duplicates": 0,
-  "numeric_columns": 4,
-  "categorical_columns": 1,
-  "target_column": "Purchased",
-  "problem_type": "classification"
+  "summary": {
+    "rows": 400,
+    "columns": 5,
+    "data_quality_score": 100,
+    "problem_type": "classification",
+    "target": "Purchased"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "User ID",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 400,
+      "stats": {
+        "min": 15566689.0,
+        "max": 15815236.0,
+        "mean": 15691539.7575
+      }
+    },
+    {
+      "name": "Gender",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "Age",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 43,
+      "stats": {
+        "min": 18.0,
+        "max": 60.0,
+        "mean": 37.655
+      }
+    },
+    {
+      "name": "EstimatedSalary",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 117,
+      "stats": {
+        "min": 15000.0,
+        "max": 150000.0,
+        "mean": 69742.5
+      }
+    },
+    {
+      "name": "Purchased",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.3575
+      }
+    }
+  ]
 }

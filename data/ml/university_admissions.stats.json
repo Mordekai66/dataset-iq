@@ -1,10 +1,79 @@
 {
-  "rows": 200,
-  "columns": 7,
-  "missing_values": 16,
-  "duplicates": 0,
-  "numeric_columns": 4,
-  "categorical_columns": 3,
-  "target_column": "Accepted",
-  "problem_type": "classification"
+  "summary": {
+    "rows": 200,
+    "columns": 7,
+    "data_quality_score": 99.43,
+    "problem_type": "classification",
+    "target": "Accepted"
+  },
+  "issues": {
+    "missing_values_total": 16,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "GPA",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 107,
+      "stats": {
+        "min": 2.15,
+        "max": 4.0,
+        "mean": 3.1807999999999996
+      }
+    },
+    {
+      "name": "Test Score",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 3,
+      "stats": {
+        "min": 1562.0,
+        "max": 1600.0,
+        "mean": 1599.7
+      }
+    },
+    {
+      "name": "Extracurricular Activities",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 11,
+      "stats": {
+        "min": 0.0,
+        "max": 10.0,
+        "mean": 3.815
+      }
+    },
+    {
+      "name": "Volunteer Hours",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 52,
+      "stats": {
+        "min": 0.0,
+        "max": 62.0,
+        "mean": 27.98
+      }
+    },
+    {
+      "name": "Recommendation Letters",
+      "type": "object",
+      "missing_pct": 4.0,
+      "unique_values": 4
+    },
+    {
+      "name": "Essay Score",
+      "type": "object",
+      "missing_pct": 4.0,
+      "unique_values": 7
+    },
+    {
+      "name": "Accepted",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    }
+  ]
 }

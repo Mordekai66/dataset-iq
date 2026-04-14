@@ -1,0 +1,72 @@
+{
+  "summary": {
+    "rows": 434873,
+    "columns": 5,
+    "data_quality_score": 100,
+    "problem_type": "regression",
+    "target": "ALTITUDE"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Unnamed: 0",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 434873,
+      "stats": {
+        "min": 0.0,
+        "max": 434872.0,
+        "mean": 217436.0
+      }
+    },
+    {
+      "name": "OSM_ID",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 57329,
+      "stats": {
+        "min": 4482444.0,
+        "max": 157742416.0,
+        "mean": 97869870.26159132
+      }
+    },
+    {
+      "name": "LONGITUDE",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 384279,
+      "stats": {
+        "min": 8.1461259,
+        "max": 11.1993265,
+        "mean": 9.731837013294228
+      }
+    },
+    {
+      "name": "LATITUDE",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 380142,
+      "stats": {
+        "min": 56.5824856,
+        "max": 57.750511,
+        "mean": 57.08375907910193
+      }
+    },
+    {
+      "name": "ALTITUDE",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 434862,
+      "stats": {
+        "min": -8.608183705,
+        "max": 134.4419469,
+        "mean": 22.18541657081289
+      }
+    }
+  ]
+}

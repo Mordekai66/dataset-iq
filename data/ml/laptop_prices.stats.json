@@ -1,10 +1,79 @@
 {
-  "rows": 1000,
-  "columns": 7,
-  "missing_values": 110,
-  "duplicates": 0,
-  "numeric_columns": 4,
-  "categorical_columns": 3,
-  "target_column": "Price ($)",
-  "problem_type": "regression"
+  "summary": {
+    "rows": 1000,
+    "columns": 7,
+    "data_quality_score": 99.21,
+    "problem_type": "regression",
+    "target": "Price ($)"
+  },
+  "issues": {
+    "missing_values_total": 110,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Brand",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 10
+    },
+    {
+      "name": "Processor Type",
+      "type": "object",
+      "missing_pct": 4.5,
+      "unique_values": 8
+    },
+    {
+      "name": "RAM Size (GB)",
+      "type": "float64",
+      "missing_pct": 3.8,
+      "unique_values": 4,
+      "stats": {
+        "min": 8.0,
+        "max": 64.0,
+        "mean": 29.505197505197504
+      }
+    },
+    {
+      "name": "Storage (GB)",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 4,
+      "stats": {
+        "min": 256.0,
+        "max": 2048.0,
+        "mean": 961.28
+      }
+    },
+    {
+      "name": "Screen Size (inches)",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 5,
+      "stats": {
+        "min": 13.3,
+        "max": 17.3,
+        "mean": 15.235700000000001
+      }
+    },
+    {
+      "name": "Operating System",
+      "type": "object",
+      "missing_pct": 2.7,
+      "unique_values": 3
+    },
+    {
+      "name": "Price ($)",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 954,
+      "stats": {
+        "min": 706.94,
+        "max": 6782.17,
+        "mean": 2453.3447800000004
+      }
+    }
+  ]
 }

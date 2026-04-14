@@ -1,10 +1,84 @@
 {
-  "rows": 200,
-  "columns": 7,
-  "missing_values": 57,
-  "duplicates": 0,
-  "numeric_columns": 5,
-  "categorical_columns": 2,
-  "target_column": "Thrives",
-  "problem_type": "classification"
+  "summary": {
+    "rows": 200,
+    "columns": 7,
+    "data_quality_score": 97.96,
+    "problem_type": "classification",
+    "target": "Thrives"
+  },
+  "issues": {
+    "missing_values_total": 57,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Soil Type",
+      "type": "object",
+      "missing_pct": 2.5,
+      "unique_values": 3
+    },
+    {
+      "name": "Sunlight (hours/day)",
+      "type": "float64",
+      "missing_pct": 6.0,
+      "unique_values": 170,
+      "stats": {
+        "min": 1.0,
+        "max": 14.0,
+        "mean": 7.016117021276596
+      }
+    },
+    {
+      "name": "Water Supply (liters/week)",
+      "type": "float64",
+      "missing_pct": 2.5,
+      "unique_values": 179,
+      "stats": {
+        "min": 1.0,
+        "max": 40.0,
+        "mean": 18.057230769230767
+      }
+    },
+    {
+      "name": "Temperature (C)",
+      "type": "float64",
+      "missing_pct": 5.5,
+      "unique_values": 183,
+      "stats": {
+        "min": 5.0,
+        "max": 40.0,
+        "mean": 22.9452380952381
+      }
+    },
+    {
+      "name": "pH Level",
+      "type": "float64",
+      "missing_pct": 6.5,
+      "unique_values": 140,
+      "stats": {
+        "min": 4.52,
+        "max": 8.5,
+        "mean": 6.725882352941178
+      }
+    },
+    {
+      "name": "Plant Species",
+      "type": "object",
+      "missing_pct": 5.5,
+      "unique_values": 3
+    },
+    {
+      "name": "Thrives",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.5
+      }
+    }
+  ]
 }

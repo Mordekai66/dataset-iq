@@ -1,0 +1,83 @@
+{
+  "summary": {
+    "rows": 48,
+    "columns": 6,
+    "data_quality_score": 100,
+    "problem_type": "regression",
+    "target": "Consumption of petrol"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Index",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 48,
+      "stats": {
+        "min": 1.0,
+        "max": 48.0,
+        "mean": 24.5
+      }
+    },
+    {
+      "name": "Petrol tax",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 9,
+      "stats": {
+        "min": 5.0,
+        "max": 10.0,
+        "mean": 7.668333333333333
+      }
+    },
+    {
+      "name": "Avg income",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 47,
+      "stats": {
+        "min": 3063.0,
+        "max": 5342.0,
+        "mean": 4241.833333333333
+      }
+    },
+    {
+      "name": "Paved Highways",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 47,
+      "stats": {
+        "min": 431.0,
+        "max": 17782.0,
+        "mean": 5565.416666666667
+      }
+    },
+    {
+      "name": "Prop of pop DL",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 39,
+      "stats": {
+        "min": 0.451,
+        "max": 0.724,
+        "mean": 0.5703333333333332
+      }
+    },
+    {
+      "name": "Consumption of petrol",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 43,
+      "stats": {
+        "min": 344.0,
+        "max": 968.0,
+        "mean": 576.7708333333334
+      }
+    }
+  ]
+}

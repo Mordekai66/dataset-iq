@@ -1,0 +1,225 @@
+{
+  "summary": {
+    "rows": 205,
+    "columns": 26,
+    "data_quality_score": 95.0,
+    "problem_type": "classification",
+    "target": "price"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [
+      "highway-mpg"
+    ],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "symboling",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 6,
+      "stats": {
+        "min": -2.0,
+        "max": 3.0,
+        "mean": 0.8341463414634146
+      }
+    },
+    {
+      "name": "normalized-losses",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 52
+    },
+    {
+      "name": "make",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 22
+    },
+    {
+      "name": "fuel-type",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "aspiration",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "num-of-doors",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 3
+    },
+    {
+      "name": "body-style",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 5
+    },
+    {
+      "name": "drive-wheels",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 3
+    },
+    {
+      "name": "engine-location",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    },
+    {
+      "name": "wheel-base",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 53,
+      "stats": {
+        "min": 86.6,
+        "max": 120.9,
+        "mean": 98.75658536585367
+      }
+    },
+    {
+      "name": "length",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 75,
+      "stats": {
+        "min": 141.1,
+        "max": 208.1,
+        "mean": 174.04926829268288
+      }
+    },
+    {
+      "name": "width",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 44,
+      "stats": {
+        "min": 60.3,
+        "max": 72.3,
+        "mean": 65.90780487804878
+      }
+    },
+    {
+      "name": "height",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 49,
+      "stats": {
+        "min": 47.8,
+        "max": 59.8,
+        "mean": 53.72487804878049
+      }
+    },
+    {
+      "name": "curb-weight",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 171,
+      "stats": {
+        "min": 1488.0,
+        "max": 4066.0,
+        "mean": 2555.5658536585365
+      }
+    },
+    {
+      "name": "engine-type",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 7
+    },
+    {
+      "name": "num-of-cylinders",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 7
+    },
+    {
+      "name": "engine-size",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 44,
+      "stats": {
+        "min": 61.0,
+        "max": 326.0,
+        "mean": 126.90731707317073
+      }
+    },
+    {
+      "name": "fuel-system",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 8
+    },
+    {
+      "name": "bore",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 39
+    },
+    {
+      "name": "stroke",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 37
+    },
+    {
+      "name": "compression-ratio",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 32,
+      "stats": {
+        "min": 7.0,
+        "max": 23.0,
+        "mean": 10.142536585365855
+      }
+    },
+    {
+      "name": "horsepower",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 60
+    },
+    {
+      "name": "peak-rpm",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 24
+    },
+    {
+      "name": "city-mpg",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 29,
+      "stats": {
+        "min": 13.0,
+        "max": 49.0,
+        "mean": 25.21951219512195
+      }
+    },
+    {
+      "name": "highway-mpg",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 30,
+      "stats": {
+        "min": 16.0,
+        "max": 54.0,
+        "mean": 30.75121951219512
+      }
+    },
+    {
+      "name": "price",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 187
+    }
+  ]
+}

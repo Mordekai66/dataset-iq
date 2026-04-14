@@ -1,0 +1,286 @@
+{
+  "summary": {
+    "rows": 130,
+    "columns": 26,
+    "data_quality_score": 90.0,
+    "problem_type": "regression",
+    "target": "SOLD PRICE"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [
+      "WKTS",
+      "SR-BL"
+    ],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Sl.NO.",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 130,
+      "stats": {
+        "min": 1.0,
+        "max": 130.0,
+        "mean": 65.5
+      }
+    },
+    {
+      "name": "PLAYER NAME",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 130
+    },
+    {
+      "name": "AGE",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 3,
+      "stats": {
+        "min": 1.0,
+        "max": 3.0,
+        "mean": 2.0923076923076924
+      }
+    },
+    {
+      "name": "COUNTRY",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 10
+    },
+    {
+      "name": "TEAM",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 17
+    },
+    {
+      "name": "PLAYING ROLE",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 4
+    },
+    {
+      "name": "T-RUNS",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 103,
+      "stats": {
+        "min": 0.0,
+        "max": 15470.0,
+        "mean": 2166.7153846153847
+      }
+    },
+    {
+      "name": "T-WKTS",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 60,
+      "stats": {
+        "min": 0.0,
+        "max": 800.0,
+        "mean": 66.53076923076924
+      }
+    },
+    {
+      "name": "ODI-RUNS-S",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 117,
+      "stats": {
+        "min": 0.0,
+        "max": 18426.0,
+        "mean": 2508.7384615384617
+      }
+    },
+    {
+      "name": "ODI-SR-B",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 118,
+      "stats": {
+        "min": 0.0,
+        "max": 116.66,
+        "mean": 71.16438461538462
+      }
+    },
+    {
+      "name": "ODI-WKTS",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 74,
+      "stats": {
+        "min": 0.0,
+        "max": 534.0,
+        "mean": 76.07692307692308
+      }
+    },
+    {
+      "name": "ODI-SR-BL",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 82,
+      "stats": {
+        "min": 0.0,
+        "max": 150.0,
+        "mean": 34.033846153846156
+      }
+    },
+    {
+      "name": "CAPTAINCY EXP",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.3153846153846154
+      }
+    },
+    {
+      "name": "RUNS-S",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 115,
+      "stats": {
+        "min": 0.0,
+        "max": 2254.0,
+        "mean": 514.2461538461539
+      }
+    },
+    {
+      "name": "HS",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 73,
+      "stats": {
+        "min": 0.0,
+        "max": 158.0,
+        "mean": 47.43076923076923
+      }
+    },
+    {
+      "name": "AVE",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 113,
+      "stats": {
+        "min": 0.0,
+        "max": 50.11,
+        "mean": 18.719307692307694
+      }
+    },
+    {
+      "name": "SR-B",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 125,
+      "stats": {
+        "min": 0.0,
+        "max": 235.49,
+        "mean": 111.05346153846155
+      }
+    },
+    {
+      "name": "SIXERS",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 48,
+      "stats": {
+        "min": 0.0,
+        "max": 129.0,
+        "mean": 17.692307692307693
+      }
+    },
+    {
+      "name": "RUNS-C",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 92,
+      "stats": {
+        "min": 0.0,
+        "max": 1975.0,
+        "mean": 475.5230769230769
+      }
+    },
+    {
+      "name": "WKTS",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 51,
+      "stats": {
+        "min": 0.0,
+        "max": 83.0,
+        "mean": 17.16923076923077
+      }
+    },
+    {
+      "name": "AVE-BL",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 88,
+      "stats": {
+        "min": 0.0,
+        "max": 126.3,
+        "mean": 23.110230769230768
+      }
+    },
+    {
+      "name": "ECON",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 83,
+      "stats": {
+        "min": 0.0,
+        "max": 38.11,
+        "mean": 6.204461538461539
+      }
+    },
+    {
+      "name": "SR-BL",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 82,
+      "stats": {
+        "min": 0.0,
+        "max": 100.2,
+        "mean": 17.382615384615384
+      }
+    },
+    {
+      "name": "AUCTION YEAR",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 4,
+      "stats": {
+        "min": 2008.0,
+        "max": 2011.0,
+        "mean": 2009.0923076923077
+      }
+    },
+    {
+      "name": "BASE PRICE",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 17,
+      "stats": {
+        "min": 20000.0,
+        "max": 1350000.0,
+        "mean": 192230.76923076922
+      }
+    },
+    {
+      "name": "SOLD PRICE",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 53,
+      "stats": {
+        "min": 20000.0,
+        "max": 1800000.0,
+        "mean": 521223.07692307694
+      }
+    }
+  ]
+}

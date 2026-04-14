@@ -1,0 +1,105 @@
+{
+  "summary": {
+    "rows": 414,
+    "columns": 8,
+    "data_quality_score": 100,
+    "problem_type": "regression",
+    "target": "Y house price of unit area"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "No",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 414,
+      "stats": {
+        "min": 1.0,
+        "max": 414.0,
+        "mean": 207.5
+      }
+    },
+    {
+      "name": "X1 transaction date",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 12,
+      "stats": {
+        "min": 2012.667,
+        "max": 2013.583,
+        "mean": 2013.1489710144926
+      }
+    },
+    {
+      "name": "X2 house age",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 236,
+      "stats": {
+        "min": 0.0,
+        "max": 43.8,
+        "mean": 17.71256038647343
+      }
+    },
+    {
+      "name": "X3 distance to the nearest MRT station",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 259,
+      "stats": {
+        "min": 23.38284,
+        "max": 6488.021,
+        "mean": 1083.8856889130436
+      }
+    },
+    {
+      "name": "X4 number of convenience stores",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 11,
+      "stats": {
+        "min": 0.0,
+        "max": 10.0,
+        "mean": 4.094202898550725
+      }
+    },
+    {
+      "name": "X5 latitude",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 234,
+      "stats": {
+        "min": 24.93207,
+        "max": 25.01459,
+        "mean": 24.969030072463767
+      }
+    },
+    {
+      "name": "X6 longitude",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 232,
+      "stats": {
+        "min": 121.47353,
+        "max": 121.56627,
+        "mean": 121.53336108695655
+      }
+    },
+    {
+      "name": "Y house price of unit area",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 270,
+      "stats": {
+        "min": 7.6,
+        "max": 117.5,
+        "mean": 37.980193236714975
+      }
+    }
+  ]
+}

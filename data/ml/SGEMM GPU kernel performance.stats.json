@@ -1,0 +1,231 @@
+{
+  "summary": {
+    "rows": 241600,
+    "columns": 19,
+    "data_quality_score": 80.0,
+    "problem_type": "regression",
+    "target": "Run4 (ms)"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [
+      "MWG",
+      "Run2 (ms)",
+      "Run3 (ms)",
+      "Run4 (ms)"
+    ],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Unnamed: 0",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 241600,
+      "stats": {
+        "min": 0.0,
+        "max": 241599.0,
+        "mean": 120799.5
+      }
+    },
+    {
+      "name": "MWG",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 4,
+      "stats": {
+        "min": 16.0,
+        "max": 128.0,
+        "mean": 80.41536423841059
+      }
+    },
+    {
+      "name": "NWG",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 4,
+      "stats": {
+        "min": 16.0,
+        "max": 128.0,
+        "mean": 80.41536423841059
+      }
+    },
+    {
+      "name": "KWG",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 16.0,
+        "max": 32.0,
+        "mean": 25.513112582781456
+      }
+    },
+    {
+      "name": "MDIMC",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 3,
+      "stats": {
+        "min": 8.0,
+        "max": 32.0,
+        "mean": 13.9358940397351
+      }
+    },
+    {
+      "name": "NDIMC",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 3,
+      "stats": {
+        "min": 8.0,
+        "max": 32.0,
+        "mean": 13.9358940397351
+      }
+    },
+    {
+      "name": "MDIMA",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 3,
+      "stats": {
+        "min": 8.0,
+        "max": 32.0,
+        "mean": 17.37112582781457
+      }
+    },
+    {
+      "name": "NDIMB",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 3,
+      "stats": {
+        "min": 8.0,
+        "max": 32.0,
+        "mean": 17.37112582781457
+      }
+    },
+    {
+      "name": "KWI",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 2.0,
+        "max": 8.0,
+        "mean": 5.0
+      }
+    },
+    {
+      "name": "VWM",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 4,
+      "stats": {
+        "min": 1.0,
+        "max": 8.0,
+        "mean": 2.448609271523179
+      }
+    },
+    {
+      "name": "VWN",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 4,
+      "stats": {
+        "min": 1.0,
+        "max": 8.0,
+        "mean": 2.448609271523179
+      }
+    },
+    {
+      "name": "STRM",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.5
+      }
+    },
+    {
+      "name": "STRN",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.5
+      }
+    },
+    {
+      "name": "SA",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.5
+      }
+    },
+    {
+      "name": "SB",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.5
+      }
+    },
+    {
+      "name": "Run1 (ms)",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 58161,
+      "stats": {
+        "min": 13.29,
+        "max": 3339.63,
+        "mean": 217.6478518625828
+      }
+    },
+    {
+      "name": "Run2 (ms)",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 58269,
+      "stats": {
+        "min": 13.25,
+        "max": 3375.42,
+        "mean": 217.57953609271524
+      }
+    },
+    {
+      "name": "Run3 (ms)",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 58264,
+      "stats": {
+        "min": 13.36,
+        "max": 3397.08,
+        "mean": 217.532755794702
+      }
+    },
+    {
+      "name": "Run4 (ms)",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 58154,
+      "stats": {
+        "min": 13.37,
+        "max": 3361.71,
+        "mean": 217.5276686258278
+      }
+    }
+  ]
+}

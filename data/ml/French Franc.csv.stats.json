@@ -1,0 +1,99 @@
+{
+  "summary": {
+    "rows": 18,
+    "columns": 7,
+    "data_quality_score": 80.0,
+    "problem_type": "classification",
+    "target": "Imports"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [
+      "Year",
+      "Int Prod",
+      "Domestic Prod",
+      "Imports"
+    ],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Index",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 18,
+      "stats": {
+        "min": 1.0,
+        "max": 18.0,
+        "mean": 9.5
+      }
+    },
+    {
+      "name": "Year",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 18,
+      "stats": {
+        "min": 1949.0,
+        "max": 1966.0,
+        "mean": 1957.5
+      }
+    },
+    {
+      "name": "One",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 1,
+      "stats": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0
+      }
+    },
+    {
+      "name": "Int Prod",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 18,
+      "stats": {
+        "min": 149.3,
+        "max": 353.9,
+        "mean": 237.51666666666668
+      }
+    },
+    {
+      "name": "Stock",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 15,
+      "stats": {
+        "min": 0.7,
+        "max": 7.0,
+        "mean": 3.677777777777778
+      }
+    },
+    {
+      "name": "Domestic Prod",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 18,
+      "stats": {
+        "min": 108.1,
+        "max": 242.9,
+        "mean": 167.37777777777777
+      }
+    },
+    {
+      "name": "Imports",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 18,
+      "stats": {
+        "min": 15.9,
+        "max": 56.6,
+        "mean": 30.077777777777776
+      }
+    }
+  ]
+}

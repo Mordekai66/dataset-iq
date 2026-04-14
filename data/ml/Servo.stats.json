@@ -1,0 +1,73 @@
+{
+  "summary": {
+    "rows": 167,
+    "columns": 6,
+    "data_quality_score": 100,
+    "problem_type": "regression",
+    "target": "class: 0.13 to 7.10"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Unnamed: 0",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 167,
+      "stats": {
+        "min": 0.0,
+        "max": 166.0,
+        "mean": 83.0
+      }
+    },
+    {
+      "name": "motor: A,B,C,D,E",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 5
+    },
+    {
+      "name": "screw: A,B,C,D,E",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 5
+    },
+    {
+      "name": "pgain: 3,4,5,6",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 4,
+      "stats": {
+        "min": 3.0,
+        "max": 6.0,
+        "mean": 4.155688622754491
+      }
+    },
+    {
+      "name": "vgain: 1,2,3,4,5",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 5,
+      "stats": {
+        "min": 1.0,
+        "max": 5.0,
+        "mean": 2.538922155688623
+      }
+    },
+    {
+      "name": "class: 0.13 to 7.10",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 51,
+      "stats": {
+        "min": 0.13124992,
+        "max": 7.100107700000001,
+        "mean": 1.3897083879041916
+      }
+    }
+  ]
+}

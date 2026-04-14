@@ -1,0 +1,235 @@
+{
+  "summary": {
+    "rows": 3395,
+    "columns": 21,
+    "data_quality_score": 95.0,
+    "problem_type": "regression",
+    "target": "ComplexAbilitiesUsed"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [
+      "GameID"
+    ],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Unnamed: 0",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 3395,
+      "stats": {
+        "min": 0.0,
+        "max": 3394.0,
+        "mean": 1697.0
+      }
+    },
+    {
+      "name": "GameID",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 3395,
+      "stats": {
+        "min": 52.0,
+        "max": 10095.0,
+        "mean": 4805.01237113402
+      }
+    },
+    {
+      "name": "LeagueIndex",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 8,
+      "stats": {
+        "min": 1.0,
+        "max": 8.0,
+        "mean": 4.184094256259205
+      }
+    },
+    {
+      "name": "Age",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 29
+    },
+    {
+      "name": "HoursPerWeek",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 33
+    },
+    {
+      "name": "TotalHours",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 238
+    },
+    {
+      "name": "APM",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 3374,
+      "stats": {
+        "min": 22.0596,
+        "max": 389.8314,
+        "mean": 117.0469470927835
+      }
+    },
+    {
+      "name": "SelectByHotkeys",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 3375,
+      "stats": {
+        "min": 0.0,
+        "max": 0.043088364,
+        "mean": 0.004298661053328621
+      }
+    },
+    {
+      "name": "AssignToHotkeys",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 3361,
+      "stats": {
+        "min": 0.0,
+        "max": 0.0017521902,
+        "mean": 0.0003735758972711945
+      }
+    },
+    {
+      "name": "UniqueHotkeys",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 11,
+      "stats": {
+        "min": 0.0,
+        "max": 10.0,
+        "mean": 4.364653902798232
+      }
+    },
+    {
+      "name": "MinimapAttacks",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 2471,
+      "stats": {
+        "min": 0.0,
+        "max": 0.0030193465,
+        "mean": 9.830672904645831e-05
+      }
+    },
+    {
+      "name": "MinimapRightClicks",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 3302,
+      "stats": {
+        "min": 0.0,
+        "max": 0.0040408028,
+        "mean": 0.0003874362855859781
+      }
+    },
+    {
+      "name": "NumberOfPACs",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 3386,
+      "stats": {
+        "min": 0.0006789964,
+        "max": 0.0079706424,
+        "mean": 0.003462887494138425
+      }
+    },
+    {
+      "name": "GapBetweenPACs",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 3358,
+      "stats": {
+        "min": 6.6667,
+        "max": 237.1429,
+        "mean": 40.361562002945504
+      }
+    },
+    {
+      "name": "ActionLatency",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 3367,
+      "stats": {
+        "min": 24.0936,
+        "max": 176.3721,
+        "mean": 63.73940268041237
+      }
+    },
+    {
+      "name": "ActionsInPAC",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 3223,
+      "stats": {
+        "min": 2.0389,
+        "max": 18.5581,
+        "mean": 5.272988453608248
+      }
+    },
+    {
+      "name": "TotalMapExplored",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 52,
+      "stats": {
+        "min": 5.0,
+        "max": 58.0,
+        "mean": 22.131664212076583
+      }
+    },
+    {
+      "name": "WorkersMade",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 3256,
+      "stats": {
+        "min": 7.6982e-05,
+        "max": 0.0051493,
+        "mean": 0.0010316850815905664
+      }
+    },
+    {
+      "name": "UniqueUnitsMade",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 12,
+      "stats": {
+        "min": 2.0,
+        "max": 13.0,
+        "mean": 6.534020618556701
+      }
+    },
+    {
+      "name": "ComplexUnitsMade",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 1110,
+      "stats": {
+        "min": 0.0,
+        "max": 0.0009022744,
+        "mean": 5.943273292835516e-05
+      }
+    },
+    {
+      "name": "ComplexAbilitiesUsed",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 1828,
+      "stats": {
+        "min": 0.0,
+        "max": 0.0030837,
+        "mean": 0.0001418784323122231
+      }
+    }
+  ]
+}

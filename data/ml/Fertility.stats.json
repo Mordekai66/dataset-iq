@@ -1,0 +1,133 @@
+{
+  "summary": {
+    "rows": 100,
+    "columns": 11,
+    "data_quality_score": 100,
+    "problem_type": "classification",
+    "target": "Output: Diagnosis normal (N), altered (O)"
+  },
+  "issues": {
+    "missing_values_total": 0,
+    "duplicate_rows": 0,
+    "highly_correlated_columns": [],
+    "columns_with_high_missing": []
+  },
+  "schema": [
+    {
+      "name": "Unnamed: 0",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 100,
+      "stats": {
+        "min": 0.0,
+        "max": 99.0,
+        "mean": 49.5
+      }
+    },
+    {
+      "name": "Season",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 4,
+      "stats": {
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.07890000000000003
+      }
+    },
+    {
+      "name": "Age at the time of analysis",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 18,
+      "stats": {
+        "min": 0.5,
+        "max": 1.0,
+        "mean": 0.669
+      }
+    },
+    {
+      "name": "Childish diseases",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.87
+      }
+    },
+    {
+      "name": "Accident or serious trauma",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.44
+      }
+    },
+    {
+      "name": "Surgical intervent",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 2,
+      "stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.51
+      }
+    },
+    {
+      "name": "High fevers",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 3,
+      "stats": {
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.19
+      }
+    },
+    {
+      "name": "Frequency of alcohol consumption",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 5,
+      "stats": {
+        "min": 0.2,
+        "max": 1.0,
+        "mean": 0.8319999999999999
+      }
+    },
+    {
+      "name": "Smoking habit",
+      "type": "int64",
+      "missing_pct": 0.0,
+      "unique_values": 3,
+      "stats": {
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.35
+      }
+    },
+    {
+      "name": "Number of hours spent sitting per day",
+      "type": "float64",
+      "missing_pct": 0.0,
+      "unique_values": 14,
+      "stats": {
+        "min": 0.06,
+        "max": 1.0,
+        "mean": 0.40679999999999994
+      }
+    },
+    {
+      "name": "Output: Diagnosis normal (N), altered (O)",
+      "type": "object",
+      "missing_pct": 0.0,
+      "unique_values": 2
+    }
+  ]
+}
