@@ -1,0 +1,10 @@
+{
+  "rows": 200,
+  "columns": 7,
+  "missing_values": 57,
+  "duplicates": 0,
+  "numeric_columns": 5,
+  "categorical_columns": 2,
+  "target_column": "Thrives",
+  "problem_type": "classification"
+}

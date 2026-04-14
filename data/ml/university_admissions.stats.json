@@ -1,0 +1,10 @@
+{
+  "rows": 200,
+  "columns": 7,
+  "missing_values": 16,
+  "duplicates": 0,
+  "numeric_columns": 4,
+  "categorical_columns": 3,
+  "target_column": "Accepted",
+  "problem_type": "classification"
+}

@@ -4,5 +4,7 @@
   "missing_values": 0,
   "duplicates": 0,
   "numeric_columns": 4,
-  "categorical_columns": 1
+  "categorical_columns": 1,
+  "target_column": "Purchased",
+  "problem_type": "classification"
 }

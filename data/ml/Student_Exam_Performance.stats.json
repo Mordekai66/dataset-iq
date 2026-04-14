@@ -4,5 +4,7 @@
   "missing_values": 683,
   "duplicates": 0,
   "numeric_columns": 5,
-  "categorical_columns": 4
+  "categorical_columns": 4,
+  "target_column": "Writing Score",
+  "problem_type": "regression"
 }

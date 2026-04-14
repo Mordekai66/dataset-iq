@@ -1,0 +1,10 @@
+{
+  "rows": 1000,
+  "columns": 7,
+  "missing_values": 300,
+  "duplicates": 48,
+  "numeric_columns": 5,
+  "categorical_columns": 2,
+  "target_column": "Diabetes Risk",
+  "problem_type": "classification"
+}

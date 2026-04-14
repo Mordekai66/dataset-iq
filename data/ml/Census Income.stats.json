@@ -4,5 +4,7 @@
   "missing_values": 0,
   "duplicates": 0,
   "numeric_columns": 7,
-  "categorical_columns": 9
+  "categorical_columns": 9,
+  "target_column": "income",
+  "problem_type": "classification"
 }

@@ -4,5 +4,7 @@
   "missing_values": 0,
   "duplicates": 0,
   "numeric_columns": 8,
-  "categorical_columns": 7
+  "categorical_columns": 7,
+  "target_column": "Overtime Hours",
+  "problem_type": "regression"
 }
