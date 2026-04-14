@@ -1,0 +1,1001 @@
+Brand,Processor Type,RAM Size (GB),Storage (GB),Screen Size (inches),Operating System,Price ($)
+Acer,Apple M1,16.0,2048,13.3,Windows,1425.58
+Razer,AMD Ryzen 7,8.0,256,16.0,Windows,2315.88
+MSI,Intel Core i3,32.0,1024,16.0,Linux,2616.47
+HP,Intel Core i7,32.0,512,17.3,Linux,2668.03
+HP,Intel Core i3,64.0,2048,16.0,macOS,4050.03
+Dell,Apple M1,8.0,512,14.0,Linux,1287.02
+HP,Intel Core i3,32.0,256,16.0,macOS,2357.12
+HP,Intel Core i7,16.0,1024,15.6,Linux,1887.43
+Apple,Intel Core i5,32.0,1024,16.0,Windows,2950.89
+MSI,Apple M1,64.0,512,14.0,Linux,4352.19
+Dell,Apple M2,32.0,1024,14.0,macOS,3243.62
+Razer,AMD Ryzen 5,16.0,2048,16.0,macOS,3024.44
+Asus,Intel Core i3,32.0,2048,15.6,Windows,1764.92
+Lenovo,Apple M1,64.0,1024,13.3,Linux,3306.78
+MSI,AMD Ryzen 7,64.0,1024,13.3,Linux,5086.26
+Acer,Intel Core i3,32.0,512,15.6,Linux,1640.44
+Samsung,Intel Core i3,8.0,2048,13.3,macOS,1268.31
+HP,Intel Core i3,64.0,512,13.3,Linux,2834.0
+MSI,Intel Core i5,8.0,1024,17.3,Windows,1702.05
+Dell,Apple M1,,256,13.3,Windows,2135.1
+Dell,AMD Ryzen 3,64.0,256,13.3,Linux,2895.28
+Apple,Intel Core i5,16.0,1024,14.0,Windows,2348.17
+Microsoft,AMD Ryzen 3,8.0,2048,14.0,macOS,1112.76
+MSI,Apple M1,64.0,256,13.3,Windows,4537.33
+MSI,AMD Ryzen 3,,1024,14.0,Linux,1265.49
+Asus,Intel Core i3,8.0,1024,15.6,Linux,870.55
+HP,Intel Core i5,8.0,1024,17.3,macOS,1778.25
+HP,AMD Ryzen 7,64.0,1024,17.3,Windows,3845.32
+Asus,Apple M2,32.0,256,16.0,Windows,2169.13
+Asus,AMD Ryzen 7,,2048,14.0,Linux,3295.96
+HP,Intel Core i3,32.0,1024,14.0,Windows,1902.49
+Asus,Intel Core i3,64.0,1024,15.6,Windows,2429.36
+Acer,Intel Core i7,32.0,2048,16.0,macOS,2808.62
+Apple,AMD Ryzen 7,8.0,512,15.6,macOS,2902.7
+Apple,Intel Core i7,64.0,1024,13.3,Linux,5074.66
+MSI,AMD Ryzen 5,16.0,1024,15.6,Linux,2238.8
+Lenovo,AMD Ryzen 5,64.0,1024,13.3,macOS,4396.81
+HP,Apple M1,16.0,1024,14.0,Linux,1614.79
+HP,Intel Core i7,64.0,1024,14.0,Windows,3726.37
+Microsoft,Intel Core i3,32.0,512,16.0,macOS,1929.61
+Asus,Apple M2,64.0,512,17.3,Linux,2979.74
+Dell,Intel Core i5,8.0,2048,13.3,macOS,1967.33
+Lenovo,Apple M1,8.0,512,13.3,Windows,1269.92
+HP,Apple M2,64.0,2048,14.0,Linux,3840.5
+Dell,AMD Ryzen 7,32.0,256,14.0,Windows,2589.0
+Lenovo,AMD Ryzen 5,16.0,2048,15.6,macOS,2464.56
+Apple,AMD Ryzen 7,16.0,512,17.3,Linux,2643.92
+Dell,AMD Ryzen 7,16.0,256,13.3,macOS,2254.67
+MSI,Intel Core i5,32.0,256,15.6,Windows,2919.96
+Razer,Intel Core i5,16.0,512,15.6,Linux,2166.71
+Microsoft,AMD Ryzen 3,64.0,512,17.3,Windows,2557.92
+Apple,Apple M1,64.0,256,13.3,macOS,2254.67
+Samsung,AMD Ryzen 7,8.0,1024,17.3,Linux,1474.35
+Asus,,32.0,256,16.0,Windows,1454.64
+Asus,AMD Ryzen 3,8.0,512,15.6,Windows,812.1
+HP,Intel Core i7,32.0,2048,16.0,Windows,2687.17
+Lenovo,AMD Ryzen 7,32.0,512,16.0,macOS,3436.76
+Asus,AMD Ryzen 3,64.0,512,16.0,Linux,2546.08
+Dell,Intel Core i7,8.0,2048,13.3,Linux,1789.64
+Razer,Intel Core i3,16.0,1024,17.3,Windows,1608.14
+MSI,Apple M2,32.0,1024,14.0,Windows,3589.18
+Microsoft,Intel Core i7,64.0,256,15.6,Linux,3005.29
+Lenovo,Intel Core i7,,512,17.3,Windows,2106.74
+Samsung,Intel Core i7,32.0,1024,14.0,Linux,2257.53
+Apple,Apple M2,16.0,256,14.0,Linux,2600.0
+Acer,Intel Core i7,16.0,256,14.0,Linux,1552.1
+Samsung,Apple M1,16.0,512,16.0,macOS,1652.03
+Lenovo,Apple M2,8.0,1024,17.3,Linux,1704.89
+Razer,AMD Ryzen 5,32.0,2048,17.3,Windows,3248.71
+HP,Intel Core i7,64.0,512,17.3,macOS,4766.45
+Acer,Apple M2,8.0,512,15.6,macOS,1703.33
+Acer,Apple M1,8.0,256,14.0,macOS,1486.19
+Lenovo,AMD Ryzen 3,8.0,2048,16.0,Windows,1098.89
+Acer,Apple M2,32.0,512,14.0,Linux,2260.21
+MSI,AMD Ryzen 3,,256,16.0,macOS,4949.45
+Dell,Intel Core i7,32.0,256,15.6,Windows,2448.32
+Samsung,AMD Ryzen 7,64.0,512,17.3,macOS,3877.42
+HP,AMD Ryzen 7,32.0,256,14.0,Windows,2611.38
+Razer,Apple M1,16.0,2048,17.3,macOS,3070.69
+Asus,Intel Core i3,,256,15.6,macOS,885.73
+Microsoft,Apple M2,16.0,256,15.6,macOS,2228.98
+Dell,AMD Ryzen 3,16.0,512,15.6,macOS,1598.8
+Acer,,16.0,256,13.3,Windows,1130.27
+Microsoft,Apple M2,8.0,512,13.3,macOS,1764.34
+Microsoft,Intel Core i7,64.0,512,13.3,Linux,3131.28
+Asus,Apple M1,32.0,256,15.6,macOS,2278.61
+Dell,Intel Core i7,16.0,512,13.3,Windows,2254.67
+MSI,AMD Ryzen 5,8.0,1024,15.6,Linux,1805.42
+Apple,Apple M1,8.0,2048,13.3,macOS,2254.67
+Dell,Intel Core i3,64.0,1024,14.0,Linux,3165.4
+Asus,,16.0,2048,13.3,Windows,1578.77
+MSI,AMD Ryzen 3,8.0,512,16.0,Linux,1382.23
+Razer,Intel Core i7,32.0,2048,16.0,macOS,4788.31
+Lenovo,Intel Core i7,8.0,2048,15.6,Linux,1718.97
+Samsung,Intel Core i3,16.0,512,14.0,macOS,1325.3
+Acer,Apple M1,8.0,2048,15.6,Windows,1387.68
+HP,Intel Core i5,16.0,512,14.0,macOS,2194.78
+Microsoft,AMD Ryzen 7,16.0,1024,13.3,Linux,1559.36
+Dell,Intel Core i5,8.0,1024,14.0,Linux,1368.26
+Asus,AMD Ryzen 5,8.0,1024,16.0,Windows,2254.67
+Razer,AMD Ryzen 5,32.0,1024,16.0,Windows,2861.37
+Microsoft,AMD Ryzen 5,16.0,512,15.6,Linux,1275.78
+Apple,AMD Ryzen 7,,512,13.3,macOS,2787.79
+Dell,Intel Core i7,64.0,512,16.0,Linux,3752.03
+MSI,AMD Ryzen 7,8.0,1024,17.3,macOS,3066.26
+Acer,AMD Ryzen 3,,2048,15.6,macOS,3517.49
+Samsung,Intel Core i7,16.0,1024,16.0,Linux,1797.31
+Razer,AMD Ryzen 7,8.0,1024,16.0,Windows,2313.74
+HP,Intel Core i3,8.0,1024,15.6,Windows,986.65
+HP,,8.0,1024,15.6,Windows,1513.05
+Samsung,AMD Ryzen 7,8.0,512,14.0,macOS,1721.32
+Lenovo,AMD Ryzen 7,32.0,2048,15.6,Windows,2703.33
+Microsoft,Intel Core i3,64.0,512,14.0,Linux,2594.06
+Dell,AMD Ryzen 7,32.0,1024,14.0,macOS,3235.95
+Asus,Apple M2,8.0,1024,14.0,macOS,2000.49
+Razer,Intel Core i5,8.0,1024,15.6,Linux,1698.35
+Lenovo,Apple M1,16.0,256,17.3,macOS,2041.28
+Samsung,AMD Ryzen 3,64.0,2048,14.0,Windows,2766.96
+Razer,AMD Ryzen 5,8.0,2048,17.3,Windows,2016.31
+Microsoft,Intel Core i5,32.0,256,14.0,macOS,2417.13
+Lenovo,AMD Ryzen 5,16.0,2048,17.3,macOS,2460.51
+Samsung,Apple M1,64.0,1024,15.6,Windows,2916.67
+Acer,AMD Ryzen 7,64.0,2048,14.0,macOS,4116.88
+Samsung,,16.0,512,17.3,Windows,1155.1
+Lenovo,Apple M1,8.0,256,15.6,Linux,1339.93
+Razer,AMD Ryzen 7,8.0,1024,17.3,Linux,2330.72
+Samsung,AMD Ryzen 3,32.0,512,17.3,Windows,1406.92
+Asus,Intel Core i5,32.0,512,16.0,Linux,1891.48
+Lenovo,Intel Core i5,32.0,256,14.0,Windows,2257.1
+Razer,AMD Ryzen 5,16.0,1024,16.0,Linux,2249.4
+Lenovo,AMD Ryzen 5,8.0,1024,15.6,Windows,1265.29
+Lenovo,Apple M1,16.0,256,17.3,macOS,2092.05
+Acer,Intel Core i5,32.0,512,15.6,Linux,1735.72
+Lenovo,Intel Core i7,64.0,1024,14.0,macOS,4725.94
+Dell,Intel Core i3,8.0,256,15.6,macOS,1229.16
+MSI,,8.0,2048,15.6,,2466.02
+Lenovo,Apple M1,64.0,256,16.0,Windows,3284.68
+MSI,AMD Ryzen 5,16.0,256,17.3,Windows,1939.44
+Asus,Intel Core i5,32.0,2048,13.3,Windows,1816.93
+HP,Intel Core i3,16.0,2048,13.3,macOS,1741.93
+Microsoft,Intel Core i7,32.0,2048,15.6,macOS,2975.97
+Razer,Intel Core i5,16.0,2048,16.0,Windows,2243.96
+MSI,AMD Ryzen 5,8.0,1024,15.6,Linux,1960.2
+HP,Apple M1,32.0,1024,15.6,Linux,2252.09
+Acer,Intel Core i5,16.0,2048,17.3,Windows,1361.07
+Lenovo,Intel Core i7,8.0,256,14.0,Windows,1778.8
+MSI,Intel Core i7,64.0,512,17.3,Linux,4793.54
+MSI,Apple M1,64.0,256,14.0,Linux,4536.91
+Apple,Intel Core i5,8.0,1024,17.3,macOS,2451.52
+HP,Intel Core i3,8.0,256,17.3,macOS,1062.11
+Samsung,Apple M2,64.0,512,13.3,Linux,2947.86
+Razer,Apple M2,8.0,256,15.6,Linux,2254.67
+Apple,Intel Core i7,64.0,256,13.3,macOS,6189.78
+Samsung,AMD Ryzen 3,64.0,2048,14.0,Linux,2254.67
+Microsoft,AMD Ryzen 5,64.0,1024,13.3,Windows,2763.28
+Acer,Intel Core i5,32.0,256,14.0,macOS,2279.98
+Apple,Apple M2,32.0,256,13.3,Linux,3399.64
+HP,Apple M1,32.0,1024,15.6,macOS,2798.72
+Dell,Intel Core i5,32.0,512,17.3,,2079.41
+Dell,Apple M2,16.0,2048,17.3,macOS,2683.54
+Asus,Intel Core i5,8.0,1024,13.3,Linux,1014.45
+Dell,AMD Ryzen 3,16.0,1024,16.0,macOS,1672.33
+Razer,AMD Ryzen 5,8.0,1024,14.0,Linux,1944.3
+HP,Intel Core i5,64.0,1024,17.3,macOS,4300.69
+Razer,AMD Ryzen 5,64.0,256,14.0,Linux,4525.06
+Samsung,Intel Core i5,32.0,256,17.3,Linux,1917.42
+Dell,AMD Ryzen 5,,2048,14.0,Windows,3531.51
+Microsoft,AMD Ryzen 5,32.0,1024,14.0,Linux,1900.34
+Samsung,AMD Ryzen 5,8.0,512,16.0,macOS,1332.76
+MSI,Intel Core i3,16.0,256,14.0,macOS,2225.56
+Samsung,Apple M2,16.0,256,16.0,Linux,1525.83
+Samsung,Apple M2,32.0,512,17.3,Windows,2121.92
+HP,Intel Core i5,64.0,2048,17.3,macOS,4451.95
+Razer,AMD Ryzen 5,8.0,2048,15.6,macOS,2619.35
+Acer,AMD Ryzen 3,64.0,2048,14.0,Linux,2725.94
+HP,AMD Ryzen 5,16.0,1024,17.3,Linux,1693.97
+Acer,Intel Core i3,8.0,512,14.0,macOS,1039.78
+Asus,Apple M1,16.0,256,15.6,macOS,1737.15
+Dell,Apple M2,64.0,2048,13.3,Windows,4018.92
+HP,Apple M2,8.0,256,16.0,macOS,2204.81
+Samsung,Intel Core i5,8.0,1024,16.0,Linux,1056.04
+Microsoft,Intel Core i7,64.0,1024,15.6,macOS,4151.57
+Asus,AMD Ryzen 3,64.0,512,16.0,macOS,3328.87
+Acer,AMD Ryzen 3,16.0,2048,13.3,macOS,1534.69
+HP,Intel Core i3,8.0,256,17.3,macOS,1237.31
+Lenovo,Apple M1,32.0,2048,15.6,Linux,2426.78
+Asus,Intel Core i7,32.0,1024,17.3,Windows,2245.5
+Samsung,Intel Core i7,8.0,2048,14.0,Windows,1577.85
+Asus,Intel Core i7,32.0,1024,15.6,macOS,2805.6
+Acer,Intel Core i7,64.0,2048,17.3,Windows,3325.57
+Dell,Intel Core i5,16.0,256,15.6,Linux,1590.48
+Lenovo,AMD Ryzen 7,16.0,2048,14.0,Windows,2103.32
+Asus,Apple M1,8.0,256,17.3,Windows,1097.52
+Dell,Apple M1,64.0,1024,14.0,macOS,4426.74
+Razer,AMD Ryzen 3,16.0,1024,15.6,macOS,2158.97
+Lenovo,AMD Ryzen 7,16.0,256,16.0,Linux,1996.65
+Asus,Apple M2,16.0,512,16.0,Linux,1512.36
+Razer,Intel Core i3,8.0,2048,17.3,macOS,2064.17
+Dell,Apple M1,64.0,512,13.3,Linux,3268.97
+HP,Apple M1,64.0,1024,16.0,macOS,4283.2
+Dell,,8.0,2048,15.6,Windows,1224.49
+Lenovo,Apple M1,32.0,512,14.0,Linux,2121.15
+HP,Intel Core i5,8.0,1024,17.3,Windows,1415.41
+Razer,Apple M1,32.0,2048,14.0,Windows,3288.33
+Acer,AMD Ryzen 5,32.0,1024,13.3,macOS,2385.33
+Lenovo,Intel Core i5,64.0,2048,13.3,Linux,3369.83
+Dell,Intel Core i3,16.0,512,17.3,Windows,1106.18
+HP,Intel Core i5,8.0,256,15.6,Windows,1306.69
+MSI,AMD Ryzen 3,16.0,1024,17.3,Windows,1713.82
+Razer,Intel Core i3,64.0,1024,13.3,Windows,4003.19
+Lenovo,Apple M1,16.0,2048,17.3,Linux,1809.83
+HP,Intel Core i5,64.0,1024,17.3,macOS,4431.43
+Microsoft,AMD Ryzen 7,16.0,2048,17.3,macOS,2372.92
+Lenovo,AMD Ryzen 5,8.0,512,17.3,macOS,1830.8
+Apple,Intel Core i3,32.0,1024,15.6,macOS,3392.5
+HP,,8.0,512,15.6,Windows,1020.97
+MSI,Intel Core i3,32.0,2048,13.3,macOS,3527.78
+Razer,Apple M2,64.0,256,16.0,Windows,4793.25
+Asus,AMD Ryzen 5,64.0,1024,17.3,macOS,3648.62
+MSI,Apple M1,32.0,2048,14.0,,3051.63
+HP,Apple M1,8.0,512,16.0,Windows,2254.67
+Dell,Apple M2,64.0,256,15.6,macOS,4816.1
+Razer,AMD Ryzen 5,64.0,1024,16.0,Windows,2254.67
+Asus,AMD Ryzen 5,64.0,256,16.0,macOS,3664.07
+Microsoft,AMD Ryzen 3,32.0,256,15.6,macOS,1973.59
+Microsoft,Apple M2,32.0,1024,16.0,Windows,2110.02
+Asus,AMD Ryzen 7,8.0,2048,17.3,macOS,2027.72
+Razer,AMD Ryzen 3,16.0,256,13.3,Linux,1550.13
+HP,,64.0,256,17.3,macOS,4825.27
+Microsoft,Apple M2,32.0,2048,13.3,Windows,2306.72
+Razer,AMD Ryzen 7,64.0,1024,15.6,Linux,4976.11
+MSI,AMD Ryzen 7,64.0,512,17.3,macOS,6245.57
+Asus,Intel Core i7,64.0,1024,17.3,Windows,3015.43
+MSI,Intel Core i5,8.0,1024,15.6,Windows,1706.16
+Dell,Apple M1,32.0,1024,13.3,macOS,2878.64
+Dell,Intel Core i5,64.0,1024,16.0,Windows,3237.14
+MSI,Apple M1,32.0,256,14.0,Linux,2859.89
+Asus,AMD Ryzen 3,8.0,1024,13.3,macOS,1101.26
+Samsung,AMD Ryzen 7,32.0,1024,14.0,macOS,2815.36
+MSI,Intel Core i3,64.0,256,13.3,macOS,4994.78
+HP,Intel Core i5,32.0,512,14.0,Windows,2254.67
+Acer,AMD Ryzen 5,32.0,1024,17.3,Linux,1904.64
+Acer,,16.0,512,15.6,Linux,1546.69
+HP,Apple M2,8.0,256,16.0,macOS,2226.52
+MSI,,16.0,1024,14.0,macOS,2303.22
+Microsoft,AMD Ryzen 3,8.0,2048,17.3,,1035.1
+Lenovo,Intel Core i5,32.0,512,16.0,macOS,2973.05
+Asus,Apple M1,32.0,256,17.3,macOS,2311.35
+Microsoft,Apple M1,8.0,512,13.3,Windows,1186.24
+Microsoft,Intel Core i3,8.0,1024,16.0,Windows,967.13
+Microsoft,AMD Ryzen 5,64.0,512,14.0,macOS,3480.98
+Microsoft,AMD Ryzen 7,32.0,512,17.3,macOS,2669.88
+Samsung,Apple M2,64.0,256,17.3,Windows,3075.58
+Lenovo,,8.0,2048,14.0,Windows,1043.48
+HP,AMD Ryzen 7,64.0,1024,13.3,Linux,3846.96
+Dell,Intel Core i5,8.0,256,15.6,macOS,1658.07
+Samsung,Intel Core i3,64.0,512,14.0,Linux,2331.75
+Razer,Apple M2,,2048,17.3,macOS,3580.81
+Microsoft,AMD Ryzen 7,16.0,256,13.3,macOS,2083.75
+Lenovo,AMD Ryzen 3,,512,16.0,Windows,1269.0
+Apple,AMD Ryzen 5,16.0,512,14.0,macOS,2728.25
+Razer,AMD Ryzen 3,64.0,256,14.0,Windows,3779.37
+Asus,AMD Ryzen 7,32.0,2048,13.3,Linux,2329.09
+Acer,Intel Core i7,16.0,1024,15.6,macOS,2222.84
+Dell,AMD Ryzen 3,64.0,512,17.3,macOS,3856.13
+Lenovo,AMD Ryzen 7,16.0,1024,15.6,Linux,1984.53
+Asus,Intel Core i5,8.0,512,13.3,macOS,1284.77
+Dell,Intel Core i3,64.0,256,15.6,Linux,2819.06
+Samsung,Intel Core i5,8.0,1024,15.6,Windows,1265.11
+Razer,Apple M2,16.0,1024,13.3,macOS,3378.23
+MSI,AMD Ryzen 7,32.0,512,13.3,Windows,3370.82
+Asus,Apple M2,32.0,1024,17.3,Linux,2088.11
+Acer,AMD Ryzen 3,16.0,2048,14.0,macOS,1496.22
+Samsung,AMD Ryzen 5,8.0,256,15.6,Linux,993.23
+HP,Intel Core i3,64.0,512,16.0,Linux,2254.67
+Acer,AMD Ryzen 3,64.0,256,14.0,Linux,2398.22
+Apple,Intel Core i7,32.0,512,16.0,Linux,3335.04
+Asus,Apple M2,16.0,256,13.3,Windows,2254.67
+Microsoft,Apple M1,16.0,512,13.3,Windows,2254.67
+Lenovo,Apple M1,16.0,2048,14.0,macOS,2444.13
+Dell,Intel Core i7,32.0,256,16.0,Linux,2431.49
+Lenovo,Apple M2,16.0,256,14.0,macOS,2383.14
+Acer,AMD Ryzen 3,8.0,512,14.0,macOS,1040.25
+Asus,AMD Ryzen 3,64.0,2048,15.6,Linux,2503.38
+Razer,Apple M2,16.0,2048,15.6,macOS,3723.6
+Samsung,AMD Ryzen 3,16.0,2048,15.6,macOS,1501.44
+Dell,Intel Core i3,64.0,2048,14.0,Windows,3113.31
+MSI,Intel Core i7,32.0,256,14.0,Linux,3481.44
+Asus,Apple M1,8.0,512,14.0,Linux,1084.0
+Microsoft,Intel Core i5,8.0,2048,16.0,macOS,1566.98
+HP,Intel Core i7,16.0,1024,14.0,Windows,1945.38
+Acer,,8.0,256,14.0,Windows,1511.03
+HP,Intel Core i5,64.0,2048,13.3,macOS,4668.84
+Acer,Apple M1,8.0,512,17.3,Windows,1172.34
+MSI,AMD Ryzen 5,32.0,512,15.6,macOS,3707.95
+MSI,AMD Ryzen 5,16.0,512,15.6,Windows,2036.49
+Samsung,AMD Ryzen 5,,256,17.3,macOS,1506.72
+Lenovo,AMD Ryzen 7,8.0,1024,17.3,macOS,2190.47
+Lenovo,Apple M2,8.0,1024,14.0,Windows,1586.23
+Samsung,Intel Core i3,64.0,512,13.3,Windows,2435.87
+Razer,Intel Core i5,16.0,2048,13.3,Linux,2525.15
+HP,Intel Core i3,8.0,1024,17.3,Linux,1051.47
+Asus,Intel Core i3,32.0,2048,16.0,Windows,1693.11
+Apple,Intel Core i3,8.0,2048,15.6,Windows,1615.42
+Samsung,Apple M2,8.0,512,13.3,Windows,1297.36
+Lenovo,AMD Ryzen 3,,256,17.3,,1770.23
+Lenovo,AMD Ryzen 5,8.0,512,16.0,Windows,1261.58
+HP,AMD Ryzen 3,8.0,1024,17.3,Windows,980.33
+Samsung,Intel Core i3,16.0,512,15.6,Windows,973.42
+Acer,Apple M1,64.0,2048,17.3,Linux,2889.82
+Apple,Apple M1,64.0,1024,16.0,macOS,5961.89
+Microsoft,AMD Ryzen 7,32.0,1024,14.0,Windows,2226.83
+Acer,AMD Ryzen 7,32.0,512,16.0,macOS,2778.53
+Dell,AMD Ryzen 3,16.0,512,17.3,macOS,1537.18
+Acer,AMD Ryzen 3,32.0,2048,17.3,Linux,1655.1
+MSI,Apple M2,8.0,1024,17.3,Windows,2169.6
+Apple,Apple M1,32.0,2048,16.0,Linux,3033.36
+Samsung,Apple M1,64.0,1024,13.3,Windows,2935.19
+MSI,Apple M1,16.0,2048,17.3,Linux,2501.72
+Lenovo,Intel Core i7,16.0,1024,14.0,Linux,1901.91
+MSI,Intel Core i7,8.0,256,16.0,macOS,2733.41
+Razer,Apple M1,8.0,256,13.3,Windows,1637.67
+Asus,Apple M2,32.0,1024,13.3,Linux,2136.92
+Microsoft,Apple M1,64.0,2048,13.3,Windows,2786.43
+Razer,AMD Ryzen 3,64.0,256,13.3,Windows,3913.08
+Microsoft,Intel Core i7,8.0,512,15.6,Windows,1349.48
+Razer,Intel Core i3,64.0,256,15.6,macOS,4976.58
+Lenovo,Intel Core i7,16.0,1024,15.6,macOS,2734.36
+MSI,Apple M2,32.0,2048,14.0,Windows,3638.51
+Apple,Intel Core i3,32.0,2048,14.0,macOS,3582.44
+MSI,AMD Ryzen 3,32.0,256,15.6,Linux,2254.67
+Apple,Intel Core i5,64.0,1024,15.6,macOS,5862.48
+Microsoft,Apple M2,16.0,2048,15.6,macOS,2460.12
+Dell,Apple M1,8.0,256,14.0,Windows,1278.96
+Apple,AMD Ryzen 3,64.0,512,16.0,Windows,3855.08
+Microsoft,Intel Core i7,32.0,512,17.3,Windows,2138.32
+MSI,Apple M2,,512,17.3,Linux,3316.33
+HP,Apple M1,16.0,512,13.3,Linux,1452.36
+Acer,Intel Core i7,16.0,512,15.6,Linux,1628.88
+HP,Intel Core i5,16.0,256,13.3,Windows,2254.67
+MSI,AMD Ryzen 3,8.0,256,16.0,Windows,1206.64
+Asus,Intel Core i7,16.0,1024,13.3,Linux,1725.82
+Acer,AMD Ryzen 7,8.0,2048,17.3,Windows,1489.65
+Asus,Apple M2,64.0,512,15.6,Linux,2254.67
+Razer,AMD Ryzen 5,8.0,256,14.0,Linux,1711.9
+Dell,AMD Ryzen 7,16.0,256,16.0,macOS,2496.53
+Acer,Intel Core i3,64.0,2048,17.3,macOS,3438.88
+Microsoft,,64.0,2048,14.0,Windows,2889.62
+Apple,Apple M2,32.0,1024,16.0,Windows,3380.69
+Acer,AMD Ryzen 3,64.0,512,17.3,Windows,2517.05
+Apple,Apple M1,32.0,1024,14.0,Windows,2943.49
+Samsung,Apple M2,8.0,2048,14.0,,1485.79
+Razer,Apple M2,32.0,512,16.0,Windows,3524.61
+MSI,Intel Core i3,64.0,1024,15.6,Windows,3981.69
+Lenovo,Intel Core i5,64.0,1024,16.0,macOS,4336.22
+Apple,AMD Ryzen 7,16.0,2048,15.6,Linux,2940.91
+MSI,Intel Core i7,16.0,256,14.0,Windows,2690.44
+Microsoft,AMD Ryzen 5,32.0,2048,16.0,Windows,1868.99
+Samsung,Apple M1,64.0,1024,16.0,macOS,3681.44
+Lenovo,Apple M1,8.0,2048,16.0,macOS,2022.75
+Razer,AMD Ryzen 3,8.0,256,13.3,macOS,1495.43
+HP,AMD Ryzen 5,64.0,1024,17.3,Linux,3285.11
+Acer,,16.0,512,13.3,Windows,1411.54
+Razer,AMD Ryzen 7,8.0,512,13.3,Windows,2283.31
+Acer,Apple M1,64.0,512,13.3,Linux,2742.67
+Apple,AMD Ryzen 5,32.0,1024,15.6,Linux,3008.53
+Asus,AMD Ryzen 3,,1024,14.0,Linux,2254.67
+HP,Intel Core i5,32.0,256,15.6,Linux,2158.55
+Samsung,Intel Core i3,32.0,512,13.3,macOS,1833.36
+Razer,AMD Ryzen 5,32.0,1024,17.3,macOS,3762.63
+Apple,Intel Core i3,64.0,2048,16.0,Windows,4230.72
+Razer,Apple M1,16.0,512,13.3,Linux,2213.05
+Microsoft,AMD Ryzen 3,64.0,1024,14.0,macOS,3131.76
+Samsung,Intel Core i7,16.0,2048,13.3,Windows,1906.1
+MSI,AMD Ryzen 3,32.0,512,13.3,macOS,3000.93
+Apple,Intel Core i3,64.0,1024,16.0,Windows,3999.01
+Microsoft,AMD Ryzen 7,64.0,512,15.6,Windows,3053.54
+HP,Intel Core i3,32.0,256,14.0,macOS,2181.48
+Apple,,8.0,512,14.0,,2083.96
+Acer,AMD Ryzen 5,64.0,1024,15.6,Linux,2883.39
+Razer,Apple M2,64.0,2048,15.6,macOS,6668.39
+Acer,AMD Ryzen 3,64.0,512,16.0,Windows,2443.04
+HP,AMD Ryzen 7,64.0,512,17.3,macOS,4916.78
+Asus,AMD Ryzen 3,16.0,256,17.3,Linux,992.1
+Microsoft,AMD Ryzen 3,32.0,2048,15.6,Windows,1814.28
+Asus,AMD Ryzen 7,8.0,512,17.3,macOS,1842.07
+Apple,Apple M1,16.0,256,14.0,Linux,2013.73
+Dell,Apple M2,64.0,1024,17.3,macOS,4791.3
+MSI,Intel Core i5,64.0,256,16.0,Windows,4388.91
+Microsoft,Intel Core i5,64.0,256,16.0,Linux,2836.6
+Microsoft,AMD Ryzen 5,32.0,1024,17.3,Windows,1932.88
+Microsoft,Apple M1,8.0,256,13.3,macOS,1308.73
+MSI,Intel Core i3,8.0,512,15.6,macOS,2254.67
+Lenovo,AMD Ryzen 3,32.0,1024,14.0,Windows,1981.51
+Samsung,Intel Core i7,16.0,2048,13.3,macOS,2309.56
+Samsung,Apple M1,8.0,512,16.0,macOS,1540.14
+MSI,AMD Ryzen 5,16.0,2048,13.3,Windows,2431.55
+Lenovo,AMD Ryzen 3,8.0,2048,16.0,Linux,1133.81
+HP,AMD Ryzen 7,16.0,256,14.0,Linux,2053.72
+Lenovo,Intel Core i3,16.0,256,17.3,Linux,1058.27
+Acer,Intel Core i3,8.0,256,13.3,Windows,729.09
+HP,Apple M1,16.0,256,14.0,macOS,2027.19
+Razer,Intel Core i3,32.0,2048,16.0,,3438.4
+Asus,Intel Core i5,64.0,1024,14.0,Windows,2718.88
+HP,AMD Ryzen 3,32.0,256,16.0,Windows,1907.13
+Apple,Apple M2,16.0,512,17.3,macOS,3320.83
+HP,Intel Core i3,8.0,256,16.0,macOS,1088.2
+Microsoft,,64.0,512,16.0,Linux,3001.76
+Lenovo,AMD Ryzen 7,8.0,1024,15.6,macOS,2127.44
+Microsoft,Intel Core i5,16.0,2048,14.0,Windows,1571.05
+Dell,Intel Core i7,16.0,256,17.3,Windows,1998.17
+Lenovo,AMD Ryzen 7,32.0,512,17.3,Linux,2482.77
+Apple,AMD Ryzen 5,8.0,512,17.3,Windows,1704.34
+Acer,AMD Ryzen 7,32.0,256,17.3,macOS,2569.32
+MSI,Intel Core i5,8.0,512,16.0,Windows,1633.17
+Razer,AMD Ryzen 7,32.0,512,13.3,Linux,3237.63
+MSI,Intel Core i7,32.0,1024,16.0,Windows,3588.02
+Acer,AMD Ryzen 3,64.0,2048,17.3,Linux,2515.29
+Samsung,AMD Ryzen 7,16.0,512,17.3,macOS,2254.67
+Razer,Apple M2,16.0,256,17.3,macOS,3422.2
+Asus,Intel Core i7,16.0,2048,16.0,Windows,1785.78
+Microsoft,AMD Ryzen 7,8.0,1024,17.3,Linux,1513.19
+Asus,Intel Core i7,32.0,512,17.3,Linux,1989.58
+Apple,Apple M1,8.0,256,17.3,macOS,2109.9
+Acer,AMD Ryzen 3,64.0,512,14.0,macOS,3300.32
+Samsung,Apple M1,16.0,512,14.0,macOS,1727.88
+Microsoft,AMD Ryzen 7,64.0,1024,16.0,Linux,3100.17
+Dell,,8.0,256,17.3,Linux,1047.69
+Razer,Apple M2,16.0,512,15.6,Windows,2658.76
+Apple,Intel Core i7,16.0,2048,17.3,Windows,2729.14
+Dell,AMD Ryzen 5,32.0,1024,15.6,macOS,2992.1
+Samsung,Intel Core i5,8.0,1024,17.3,Linux,1025.83
+Lenovo,AMD Ryzen 5,16.0,512,16.0,Windows,1636.43
+Dell,AMD Ryzen 3,32.0,256,17.3,macOS,2262.76
+HP,Intel Core i7,16.0,1024,17.3,macOS,2748.9
+HP,Intel Core i5,64.0,2048,16.0,Linux,3596.77
+Lenovo,AMD Ryzen 3,64.0,1024,13.3,Linux,3125.71
+Apple,AMD Ryzen 5,64.0,2048,13.3,macOS,6153.23
+Samsung,Apple M1,32.0,1024,15.6,macOS,2303.77
+Asus,AMD Ryzen 7,8.0,2048,13.3,Windows,1685.31
+Apple,AMD Ryzen 7,32.0,1024,14.0,Linux,3314.16
+Acer,Intel Core i3,,2048,16.0,Linux,1529.74
+Asus,AMD Ryzen 3,16.0,512,15.6,Windows,1064.93
+MSI,Apple M1,8.0,1024,16.0,macOS,2274.78
+Dell,AMD Ryzen 3,8.0,2048,15.6,Linux,1190.61
+Microsoft,Intel Core i5,16.0,256,14.0,Linux,1293.3
+Apple,Apple M2,8.0,1024,13.3,Linux,2426.85
+Microsoft,Apple M1,8.0,1024,16.0,Linux,1121.82
+Asus,,16.0,512,14.0,Linux,1508.73
+MSI,Apple M2,32.0,2048,16.0,Windows,3637.64
+Lenovo,AMD Ryzen 7,32.0,256,15.6,macOS,3353.95
+Razer,Intel Core i5,16.0,256,16.0,Linux,2254.67
+Razer,AMD Ryzen 7,8.0,1024,13.3,macOS,2871.05
+Razer,Apple M2,16.0,1024,13.3,Windows,2542.27
+Samsung,Apple M1,16.0,256,13.3,Linux,1311.59
+Asus,Intel Core i3,32.0,512,13.3,Windows,2254.67
+Acer,Apple M1,64.0,1024,13.3,macOS,3767.44
+Apple,AMD Ryzen 5,8.0,2048,15.6,macOS,2473.09
+Acer,Apple M2,32.0,2048,16.0,Linux,2262.74
+Apple,Intel Core i5,8.0,256,16.0,Linux,1610.0
+HP,Apple M1,32.0,2048,14.0,Linux,2358.87
+Apple,Intel Core i7,16.0,256,17.3,macOS,3251.95
+Apple,AMD Ryzen 3,16.0,1024,17.3,macOS,2338.05
+HP,Intel Core i3,8.0,1024,14.0,Linux,878.52
+Asus,Intel Core i3,32.0,1024,15.6,Linux,1414.17
+Lenovo,Intel Core i3,16.0,256,16.0,Linux,1196.24
+Razer,Intel Core i3,8.0,512,16.0,Windows,1304.34
+Microsoft,Intel Core i3,16.0,1024,14.0,macOS,1276.11
+Razer,AMD Ryzen 7,64.0,2048,17.3,Windows,5223.69
+Asus,Intel Core i3,8.0,512,13.3,,706.94
+Lenovo,AMD Ryzen 7,16.0,256,16.0,Linux,1813.98
+Apple,AMD Ryzen 7,8.0,256,14.0,Windows,2176.39
+Apple,AMD Ryzen 5,64.0,1024,16.0,macOS,5730.86
+Samsung,Intel Core i3,64.0,1024,16.0,macOS,3367.89
+Acer,,16.0,1024,14.0,Linux,1350.52
+Microsoft,Intel Core i5,64.0,1024,14.0,Linux,2254.67
+Razer,Apple M2,8.0,2048,13.3,Linux,2398.14
+Asus,Intel Core i5,16.0,1024,16.0,macOS,1687.81
+Asus,Intel Core i3,8.0,256,13.3,Windows,895.91
+Acer,Intel Core i5,8.0,512,14.0,,1141.99
+Apple,Apple M1,32.0,256,17.3,Linux,2254.67
+Samsung,Intel Core i3,,1024,14.0,Windows,829.76
+Samsung,AMD Ryzen 3,8.0,256,13.3,Linux,905.69
+Asus,Intel Core i3,64.0,2048,14.0,Windows,2655.69
+Dell,Apple M2,64.0,2048,17.3,macOS,2254.67
+Asus,Intel Core i7,8.0,256,13.3,Linux,1342.24
+MSI,AMD Ryzen 3,64.0,2048,15.6,Windows,4086.58
+MSI,Apple M2,8.0,1024,13.3,Windows,2352.4
+Acer,AMD Ryzen 7,8.0,512,16.0,Windows,1503.12
+Dell,Intel Core i7,64.0,1024,15.6,macOS,4918.21
+Dell,Apple M1,8.0,512,17.3,Linux,1336.44
+Dell,Intel Core i3,8.0,256,13.3,Windows,862.84
+Samsung,AMD Ryzen 3,16.0,512,17.3,macOS,1365.36
+Samsung,AMD Ryzen 5,16.0,256,15.6,macOS,1644.17
+Razer,AMD Ryzen 7,,1024,15.6,Linux,2699.09
+Acer,AMD Ryzen 3,64.0,512,16.0,macOS,3241.4
+Asus,Intel Core i7,32.0,1024,13.3,macOS,2744.87
+Samsung,,8.0,2048,13.3,Windows,1666.69
+Razer,Intel Core i5,8.0,2048,14.0,macOS,2554.24
+Samsung,AMD Ryzen 3,64.0,256,13.3,Windows,2563.19
+Dell,Intel Core i3,64.0,512,16.0,Linux,3061.26
+Acer,Intel Core i5,64.0,256,17.3,Windows,2848.18
+Razer,Intel Core i5,64.0,256,13.3,Windows,4516.89
+Apple,AMD Ryzen 5,8.0,1024,16.0,macOS,2491.81
+Microsoft,AMD Ryzen 3,32.0,256,13.3,Linux,1616.28
+Apple,Apple M1,32.0,1024,16.0,Linux,3005.42
+Dell,Intel Core i3,32.0,2048,16.0,Windows,1973.15
+HP,AMD Ryzen 3,16.0,2048,14.0,Linux,1543.7
+Microsoft,AMD Ryzen 3,16.0,256,14.0,Windows,1087.93
+Microsoft,AMD Ryzen 3,16.0,1024,15.6,Windows,1211.54
+Apple,Apple M1,16.0,1024,15.6,Linux,2361.42
+Microsoft,AMD Ryzen 5,16.0,512,17.3,Windows,1204.16
+Samsung,Intel Core i5,32.0,512,14.0,macOS,2416.66
+Acer,Intel Core i5,16.0,256,16.0,Linux,1350.63
+HP,Apple M2,64.0,512,17.3,Windows,3761.42
+Asus,AMD Ryzen 7,32.0,1024,13.3,Linux,2115.07
+Dell,AMD Ryzen 3,16.0,1024,16.0,Linux,1304.42
+Asus,AMD Ryzen 3,64.0,2048,17.3,macOS,3324.49
+Razer,Apple M2,32.0,2048,16.0,macOS,4785.88
+Samsung,Intel Core i7,64.0,2048,15.6,Windows,3240.34
+HP,AMD Ryzen 7,16.0,512,16.0,macOS,2641.5
+Asus,AMD Ryzen 5,64.0,256,13.3,Windows,2672.38
+Lenovo,Intel Core i3,32.0,256,13.3,,2373.93
+Razer,AMD Ryzen 7,32.0,2048,14.0,Linux,3574.61
+Lenovo,Apple M2,16.0,256,16.0,macOS,2391.46
+MSI,,64.0,256,14.0,,4774.58
+Asus,AMD Ryzen 7,16.0,512,16.0,Windows,1545.84
+Samsung,Intel Core i7,32.0,2048,15.6,macOS,2993.11
+Razer,AMD Ryzen 7,8.0,512,15.6,Linux,2349.4
+Samsung,Apple M1,8.0,2048,16.0,Windows,1220.13
+Asus,AMD Ryzen 7,16.0,256,14.0,macOS,1997.37
+Razer,AMD Ryzen 7,64.0,512,17.3,Linux,4903.96
+Lenovo,AMD Ryzen 3,64.0,1024,15.6,Linux,3061.09
+Acer,Apple M1,8.0,512,15.6,Windows,986.58
+Apple,AMD Ryzen 3,8.0,256,13.3,Linux,1237.03
+Samsung,Intel Core i5,,1024,15.6,Linux,2786.53
+Samsung,Intel Core i7,64.0,256,14.0,Windows,3127.58
+Razer,AMD Ryzen 3,32.0,2048,13.3,macOS,3476.09
+Dell,AMD Ryzen 5,32.0,512,15.6,macOS,2909.71
+Lenovo,AMD Ryzen 3,16.0,2048,17.3,Windows,1510.47
+Acer,Intel Core i7,16.0,512,15.6,Windows,1772.8
+HP,Apple M2,64.0,1024,16.0,macOS,4745.97
+MSI,,16.0,2048,15.6,macOS,3102.05
+Samsung,Intel Core i3,16.0,512,17.3,Windows,1125.82
+MSI,Intel Core i5,16.0,512,15.6,Windows,2019.55
+Samsung,Intel Core i5,32.0,1024,16.0,macOS,2440.06
+Samsung,Apple M2,8.0,512,13.3,Linux,1340.35
+Dell,Intel Core i5,32.0,256,13.3,macOS,2779.4
+MSI,AMD Ryzen 3,16.0,512,15.6,Linux,1617.6
+Samsung,Apple M2,,256,17.3,Windows,2932.99
+Apple,Intel Core i5,8.0,512,17.3,Windows,1832.32
+Microsoft,Intel Core i7,16.0,512,17.3,macOS,2197.83
+HP,AMD Ryzen 7,8.0,1024,13.3,Windows,1865.59
+HP,Intel Core i3,16.0,2048,13.3,Windows,1341.85
+Apple,Intel Core i7,16.0,2048,17.3,Windows,2871.01
+HP,AMD Ryzen 5,64.0,512,15.6,Linux,3455.81
+HP,AMD Ryzen 5,16.0,512,14.0,Linux,1597.96
+Acer,Apple M1,64.0,512,14.0,,3688.4
+Acer,Apple M1,64.0,2048,17.3,Windows,2845.83
+Acer,Apple M2,16.0,1024,14.0,macOS,2254.67
+HP,AMD Ryzen 3,8.0,1024,16.0,,909.62
+Dell,Apple M2,16.0,1024,13.3,Linux,2127.59
+Lenovo,,8.0,2048,15.6,macOS,2444.73
+Acer,Apple M1,8.0,256,14.0,Linux,1023.44
+HP,Intel Core i5,64.0,512,17.3,Linux,3393.0
+Samsung,AMD Ryzen 3,32.0,512,15.6,Windows,2254.67
+Microsoft,Intel Core i3,32.0,256,14.0,macOS,2003.84
+Dell,Intel Core i3,64.0,2048,15.6,macOS,4095.45
+Dell,Apple M1,64.0,2048,17.3,Windows,3523.98
+Samsung,Apple M1,8.0,2048,13.3,Windows,1126.49
+Asus,AMD Ryzen 5,8.0,1024,15.6,Linux,1200.38
+Apple,AMD Ryzen 5,16.0,256,15.6,macOS,2778.55
+Acer,,16.0,2048,15.6,Windows,1858.97
+HP,,8.0,1024,16.0,macOS,2251.85
+Microsoft,Apple M2,8.0,256,13.3,macOS,1874.15
+MSI,Intel Core i7,64.0,512,17.3,Linux,4923.36
+Samsung,AMD Ryzen 7,16.0,2048,15.6,macOS,2171.36
+Acer,AMD Ryzen 5,64.0,512,15.6,Windows,2784.59
+Microsoft,Intel Core i5,16.0,1024,15.6,macOS,1938.11
+Samsung,Apple M2,8.0,256,15.6,Windows,1328.14
+HP,Apple M2,8.0,512,17.3,macOS,2101.04
+MSI,Apple M1,64.0,2048,15.6,Linux,4705.64
+Apple,AMD Ryzen 3,16.0,2048,14.0,Windows,1832.7
+Samsung,Intel Core i5,16.0,512,15.6,Linux,1210.94
+Microsoft,Intel Core i7,64.0,1024,16.0,Windows,3091.33
+Lenovo,Intel Core i5,64.0,256,15.6,Windows,3224.59
+Apple,Intel Core i7,8.0,512,16.0,macOS,2970.27
+Lenovo,AMD Ryzen 5,16.0,2048,15.6,Windows,1682.73
+Razer,Intel Core i3,8.0,256,17.3,Windows,1165.32
+Samsung,Intel Core i7,16.0,1024,16.0,Windows,1800.83
+HP,Intel Core i7,32.0,2048,16.0,Windows,2705.41
+MSI,Intel Core i3,8.0,256,13.3,Windows,1208.36
+Apple,AMD Ryzen 7,8.0,2048,13.3,Windows,2593.27
+HP,Apple M1,32.0,256,14.0,Linux,2254.67
+Dell,Apple M2,16.0,1024,13.3,macOS,2740.6
+HP,Apple M2,8.0,512,15.6,Linux,1773.47
+Dell,AMD Ryzen 7,64.0,256,15.6,Windows,3702.15
+Samsung,AMD Ryzen 3,8.0,1024,13.3,Linux,730.49
+Microsoft,Intel Core i3,8.0,256,16.0,macOS,867.66
+Razer,Intel Core i5,8.0,256,14.0,macOS,2318.37
+Microsoft,,16.0,512,16.0,Windows,1611.05
+Dell,Apple M1,,512,13.3,Windows,2056.05
+Apple,Apple M1,8.0,2048,16.0,Windows,2089.81
+Apple,Apple M2,16.0,1024,17.3,Linux,2619.74
+Acer,AMD Ryzen 5,16.0,256,17.3,Windows,2254.67
+Acer,Intel Core i7,16.0,256,17.3,macOS,2056.98
+Lenovo,Intel Core i7,16.0,2048,14.0,Linux,2244.22
+Apple,Intel Core i7,64.0,256,16.0,Linux,4745.89
+Asus,AMD Ryzen 7,16.0,512,16.0,Windows,1487.96
+Asus,Intel Core i5,64.0,2048,16.0,Windows,3047.48
+MSI,AMD Ryzen 5,64.0,512,14.0,Windows,4462.38
+HP,Intel Core i3,8.0,2048,13.3,Windows,1265.54
+Dell,,64.0,1024,14.0,Linux,2254.67
+Acer,AMD Ryzen 3,8.0,256,17.3,Windows,869.79
+Lenovo,Apple M2,8.0,1024,14.0,macOS,2251.38
+Dell,Apple M1,8.0,2048,14.0,macOS,2050.15
+HP,Intel Core i7,64.0,2048,17.3,macOS,5064.66
+Lenovo,AMD Ryzen 3,64.0,1024,14.0,Linux,2877.12
+HP,Apple M2,8.0,512,16.0,Windows,1564.61
+Microsoft,Apple M2,32.0,256,16.0,Windows,1963.16
+Apple,Apple M2,64.0,256,13.3,Windows,4954.52
+Apple,Intel Core i5,16.0,512,14.0,Linux,2088.61
+Microsoft,AMD Ryzen 5,8.0,1024,15.6,macOS,1378.32
+Samsung,Intel Core i7,16.0,2048,13.3,macOS,2469.6
+Samsung,Apple M1,16.0,256,15.6,macOS,1714.46
+Asus,Intel Core i3,16.0,512,16.0,Windows,1078.1
+Acer,AMD Ryzen 7,16.0,2048,14.0,macOS,2369.0
+Acer,AMD Ryzen 7,16.0,256,13.3,Linux,2254.67
+Dell,Intel Core i5,32.0,2048,17.3,macOS,2969.7
+HP,Intel Core i5,8.0,256,16.0,Windows,1315.9
+Apple,AMD Ryzen 7,32.0,2048,13.3,Linux,3546.32
+Apple,Intel Core i3,64.0,2048,16.0,macOS,5569.15
+Microsoft,Intel Core i5,16.0,512,17.3,macOS,1695.93
+Dell,Apple M2,64.0,2048,15.6,macOS,5126.07
+Dell,Apple M2,32.0,512,13.3,Linux,2521.04
+Acer,Intel Core i7,16.0,1024,17.3,Windows,1664.0
+Lenovo,Apple M2,64.0,1024,15.6,macOS,2254.67
+Dell,AMD Ryzen 5,64.0,256,16.0,Linux,3335.92
+Dell,Intel Core i7,32.0,1024,14.0,Windows,2699.28
+Acer,AMD Ryzen 7,32.0,512,15.6,Linux,2207.82
+Acer,AMD Ryzen 3,8.0,1024,17.3,Windows,782.47
+Acer,AMD Ryzen 3,32.0,2048,13.3,macOS,2159.95
+MSI,AMD Ryzen 7,64.0,1024,14.0,Windows,5125.12
+MSI,Intel Core i3,16.0,2048,15.6,macOS,2509.79
+Dell,Apple M2,16.0,512,13.3,macOS,2470.86
+MSI,Intel Core i7,8.0,1024,13.3,Linux,2158.53
+Microsoft,AMD Ryzen 3,32.0,2048,13.3,macOS,2237.57
+Lenovo,Intel Core i3,64.0,2048,13.3,Linux,3099.72
+Dell,AMD Ryzen 5,64.0,512,17.3,Linux,3406.22
+HP,Intel Core i7,8.0,512,17.3,Windows,1612.82
+HP,AMD Ryzen 3,8.0,1024,15.6,Linux,1001.61
+Acer,Apple M1,8.0,1024,17.3,macOS,1421.36
+Apple,Intel Core i3,16.0,1024,13.3,Linux,1777.67
+HP,Apple M2,64.0,1024,16.0,macOS,5015.44
+Microsoft,Intel Core i7,32.0,2048,17.3,macOS,3026.69
+Dell,Apple M2,64.0,512,16.0,,3760.55
+Microsoft,Apple M1,32.0,512,13.3,Linux,2254.67
+Microsoft,AMD Ryzen 3,8.0,512,13.3,Windows,830.17
+Razer,AMD Ryzen 3,8.0,256,14.0,Linux,1085.26
+Asus,Apple M1,,1024,14.0,Windows,1774.75
+Asus,Intel Core i7,16.0,256,16.0,Windows,1654.57
+Asus,Intel Core i3,8.0,2048,17.3,Linux,855.14
+Apple,Intel Core i7,64.0,1024,14.0,Windows,4872.72
+Microsoft,Intel Core i3,64.0,1024,16.0,Linux,2648.89
+HP,Intel Core i3,16.0,2048,15.6,Linux,1364.47
+Asus,Intel Core i7,64.0,512,17.3,macOS,3848.99
+HP,Intel Core i5,16.0,1024,13.3,,2023.42
+Samsung,AMD Ryzen 3,16.0,2048,16.0,Linux,1055.53
+Razer,Intel Core i3,8.0,256,13.3,Linux,1253.7
+Razer,AMD Ryzen 7,32.0,1024,15.6,Linux,3401.15
+HP,Intel Core i7,8.0,1024,17.3,macOS,2261.77
+Samsung,Apple M2,64.0,512,13.3,Linux,3042.9
+Samsung,Intel Core i7,32.0,1024,13.3,Linux,2146.64
+Razer,Intel Core i3,16.0,512,13.3,Windows,1617.39
+Asus,Apple M2,8.0,512,13.3,Linux,1242.82
+Apple,AMD Ryzen 5,64.0,512,15.6,Windows,4579.28
+Samsung,AMD Ryzen 5,64.0,512,15.6,Linux,2815.88
+Acer,AMD Ryzen 7,16.0,512,17.3,macOS,2123.35
+MSI,Apple M1,8.0,256,17.3,macOS,2130.95
+Microsoft,AMD Ryzen 7,32.0,1024,15.6,Windows,2081.04
+Apple,AMD Ryzen 7,16.0,256,15.6,Windows,2641.66
+Asus,Apple M1,32.0,256,17.3,macOS,2205.59
+MSI,Intel Core i3,64.0,512,13.3,Linux,3976.77
+Razer,Apple M2,64.0,256,13.3,macOS,6286.49
+HP,AMD Ryzen 3,16.0,1024,15.6,macOS,1819.84
+Apple,Apple M1,16.0,2048,13.3,macOS,3139.59
+Razer,Intel Core i3,16.0,1024,14.0,macOS,2247.86
+Acer,Intel Core i7,8.0,256,14.0,macOS,2254.67
+Razer,AMD Ryzen 3,32.0,2048,15.6,Linux,2537.59
+Dell,Intel Core i3,32.0,256,13.3,macOS,2412.23
+Apple,Apple M2,64.0,512,13.3,Linux,4848.39
+MSI,Intel Core i5,16.0,512,16.0,Linux,2177.52
+Dell,Intel Core i5,16.0,256,13.3,Linux,1496.35
+Apple,Apple M2,32.0,256,17.3,Windows,3353.17
+Asus,Intel Core i7,16.0,512,15.6,Linux,1662.53
+Dell,Intel Core i7,8.0,1024,14.0,Windows,1872.95
+Dell,AMD Ryzen 7,8.0,2048,17.3,macOS,2414.28
+Lenovo,,16.0,512,15.6,macOS,2459.66
+Microsoft,Intel Core i5,64.0,512,15.6,macOS,3586.59
+Microsoft,Intel Core i5,16.0,2048,16.0,Linux,1391.26
+Samsung,Intel Core i3,8.0,2048,15.6,,1216.73
+Dell,AMD Ryzen 5,8.0,1024,14.0,macOS,1729.61
+Razer,Apple M2,32.0,2048,17.3,macOS,4773.13
+HP,AMD Ryzen 3,,2048,15.6,Windows,3108.33
+Asus,Intel Core i7,16.0,1024,15.6,Windows,1556.69
+Lenovo,AMD Ryzen 7,16.0,1024,17.3,macOS,2495.66
+Dell,Intel Core i5,16.0,2048,13.3,macOS,2254.67
+Dell,Intel Core i5,16.0,2048,15.6,macOS,2307.12
+Asus,Intel Core i3,16.0,512,15.6,Linux,934.61
+Asus,Intel Core i5,16.0,512,15.6,Windows,1305.61
+HP,Apple M2,64.0,512,14.0,Windows,3665.5
+Dell,AMD Ryzen 5,16.0,2048,16.0,Windows,1796.9
+Razer,AMD Ryzen 5,16.0,512,16.0,Linux,2181.13
+Samsung,Apple M1,64.0,2048,17.3,Windows,2254.67
+Asus,Intel Core i5,8.0,512,15.6,Linux,1213.62
+Dell,AMD Ryzen 3,8.0,1024,14.0,Windows,1007.18
+Asus,Intel Core i3,32.0,256,16.0,Linux,1388.42
+Samsung,Apple M2,16.0,2048,17.3,macOS,2183.63
+Dell,,32.0,512,16.0,Windows,1757.42
+Microsoft,AMD Ryzen 5,16.0,512,15.6,Linux,1202.27
+Samsung,Intel Core i5,64.0,2048,17.3,Linux,3045.01
+Dell,Apple M1,,2048,13.3,Linux,2461.65
+Acer,Intel Core i5,64.0,1024,13.3,macOS,3759.13
+Razer,Apple M2,32.0,2048,13.3,Linux,2254.67
+Apple,Intel Core i5,64.0,1024,16.0,Windows,4449.83
+HP,AMD Ryzen 3,64.0,512,15.6,macOS,3872.0
+Microsoft,Intel Core i5,64.0,2048,17.3,Windows,2957.72
+Acer,Intel Core i3,64.0,2048,14.0,Linux,2616.27
+Dell,Apple M2,8.0,256,16.0,Windows,1733.07
+HP,Apple M1,64.0,512,15.6,Linux,2254.67
+Microsoft,AMD Ryzen 7,8.0,512,13.3,Windows,1432.05
+Acer,AMD Ryzen 7,,2048,13.3,Windows,1464.44
+Acer,AMD Ryzen 3,,1024,13.3,macOS,1235.26
+Microsoft,Intel Core i7,8.0,2048,17.3,Windows,1613.89
+Microsoft,Intel Core i7,32.0,256,14.0,macOS,2611.29
+Apple,Apple M2,16.0,256,13.3,Linux,2554.26
+Samsung,AMD Ryzen 3,32.0,2048,13.3,Windows,1802.19
+Lenovo,Intel Core i7,16.0,512,17.3,Linux,2083.11
+Razer,Intel Core i3,64.0,512,13.3,Linux,3859.05
+Lenovo,AMD Ryzen 3,64.0,256,13.3,,3050.59
+Lenovo,Apple M2,16.0,256,14.0,Linux,1900.37
+Razer,Intel Core i7,64.0,2048,16.0,macOS,6782.17
+Asus,AMD Ryzen 3,64.0,256,17.3,Windows,2515.65
+Dell,AMD Ryzen 5,16.0,256,13.3,Linux,1431.8
+Lenovo,Intel Core i5,32.0,1024,15.6,macOS,2807.78
+Asus,Intel Core i5,32.0,2048,17.3,Windows,2254.67
+Razer,AMD Ryzen 3,8.0,2048,13.3,macOS,1953.03
+Razer,Intel Core i5,16.0,512,17.3,macOS,2787.79
+Samsung,Intel Core i7,64.0,1024,17.3,Windows,3139.03
+Microsoft,Apple M1,16.0,2048,13.3,Linux,1472.38
+Samsung,AMD Ryzen 3,16.0,1024,17.3,macOS,1292.09
+Samsung,AMD Ryzen 7,16.0,2048,13.3,Linux,1876.37
+Razer,Intel Core i7,64.0,1024,14.0,macOS,6433.35
+Apple,Intel Core i3,8.0,1024,15.6,Windows,1228.13
+Apple,Apple M2,8.0,256,13.3,macOS,2965.23
+Apple,AMD Ryzen 3,16.0,256,17.3,macOS,2173.34
+Apple,AMD Ryzen 7,16.0,256,14.0,Linux,2503.9
+Apple,Intel Core i5,64.0,2048,14.0,Linux,4598.5
+MSI,AMD Ryzen 7,8.0,512,17.3,,2994.23
+Apple,,32.0,256,17.3,Linux,2769.68
+Dell,Intel Core i5,32.0,512,14.0,Linux,2057.93
+Microsoft,AMD Ryzen 7,16.0,512,17.3,Linux,1521.04
+HP,Apple M2,32.0,1024,16.0,Linux,2536.27
+Asus,Intel Core i7,16.0,256,16.0,Linux,1729.75
+MSI,,8.0,2048,14.0,Windows,1367.9
+Asus,AMD Ryzen 5,32.0,2048,13.3,Windows,1917.82
+Razer,Intel Core i7,32.0,1024,16.0,macOS,4617.88
+Samsung,Intel Core i3,32.0,256,14.0,Linux,1587.19
+Microsoft,Apple M1,64.0,256,13.3,macOS,3551.62
+Samsung,AMD Ryzen 3,16.0,256,15.6,macOS,1209.8
+HP,Intel Core i3,16.0,2048,13.3,Linux,1287.87
+Acer,AMD Ryzen 7,16.0,2048,17.3,macOS,2184.47
+Microsoft,Apple M2,16.0,1024,14.0,Linux,1756.64
+Asus,AMD Ryzen 5,64.0,256,16.0,macOS,2254.67
+Razer,Intel Core i5,8.0,2048,13.3,macOS,2593.08
+Lenovo,Apple M1,64.0,1024,14.0,Linux,3492.55
+Samsung,Apple M2,32.0,1024,17.3,Windows,2127.71
+Dell,AMD Ryzen 5,16.0,256,13.3,Linux,1623.2
+Asus,Apple M2,16.0,256,13.3,Windows,1661.42
+HP,Apple M1,64.0,2048,15.6,macOS,4446.76
+Samsung,AMD Ryzen 3,8.0,256,16.0,,1102.48
+Samsung,Apple M1,16.0,512,16.0,Windows,1340.57
+Acer,Intel Core i3,16.0,1024,17.3,,1464.16
+MSI,AMD Ryzen 5,,2048,17.3,,3052.89
+Asus,Intel Core i3,8.0,256,16.0,Linux,915.31
+Lenovo,Intel Core i7,64.0,1024,14.0,Linux,3736.25
+Acer,Apple M1,64.0,512,13.3,Windows,2679.89
+Asus,Intel Core i5,8.0,256,14.0,Linux,1163.98
+Microsoft,Apple M1,32.0,256,17.3,macOS,2293.48
+HP,Intel Core i7,8.0,512,13.3,Linux,1537.58
+Acer,Intel Core i5,8.0,2048,16.0,macOS,1532.52
+MSI,Intel Core i7,8.0,1024,15.6,Linux,2443.98
+Microsoft,AMD Ryzen 5,8.0,2048,15.6,Linux,1190.52
+HP,Apple M2,64.0,2048,14.0,Windows,3892.47
+Dell,AMD Ryzen 5,16.0,2048,17.3,Windows,1865.24
+Razer,Intel Core i3,32.0,1024,13.3,macOS,3221.81
+Dell,Intel Core i7,32.0,2048,13.3,Linux,2578.44
+MSI,Intel Core i7,64.0,256,15.6,Windows,4934.78
+Asus,AMD Ryzen 7,32.0,2048,17.3,Windows,2149.73
+Microsoft,AMD Ryzen 7,8.0,2048,14.0,Windows,1564.57
+HP,AMD Ryzen 3,16.0,256,17.3,macOS,1699.23
+Microsoft,Intel Core i5,32.0,1024,16.0,Windows,1893.56
+Lenovo,Apple M2,64.0,512,14.0,macOS,4899.1
+Microsoft,Intel Core i3,64.0,512,15.6,Windows,2345.97
+Asus,AMD Ryzen 5,64.0,256,14.0,Linux,2840.55
+Dell,Apple M2,8.0,1024,16.0,Windows,1798.39
+Acer,Intel Core i5,32.0,256,17.3,macOS,2321.95
+Samsung,,8.0,512,15.6,Linux,1511.77
+Acer,Intel Core i5,16.0,256,17.3,Linux,1372.29
+Samsung,Intel Core i5,64.0,2048,13.3,macOS,3781.5
+Microsoft,Intel Core i3,32.0,256,16.0,macOS,1981.93
+MSI,AMD Ryzen 3,,256,14.0,Linux,1222.98
+Asus,Intel Core i3,,512,14.0,Windows,1497.6
+HP,AMD Ryzen 5,32.0,256,17.3,Windows,2227.37
+Apple,AMD Ryzen 7,16.0,256,13.3,macOS,3298.71
+Asus,,16.0,256,14.0,Linux,1749.67
+Samsung,Intel Core i3,32.0,2048,17.3,Linux,1675.78
+Apple,Apple M2,64.0,1024,17.3,Linux,5094.45
+HP,AMD Ryzen 7,32.0,256,13.3,macOS,3108.34
+Dell,,64.0,256,17.3,macOS,4147.92
+Samsung,AMD Ryzen 3,8.0,1024,13.3,Linux,909.64
+Acer,Intel Core i5,8.0,512,15.6,macOS,1405.2
+Samsung,AMD Ryzen 7,64.0,256,13.3,macOS,3967.85
+HP,AMD Ryzen 5,64.0,512,13.3,Windows,3451.28
+Microsoft,AMD Ryzen 7,8.0,2048,13.3,Linux,1523.12
+Lenovo,Apple M1,64.0,1024,16.0,macOS,4306.5
+MSI,Intel Core i5,32.0,1024,13.3,Linux,2921.74
+Samsung,Intel Core i7,8.0,256,13.3,macOS,2254.67
+Apple,Apple M1,16.0,2048,14.0,Linux,2491.02
+Asus,AMD Ryzen 5,32.0,256,15.6,macOS,2293.47
+Razer,AMD Ryzen 7,8.0,1024,17.3,macOS,3007.58
+Dell,AMD Ryzen 5,16.0,2048,17.3,Windows,1791.75
+Dell,Intel Core i7,32.0,256,15.6,Linux,2559.5
+Acer,Intel Core i7,8.0,512,14.0,,1447.45
+Samsung,Intel Core i7,32.0,2048,16.0,macOS,2868.65
+Asus,Intel Core i5,32.0,2048,15.6,Linux,1988.2
+Dell,Intel Core i7,16.0,256,13.3,macOS,2505.06
+Razer,Apple M1,64.0,2048,15.6,Linux,4812.64
+Acer,Intel Core i7,8.0,1024,13.3,Linux,1435.16
+Apple,,16.0,512,17.3,Linux,2583.96
+Dell,Intel Core i5,32.0,512,14.0,Windows,2217.8
+Samsung,Apple M1,16.0,256,14.0,macOS,1572.29
+HP,Apple M1,64.0,512,13.3,Linux,3211.9
+Acer,Apple M1,32.0,2048,13.3,Windows,1869.21
+Asus,Intel Core i5,32.0,2048,13.3,macOS,2601.43
+Lenovo,AMD Ryzen 5,32.0,1024,14.0,Linux,2211.32
+Samsung,Intel Core i3,8.0,512,17.3,Windows,747.37
+Razer,Intel Core i3,32.0,1024,17.3,macOS,3207.17
+Apple,AMD Ryzen 5,64.0,2048,14.0,Linux,4659.3
+Dell,,64.0,1024,13.3,macOS,3921.41
+Dell,AMD Ryzen 3,32.0,512,14.0,Windows,1876.87
+Apple,Apple M1,32.0,256,16.0,Windows,2723.24
+Asus,AMD Ryzen 3,8.0,2048,13.3,macOS,1303.23
+Lenovo,Apple M2,32.0,256,17.3,Linux,2254.67
+HP,Intel Core i5,8.0,256,14.0,macOS,1530.31
+Dell,Apple M2,64.0,2048,13.3,Linux,3822.37
+MSI,AMD Ryzen 5,16.0,256,15.6,Windows,2175.01
+Apple,Apple M2,16.0,512,15.6,Windows,2717.05
+Asus,Apple M1,64.0,256,15.6,macOS,3646.55
+Lenovo,,8.0,512,14.0,Linux,1413.09
+Dell,Intel Core i7,8.0,1024,14.0,macOS,2258.99
+Apple,AMD Ryzen 5,8.0,512,14.0,Linux,1640.86
+Apple,Intel Core i7,32.0,256,15.6,macOS,4236.5
+Razer,Intel Core i5,8.0,2048,15.6,Windows,2079.95
+Acer,AMD Ryzen 3,8.0,256,17.3,Windows,761.35
+Lenovo,AMD Ryzen 7,64.0,512,13.3,Linux,3651.63
+Dell,AMD Ryzen 3,64.0,1024,16.0,Windows,2929.33
+Dell,Apple M2,32.0,2048,14.0,Windows,2750.57
+Asus,Apple M2,32.0,256,15.6,Windows,2211.69
+Acer,AMD Ryzen 3,64.0,512,17.3,Windows,2368.29
+Microsoft,Apple M2,64.0,2048,17.3,Linux,3193.7
+MSI,AMD Ryzen 7,,256,17.3,Linux,3320.88
+MSI,AMD Ryzen 5,32.0,1024,15.6,Windows,2980.84
+Lenovo,Apple M1,8.0,1024,15.6,Linux,1308.06
+Asus,Apple M1,64.0,2048,17.3,macOS,3930.66
+Lenovo,AMD Ryzen 7,8.0,512,17.3,macOS,2043.6
+Acer,Intel Core i7,8.0,512,16.0,Windows,1439.81
+Razer,Intel Core i7,8.0,1024,13.3,Linux,2411.29
+Razer,AMD Ryzen 5,16.0,512,14.0,macOS,2684.44
+Razer,Intel Core i7,8.0,256,16.0,Linux,2267.56
+Lenovo,AMD Ryzen 5,,256,17.3,Windows,1565.72
+Razer,Intel Core i7,64.0,1024,14.0,Windows,5069.92
+MSI,Apple M1,8.0,1024,17.3,macOS,2438.33
+Apple,Intel Core i3,8.0,1024,17.3,Windows,1482.28
+Lenovo,AMD Ryzen 3,8.0,1024,16.0,Linux,1015.6
+Dell,AMD Ryzen 5,16.0,1024,17.3,Linux,1612.6
+Acer,Apple M2,32.0,1024,14.0,Linux,2276.79
+Asus,Intel Core i7,64.0,256,17.3,macOS,3908.86
+Razer,Apple M1,64.0,256,16.0,macOS,2254.67
+Samsung,AMD Ryzen 5,16.0,512,16.0,Linux,1246.22
+Apple,AMD Ryzen 5,16.0,1024,13.3,Linux,2292.25
+Microsoft,Intel Core i3,32.0,512,14.0,Linux,1457.0
+Lenovo,Apple M1,16.0,1024,15.6,Linux,2254.67
+Razer,Apple M1,8.0,256,14.0,Windows,2254.67
+Apple,Apple M2,64.0,256,17.3,macOS,6440.55
+Dell,Intel Core i3,16.0,512,16.0,Linux,1208.58
+Samsung,Apple M1,8.0,512,14.0,Linux,2254.67
+Razer,AMD Ryzen 3,8.0,2048,15.6,Linux,1497.89
+Samsung,Intel Core i7,64.0,2048,16.0,macOS,4050.09
+Asus,Intel Core i5,16.0,256,15.6,macOS,1651.53
+Microsoft,AMD Ryzen 5,64.0,1024,14.0,Linux,2814.42
+HP,Apple M1,64.0,2048,17.3,Windows,3590.98
+MSI,AMD Ryzen 7,,512,13.3,macOS,2820.29
+Razer,AMD Ryzen 5,16.0,512,16.0,Windows,2113.05
+Asus,Apple M1,32.0,256,16.0,Linux,1722.64
+Acer,AMD Ryzen 5,64.0,256,16.0,Windows,2613.49
+Dell,Intel Core i7,32.0,2048,15.6,Windows,2822.89
+Dell,Intel Core i5,16.0,2048,15.6,macOS,2393.19
+Acer,Intel Core i5,32.0,512,13.3,macOS,2440.12
+Dell,AMD Ryzen 3,32.0,512,14.0,macOS,2467.59
+Samsung,Apple M1,32.0,512,15.6,Linux,1939.49
+Razer,AMD Ryzen 5,64.0,2048,15.6,macOS,5992.55
+Samsung,AMD Ryzen 3,8.0,2048,13.3,Windows,890.35
+Lenovo,AMD Ryzen 3,16.0,1024,15.6,Windows,1357.45
+Microsoft,Intel Core i7,,1024,16.0,macOS,2130.7
+Apple,AMD Ryzen 3,32.0,512,13.3,Linux,2484.32
+Samsung,AMD Ryzen 3,8.0,512,13.3,Linux,845.88
+Microsoft,AMD Ryzen 5,8.0,2048,14.0,Windows,1115.46
+MSI,Intel Core i7,32.0,1024,17.3,macOS,4619.87
+Acer,,8.0,2048,17.3,Linux,1510.28
+Apple,Apple M2,64.0,512,15.6,Linux,4914.68
+Dell,Intel Core i7,32.0,256,17.3,macOS,3371.78
+Dell,Apple M1,64.0,2048,17.3,,3620.88
+HP,Intel Core i5,8.0,2048,16.0,Windows,1392.15
+Samsung,Intel Core i5,64.0,2048,14.0,Windows,3032.2
+Samsung,AMD Ryzen 5,32.0,2048,14.0,Linux,1965.0
+Microsoft,AMD Ryzen 5,16.0,512,13.3,macOS,1765.92
+HP,Apple M2,,512,14.0,macOS,2258.68
+Dell,Intel Core i3,32.0,2048,15.6,Linux,2039.39
+Asus,Intel Core i5,32.0,512,14.0,macOS,2460.98
+MSI,Intel Core i7,32.0,2048,14.0,macOS,4750.44
+Razer,Intel Core i3,64.0,512,13.3,Windows,3807.28
+Acer,AMD Ryzen 3,32.0,256,17.3,Windows,1384.03
+Microsoft,Intel Core i3,16.0,256,16.0,Linux,884.08
+Acer,AMD Ryzen 5,16.0,1024,14.0,Linux,1482.59
+MSI,AMD Ryzen 3,32.0,2048,16.0,macOS,3453.85
+Acer,Apple M2,64.0,1024,14.0,macOS,4091.53
+Apple,AMD Ryzen 5,,2048,15.6,macOS,3953.27
+Samsung,Apple M1,16.0,256,14.0,macOS,1595.72
+Dell,Intel Core i5,16.0,1024,17.3,Linux,1730.99
+Apple,Intel Core i3,,512,16.0,macOS,2127.33
+Acer,Intel Core i7,16.0,256,15.6,,1687.25
+Apple,AMD Ryzen 5,16.0,512,13.3,macOS,2915.92
+Microsoft,AMD Ryzen 7,32.0,512,14.0,,1992.39
+Samsung,AMD Ryzen 5,8.0,256,14.0,Linux,1007.79
+Acer,Intel Core i3,64.0,512,14.0,Windows,2618.78
+MSI,AMD Ryzen 5,8.0,2048,16.0,macOS,2528.0
+HP,Intel Core i3,8.0,512,16.0,macOS,1313.62
+Microsoft,,16.0,2048,14.0,Windows,1626.26
+Asus,AMD Ryzen 7,64.0,1024,13.3,macOS,4200.62
+Razer,AMD Ryzen 7,64.0,1024,16.0,macOS,6407.69
+Apple,Intel Core i5,16.0,512,13.3,Linux,2146.21
+Asus,AMD Ryzen 7,32.0,512,13.3,macOS,2631.84
+Microsoft,AMD Ryzen 5,64.0,512,16.0,Linux,2916.32
+MSI,AMD Ryzen 3,64.0,2048,14.0,Linux,4122.59
+Apple,Apple M2,8.0,256,15.6,macOS,2814.17
+MSI,AMD Ryzen 3,16.0,1024,15.6,macOS,2110.55
+Apple,,16.0,1024,14.0,Windows,2254.67
+Lenovo,Intel Core i5,64.0,512,14.0,macOS,4261.3
+Apple,,8.0,512,14.0,Windows,2080.29
+MSI,AMD Ryzen 7,64.0,2048,13.3,Linux,5076.09
+Asus,AMD Ryzen 3,32.0,2048,17.3,macOS,2178.53
+Razer,Apple M2,32.0,1024,15.6,Windows,3316.08
+Lenovo,Apple M1,32.0,1024,17.3,Linux,2232.21
+Microsoft,Intel Core i5,32.0,1024,13.3,Windows,1851.06
+HP,AMD Ryzen 7,16.0,256,13.3,Linux,1863.7
+MSI,AMD Ryzen 7,16.0,512,16.0,Windows,2634.36
+Apple,AMD Ryzen 7,8.0,512,15.6,Linux,2330.18
+Microsoft,,8.0,512,13.3,Windows,1170.02
+Samsung,AMD Ryzen 3,16.0,1024,16.0,macOS,1551.79
+Dell,Intel Core i7,64.0,512,15.6,macOS,4778.41
+Acer,AMD Ryzen 7,16.0,512,14.0,Windows,1502.32
+Lenovo,Intel Core i7,16.0,2048,16.0,Linux,2019.85
+MSI,Intel Core i7,32.0,2048,17.3,Windows,3688.88
+MSI,AMD Ryzen 7,32.0,1024,15.6,Windows,3575.73
+Samsung,Intel Core i7,16.0,512,14.0,,2186.99
+Apple,Intel Core i7,32.0,1024,14.0,Windows,3492.77
+Dell,Intel Core i5,8.0,512,16.0,Windows,1380.35
+Samsung,,,2048,14.0,Windows,2961.26
+Samsung,Intel Core i7,16.0,512,17.3,macOS,2207.83
+Razer,AMD Ryzen 3,32.0,1024,16.0,Windows,2627.88
+Lenovo,AMD Ryzen 7,64.0,512,13.3,macOS,4926.62
+Lenovo,AMD Ryzen 7,32.0,2048,16.0,Windows,2611.98
+Acer,AMD Ryzen 3,16.0,256,14.0,Linux,866.19
+HP,AMD Ryzen 3,,2048,17.3,Linux,1419.7
+Asus,AMD Ryzen 3,16.0,1024,15.6,Windows,1025.98
+HP,AMD Ryzen 5,32.0,1024,14.0,Windows,2133.95
+Samsung,Intel Core i5,8.0,512,16.0,Linux,1007.9
+HP,AMD Ryzen 5,32.0,2048,17.3,Windows,2215.03
+Lenovo,Intel Core i7,16.0,1024,16.0,macOS,2610.79
+Acer,Intel Core i5,32.0,1024,14.0,macOS,2462.39
+MSI,Intel Core i5,32.0,1024,13.3,Linux,2888.99
+HP,Apple M2,64.0,2048,13.3,Windows,3993.4
+Apple,,16.0,512,17.3,Windows,2667.89
+MSI,AMD Ryzen 3,8.0,1024,17.3,Windows,1266.73
+Lenovo,Intel Core i5,32.0,1024,13.3,Windows,2370.87
+Microsoft,Apple M2,32.0,512,16.0,Linux,1988.39
+Dell,AMD Ryzen 7,16.0,512,17.3,Linux,1845.92
+Microsoft,AMD Ryzen 7,32.0,256,17.3,Linux,2229.32
+MSI,Apple M2,16.0,512,13.3,macOS,3465.47
