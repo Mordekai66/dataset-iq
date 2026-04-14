@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 import json
+import numpy as np
 
 def detect_problem_type(target_col):
     if target_col.dtype == "object":
