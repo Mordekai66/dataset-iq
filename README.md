@@ -18,11 +18,8 @@ It transforms raw datasets into self-contained units with computed analysis, ena
 ---
 
 ## Demo
-<p align="center">
-  <video controls width="700">
-    <source src="demo.mp4" type="video/mp4">
-  </video>
-</p>
+
+https://github.com/user-attachments/assets/275887d0-20f2-488c-8953-c377b27b34fe
 
 ---
 
