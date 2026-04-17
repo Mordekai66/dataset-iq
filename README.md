@@ -16,19 +16,8 @@ Dataset-IQ is a structured system for organizing machine learning datasets with 
 It transforms raw datasets into self-contained units with computed analysis, enabling consistency, reproducibility, and easier dataset comparison.
 
 ---
-
-## Structure
-
-Each dataset is stored as a self-contained unit:
-```cmd
-data/ml/<dataset_name>/
-├── data.csv / .xlsx
-├── dataset.json
-├── stats.json
-└── README.md
-
-```
-
+## Demo
+![](demo.gif)
 ---
 
 ## Core Features
@@ -40,6 +29,20 @@ data/ml/<dataset_name>/
 - Self-contained dataset structure
 
 ---
+
+## Structure
+
+Each dataset is stored as a self-contained unit:
+```bash
+data/ml/<dataset_name>/
+├── data.csv / .xlsx
+├── dataset.json
+├── stats.json
+└── README.md
+
+```
+
+
 
 ## Statistics Generated
 
