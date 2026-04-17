@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataset-IQ | نظام إدارة مجموعات البيانات</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Dataset-IQ</h1>
+            <p>Unified Data Management System</p>
+        </header>
+
+        <div class="stats-summary" id="statsSummary">
+            <div class="stat-card">
+                <div class="stat-number" id="totalDatasets">0</div>
+                <div class="stat-label">Datasets</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="avgQuality">0</div>
+                <div class="stat-label">Average Data Quality</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="totalRows">0</div>
+                <div class="stat-label">Total Rows</div>
+            </div>
+        </div>
+
+        <div class="filters">
+            <input type="text" id="searchInput" placeholder="🔍 Search for a dataset..." class="search-input">
+            <select id="problemTypeFilter" class="filter-select">
+                <option value="all">All Types</option>
+                <option value="classification">Classification</option>
+                <option value="regression">Regression</option>
+            </select>
+        </div>
+
+        <div class="datasets-grid" id="datasetsGrid">
+        </div>
+    </div>
+
+    <script>
+        let allDatasets = [];
+
+        async function loadDatasets() {
+            try {
+                const response = await fetch('/api/datasets');
+                allDatasets = await response.json();
+                updateStats();
+                filterAndDisplay();
+            } catch (error) {
+                console.error('Error loading datasets:', error);
+            }
+        }
+
+        function updateStats() {
+            const totalDatasets = allDatasets.length;
+            const avgQuality = allDatasets.reduce((sum, d) => sum + (d.summary?.data_quality_score || 0), 0) / totalDatasets;
+            const totalRows = allDatasets.reduce((sum, d) => sum + (d.summary?.rows || 0), 0);
+
+            document.getElementById('totalDatasets').textContent = totalDatasets;
+            document.getElementById('avgQuality').textContent = avgQuality.toFixed(1);
+            document.getElementById('totalRows').textContent = totalRows.toLocaleString();
+        }
+
+        function filterAndDisplay() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const problemType = document.getElementById('problemTypeFilter').value;
+
+            const filtered = allDatasets.filter(dataset => {
+                const matchesSearch = dataset.name.toLowerCase().includes(searchTerm);
+                const matchesType = problemType === 'all' || dataset.summary?.problem_type === problemType;
+                return matchesSearch && matchesType;
+            });
+
+            displayDatasets(filtered);
+        }
+
+        function getQualityColor(score) {
+            if (score >= 80) return '#4caf50';
+            if (score >= 60) return '#ff9800';
+            return '#f44336';
+        }
+
+        function displayDatasets(datasets) {
+            const grid = document.getElementById('datasetsGrid');
+            
+            if (datasets.length === 0) {
+                grid.innerHTML = '<div class="no-results">📭 No datasets found</div>';
+                return;
+            }
+
+            grid.innerHTML = datasets.map(dataset => {
+                const summary = dataset.summary || {};
+                const issues = dataset.issues || {};
+                const qualityScore = summary.data_quality_score || 0;
+                const qualityColor = getQualityColor(qualityScore);
+                
+                return `
+                    <div class="dataset-card" onclick="location.href='/dataset/${dataset.name}'">
+                        <div class="card-header">
+                            <h3>📁 ${dataset.name}</h3>
+                            <div class="quality-badge" style="background: ${qualityColor}">
+                                Quality: ${qualityScore}%
+                            </div>
+                        </div>
+                        
+                        <div class="card-stats">
+                            <div class="stat-item">
+                                <span class="stat-icon">📊</span>
+                                <span>${summary.rows || 0} Rows × ${summary.columns || 0} Columns</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-icon">🎯</span>
+                                <span>${summary.problem_type === 'classification' ? 'Classification' : 'Regression'}</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-icon">🎯</span>
+                                <span>Target: ${summary.target || 'N/A'}</span>
+                            </div>
+                        </div>
+                        
+                        <div class="card-issues">
+                            ${issues.missing_values_total > 0 ? `
+                                <div class="issue-warning">
+                                    ⚠️ Missing Values: ${issues.missing_values_total}
+                                </div>
+                            ` : ''}
+                            ${issues.duplicate_rows > 0 ? `
+                                <div class="issue-warning">
+                                    🔄 Duplicate Rows: ${issues.duplicate_rows}
+                                </div>
+                            ` : ''}
+                            ${issues.highly_correlated_columns?.length > 0 ? `
+                                <div class="issue-warning">
+                                    📈 Highly Correlated: ${issues.highly_correlated_columns.length} Columns
+                                </div>
+                            ` : ''}
+                        </div>
+                        
+                        <div class="card-footer">
+                            ${dataset.has_stats ? 
+                                '<span class="badge success">✓ Statistics Available</span>' : 
+                                '<span class="badge warning">⚠ Awaiting Statistics Creation</span>'
+                            }
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        document.getElementById('searchInput').addEventListener('input', filterAndDisplay);
+        document.getElementById('problemTypeFilter').addEventListener('change', filterAndDisplay);
+
+        loadDatasets();
+    </script>
+</body>
+</html>

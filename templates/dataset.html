@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ dataset_name }} - Dataset-IQ</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="/" class="back-link">← Back to Home</a>
+            <h1>📊 {{ dataset_name }}</h1>
+            <p>Advanced Data Analysis for {{ dataset_name }}</p>
+        </header>
+
+        <div class="dataset-detail">
+            <div class="detail-section" id="statsSection">
+                <h2>📈 General Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-detail-card">
+                        <div class="stat-label">Number of Rows</div>
+                        <div class="stat-value" id="rowsCount">-</div>
+                    </div>
+                    <div class="stat-detail-card">
+                        <div class="stat-label">Number of Columns</div>
+                        <div class="stat-value" id="columnsCount">-</div>
+                    </div>
+                    <div class="stat-detail-card">
+                        <div class="stat-label">Data Quality</div>
+                        <div class="stat-value" id="qualityScore">-</div>
+                    </div>
+                    <div class="stat-detail-card">
+                        <div class="stat-label">Problem Type</div>
+                        <div class="stat-value" id="problemType">-</div>
+                    </div>
+                    <div class="stat-detail-card">
+                        <div class="stat-label">Target Column</div>
+                        <div class="stat-value" id="targetColumn">-</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail-section" id="issuesSection">
+                <h2>⚠️ Data Issues</h2>
+                <div class="issues-grid" id="issuesGrid"></div>
+            </div>
+
+            <div class="detail-section" id="schemaSection">
+                <h2>📋 Data Schema</h2>
+                <div class="schema-table-container">
+                    <table class="schema-table" id="schemaTable">
+                        <thead>
+                            <tr>
+                                <th>Column Name</th>
+                                <th>Type</th>
+                                <th>Unique Values</th>
+                                <th>Missing Percentage</th>
+                                <th>Statistics</th>
+                            </tr>
+                        </thead>
+                        <tbody id="schemaBody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="detail-section">
+                <h2>🔍 Data Preview (First 100 Rows)</h2>
+                <div class="data-preview-container">
+                    <div class="loading" id="previewLoading">Loading data...</div>
+                    <div id="previewContent" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const datasetName = '{{ dataset_name }}';
+
+        async function loadStats() {
+            try {
+                const response = await fetch(`/api/stats/${datasetName}`);
+                const stats = await response.json();
+                
+                if (!stats.error) {
+                    document.getElementById('rowsCount').textContent = stats.summary.rows;
+                    document.getElementById('columnsCount').textContent = stats.summary.columns;
+                    document.getElementById('qualityScore').textContent = `${stats.summary.data_quality_score}%`;
+                    document.getElementById('problemType').textContent = stats.summary.problem_type === 'classification' ? 'تصنيف' : 'انحدار';
+                    document.getElementById('targetColumn').textContent = stats.summary.target;
+                    
+                    const issuesGrid = document.getElementById('issuesGrid');
+                    issuesGrid.innerHTML = `
+                        <div class="issue-card">
+                            <div class="issue-icon">🔍</div>
+                            <div class="issue-details">
+                                <strong>Missing Values:</strong> ${stats.issues.missing_values_total || 0}
+                            </div>
+                        </div>
+                        <div class="issue-card">
+                            <div class="issue-icon">🔄</div>
+                            <div class="issue-details">
+                                <strong>Duplicate Rows:</strong> ${stats.issues.duplicate_rows || 0}
+                            </div>
+                        </div>
+                        <div class="issue-card">
+                            <div class="issue-icon">📈</div>
+                            <div class="issue-details">
+                                <strong>Highly Correlated Columns:</strong> ${stats.issues.highly_correlated_columns?.length || 0}
+                                ${stats.issues.highly_correlated_columns?.length > 0 ? 
+                                    `<br><small>${stats.issues.highly_correlated_columns.join(', ')}</small>` : ''}
+                            </div>
+                        </div>
+                        <div class="issue-card">
+                            <div class="issue-icon">⚠️</div>
+                            <div class="issue-details">
+                                <strong>Columns with High Missing Values:</strong> ${stats.issues.columns_with_high_missing?.length || 0}
+                                ${stats.issues.columns_with_high_missing?.length > 0 ? 
+                                    `<br><small>${stats.issues.columns_with_high_missing.join(', ')}</small>` : ''}
+                            </div>
+                        </div>
+                    `;
+                    
+                    const schemaBody = document.getElementById('schemaBody');
+                    schemaBody.innerHTML = stats.schema.map(col => `
+                        <tr>
+                            <td><strong>${col.name}</strong></td>
+                            <td>${col.type}</td>
+                            <td>${col.unique_values}</td>
+                            <td class="${col.missing_pct > 30 ? 'missing-high' : col.missing_pct > 10 ? 'missing-medium' : ''}">
+                                ${col.missing_pct}%
+                            </td>
+                            <td>
+                                ${col.stats ? `min: ${col.stats.min}<br>max: ${col.stats.max}<br>mean: ${col.stats.mean.toFixed(2)}` : '-'}
+                            </td>
+                        </tr>
+                    `).join('');
+                }
+            } catch (error) {
+                console.error('Error loading stats:', error);
+            }
+        }
+
+        async function loadPreview() {
+            try {
+                const response = await fetch(`/api/dataset/${datasetName}`);
+                const data = await response.json();
+                
+                document.getElementById('previewLoading').style.display = 'none';
+                
+                if (data.error) {
+                    document.getElementById('previewContent').innerHTML = `<div class="error">${data.error}</div>`;
+                } else {
+                    const table = document.createElement('table');
+                    table.className = 'data-table';
+                    
+                    const thead = document.createElement('thead');
+                    const headerRow = document.createElement('tr');
+                    data.columns.forEach(col => {
+                        const th = document.createElement('th');
+                        th.textContent = col;
+                        headerRow.appendChild(th);
+                    });
+                    thead.appendChild(headerRow);
+                    table.appendChild(thead);
+                    
+                    const tbody = document.createElement('tbody');
+                    data.preview.forEach(row => {
+                        const tr = document.createElement('tr');
+                        data.columns.forEach(col => {
+                            const td = document.createElement('td');
+                            let value = row[col];
+                            if (value === null || value === undefined) value = '-';
+                            if (typeof value === 'number') value = value.toFixed(4);
+                            td.textContent = value;
+                            tr.appendChild(td);
+                        });
+                        tbody.appendChild(tr);
+                    });
+                    table.appendChild(tbody);
+                    
+                    document.getElementById('previewContent').innerHTML = '';
+                    document.getElementById('previewContent').appendChild(table);
+                    document.getElementById('previewContent').style.display = 'block';
+                }
+            } catch (error) {
+                document.getElementById('previewLoading').innerHTML = `Error loading data: ${error.message}`;
+            }
+        }
+
+        loadStats();
+        loadPreview();
+    </script>
+</body>
+</html>
