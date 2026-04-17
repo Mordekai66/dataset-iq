@@ -19,7 +19,9 @@ It transforms raw datasets into self-contained units with computed analysis, ena
 
 ## Demo
 <p align="center">
-  <img src="demo.gif"/>
+  <video controls width="700">
+    <source src="demo.mp4" type="video/mp4">
+  </video>
 </p>
 
 ---
@@ -79,10 +81,11 @@ dataset-iq/
 │   └── 404.html                  # 404 error page
 ├── .gitignore                    # .gitignore file
 ├── app.py                        # Flask app — routes and API endpoints
-├── demo.gif                      # Demonstration web app video
+├── demo.mp4                      # Demonstration web app video
 ├── LICENSE                       # License file
-├── requirements.txt              # Python dependencies
-└── README.md                     # Main md file
+├── README.md                     # Main markdown file
+└── requirements.txt              # Python dependencies
+
 ```
 
 ---
