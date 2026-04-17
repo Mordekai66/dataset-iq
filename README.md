@@ -18,7 +18,9 @@ It transforms raw datasets into self-contained units with computed analysis, ena
 ---
 
 ## Demo
-![](demo.gif)
+<p align="center">
+  <img src="demo.gif"/>
+</p>
 
 ---
 
