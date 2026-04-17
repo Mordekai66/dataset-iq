@@ -69,16 +69,18 @@ dataset-iq/
 │    └── ml/
 │       ├── <dataset_name>.csv    # Raw dataset file (CSV or Excel)
 │       └── <dataset_name>.stats.json  # Auto-generated stats for that dataset
-├── app.py                        # Flask app — routes and API endpoints
-├── requirements.txt              # Python dependencies
 ├── static/
 │   └── style.css                 # Global stylesheet for all pages
 ├── templates/
 │   ├── index.html                # Homepage — dataset grid with filters
 │   ├── dataset.html              # Detail page — schema, issues, data preview
 │   └── 404.html                  # 404 error page
-├── README.md                     # Main md file
-└── LICENSE                       # License file
+├── .gitignore                    # .gitignore file
+├── app.py                        # Flask app — routes and API endpoints
+├── demo.gif                      # Demonstration web app video
+├── LICENSE                       # License file
+├── requirements.txt              # Python dependencies
+└── README.md                     # Main md file
 ```
 
 ---
