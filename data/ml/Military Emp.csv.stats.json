@@ -4,8 +4,15 @@
     "columns": 8,
     "data_quality_score": 75.0,
     "problem_type": "classification",
-    "target": "number of people employed"
+    "target": "number of people employed",
+    "complexity": "easy",
+    "model_recommendation": "Logistic Regression or Random Forest"
   },
+  "target_analysis": {},
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

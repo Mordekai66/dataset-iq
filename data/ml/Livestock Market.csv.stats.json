@@ -4,8 +4,15 @@
     "columns": 7,
     "data_quality_score": 100,
     "problem_type": "classification",
-    "target": "Expenses "
+    "target": "Expenses ",
+    "complexity": "easy",
+    "model_recommendation": "Logistic Regression or Random Forest"
   },
+  "target_analysis": {},
+  "preprocessing": [
+    "Apply feature scaling (Standardization or Normalization)",
+    "Remove low variance features"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

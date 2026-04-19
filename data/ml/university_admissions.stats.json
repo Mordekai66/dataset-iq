@@ -4,8 +4,15 @@
     "columns": 7,
     "data_quality_score": 99.43,
     "problem_type": "classification",
-    "target": "Accepted"
+    "target": "Accepted",
+    "complexity": "easy",
+    "model_recommendation": "Logistic Regression or Random Forest"
   },
+  "target_analysis": {},
+  "preprocessing": [
+    "Apply feature scaling (Standardization or Normalization)",
+    "Encode categorical variables (One-hot or Label encoding)"
+  ],
   "issues": {
     "missing_values_total": 16,
     "duplicate_rows": 0,

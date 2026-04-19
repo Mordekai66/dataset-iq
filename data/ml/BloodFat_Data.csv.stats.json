@@ -4,8 +4,19 @@
     "columns": 5,
     "data_quality_score": 100,
     "problem_type": "regression",
-    "target": "Blood Fat Content"
+    "target": "Blood Fat Content",
+    "complexity": "easy",
+    "model_recommendation": "Linear Regression or Ridge"
   },
+  "target_analysis": {
+    "skewness": 0.061,
+    "kurtosis": -1.004,
+    "outlier_percentage": 0.0
+  },
+  "preprocessing": [
+    "Apply feature scaling (Standardization or Normalization)",
+    "Remove low variance features"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

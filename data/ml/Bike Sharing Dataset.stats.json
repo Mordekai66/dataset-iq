@@ -4,8 +4,20 @@
     "columns": 18,
     "data_quality_score": 85.0,
     "problem_type": "regression",
-    "target": "cnt"
+    "target": "cnt",
+    "complexity": "hard",
+    "model_recommendation": "XGBoost with log transformation"
   },
+  "target_analysis": {
+    "skewness": 1.277,
+    "kurtosis": 1.417,
+    "outlier_percentage": 2.91
+  },
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)",
+    "Encode categorical variables (One-hot or Label encoding)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

@@ -4,8 +4,16 @@
     "columns": 8,
     "data_quality_score": 93.75,
     "problem_type": "classification",
-    "target": "Unnamed: 7"
+    "target": "Unnamed: 7",
+    "complexity": "easy",
+    "model_recommendation": "Logistic Regression or Random Forest"
   },
+  "target_analysis": {},
+  "preprocessing": [
+    "Handle missing values (mean/median/mode or drop columns)",
+    "Apply feature scaling (Standardization or Normalization)",
+    "Remove low variance features"
+  ],
   "issues": {
     "missing_values_total": 82,
     "duplicate_rows": 0,

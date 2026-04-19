@@ -4,8 +4,15 @@
     "columns": 7,
     "data_quality_score": 96.9,
     "problem_type": "classification",
-    "target": "Diabetes Risk"
+    "target": "Diabetes Risk",
+    "complexity": "medium",
+    "model_recommendation": "Random Forest or XGBoost"
   },
+  "target_analysis": {},
+  "preprocessing": [
+    "Apply feature scaling (Standardization or Normalization)",
+    "Encode categorical variables (One-hot or Label encoding)"
+  ],
   "issues": {
     "missing_values_total": 300,
     "duplicate_rows": 48,

@@ -4,8 +4,19 @@
     "columns": 23,
     "data_quality_score": 50.0,
     "problem_type": "regression",
-    "target": "PPE"
+    "target": "PPE",
+    "complexity": "medium",
+    "model_recommendation": "XGBoost with log transformation"
   },
+  "target_analysis": {
+    "skewness": 1.091,
+    "kurtosis": 1.952,
+    "outlier_percentage": 3.51
+  },
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

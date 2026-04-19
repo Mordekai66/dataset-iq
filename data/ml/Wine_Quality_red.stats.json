@@ -4,8 +4,14 @@
     "columns": 13,
     "data_quality_score": 100,
     "problem_type": "classification",
-    "target": "quality"
+    "target": "quality",
+    "complexity": "medium",
+    "model_recommendation": "Random Forest or XGBoost"
   },
+  "target_analysis": {},
+  "preprocessing": [
+    "Apply feature scaling (Standardization or Normalization)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

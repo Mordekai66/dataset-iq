@@ -4,8 +4,19 @@
     "columns": 11,
     "data_quality_score": 80.0,
     "problem_type": "regression",
-    "target": "F9"
+    "target": "F9",
+    "complexity": "hard",
+    "model_recommendation": "Random Forest Regressor or XGBoost"
   },
+  "target_analysis": {
+    "skewness": -0.473,
+    "kurtosis": -0.25,
+    "outlier_percentage": 0.33
+  },
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

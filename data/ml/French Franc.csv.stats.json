@@ -4,8 +4,16 @@
     "columns": 7,
     "data_quality_score": 80.0,
     "problem_type": "classification",
-    "target": "Imports"
+    "target": "Imports",
+    "complexity": "easy",
+    "model_recommendation": "Logistic Regression or Random Forest"
   },
+  "target_analysis": {},
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)",
+    "Remove low variance features"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

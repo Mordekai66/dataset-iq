@@ -4,8 +4,18 @@
     "columns": 5,
     "data_quality_score": 100,
     "problem_type": "regression",
-    "target": "ALTITUDE"
+    "target": "ALTITUDE",
+    "complexity": "hard",
+    "model_recommendation": "XGBoost with log transformation"
   },
+  "target_analysis": {
+    "skewness": 1.211,
+    "kurtosis": 1.359,
+    "outlier_percentage": 2.68
+  },
+  "preprocessing": [
+    "Apply feature scaling (Standardization or Normalization)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

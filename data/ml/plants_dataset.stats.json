@@ -4,8 +4,15 @@
     "columns": 7,
     "data_quality_score": 97.96,
     "problem_type": "classification",
-    "target": "Thrives"
+    "target": "Thrives",
+    "complexity": "easy",
+    "model_recommendation": "Logistic Regression or Random Forest"
   },
+  "target_analysis": {},
+  "preprocessing": [
+    "Apply feature scaling (Standardization or Normalization)",
+    "Encode categorical variables (One-hot or Label encoding)"
+  ],
   "issues": {
     "missing_values_total": 57,
     "duplicate_rows": 0,

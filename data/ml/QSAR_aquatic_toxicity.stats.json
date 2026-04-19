@@ -4,8 +4,18 @@
     "columns": 10,
     "data_quality_score": 100,
     "problem_type": "regression",
-    "target": "quantitative response"
+    "target": "quantitative response",
+    "complexity": "medium",
+    "model_recommendation": "Linear Regression or Ridge"
   },
+  "target_analysis": {
+    "skewness": 0.321,
+    "kurtosis": 0.454,
+    "outlier_percentage": 3.11
+  },
+  "preprocessing": [
+    "Apply feature scaling (Standardization or Normalization)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

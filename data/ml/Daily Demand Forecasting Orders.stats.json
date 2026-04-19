@@ -4,8 +4,19 @@
     "columns": 14,
     "data_quality_score": 95.0,
     "problem_type": "regression",
-    "target": "Target (Total orders)"
+    "target": "Target (Total orders)",
+    "complexity": "medium",
+    "model_recommendation": "Linear Regression or Ridge"
   },
+  "target_analysis": {
+    "skewness": 1.392,
+    "kurtosis": 2.556,
+    "outlier_percentage": 6.67
+  },
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

@@ -4,8 +4,16 @@
     "columns": 30,
     "data_quality_score": 70.0,
     "problem_type": "classification",
-    "target": "edgeCount Integer"
+    "target": "edgeCount Integer",
+    "complexity": "hard",
+    "model_recommendation": "Random Forest or XGBoost"
   },
+  "target_analysis": {},
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)",
+    "Encode categorical variables (One-hot or Label encoding)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

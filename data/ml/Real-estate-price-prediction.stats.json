@@ -4,8 +4,18 @@
     "columns": 8,
     "data_quality_score": 100,
     "problem_type": "regression",
-    "target": "Y house price of unit area"
+    "target": "Y house price of unit area",
+    "complexity": "easy",
+    "model_recommendation": "Linear Regression or Ridge"
   },
+  "target_analysis": {
+    "skewness": 0.6,
+    "kurtosis": 2.179,
+    "outlier_percentage": 0.72
+  },
+  "preprocessing": [
+    "Apply feature scaling (Standardization or Normalization)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

@@ -4,8 +4,19 @@
     "columns": 7,
     "data_quality_score": 100,
     "problem_type": "regression",
-    "target": "Cirrhosis death rate"
+    "target": "Cirrhosis death rate",
+    "complexity": "easy",
+    "model_recommendation": "Linear Regression or Ridge"
   },
+  "target_analysis": {
+    "skewness": 0.855,
+    "kurtosis": 0.666,
+    "outlier_percentage": 4.35
+  },
+  "preprocessing": [
+    "Apply feature scaling (Standardization or Normalization)",
+    "Remove low variance features"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

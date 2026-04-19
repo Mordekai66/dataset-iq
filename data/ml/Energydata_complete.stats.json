@@ -4,8 +4,20 @@
     "columns": 30,
     "data_quality_score": 85.0,
     "problem_type": "regression",
-    "target": "rv2"
+    "target": "rv2",
+    "complexity": "hard",
+    "model_recommendation": "Random Forest Regressor or XGBoost"
   },
+  "target_analysis": {
+    "skewness": 0.005,
+    "kurtosis": -1.206,
+    "outlier_percentage": 0.0
+  },
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)",
+    "Encode categorical variables (One-hot or Label encoding)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

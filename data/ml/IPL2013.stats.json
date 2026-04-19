@@ -4,8 +4,20 @@
     "columns": 26,
     "data_quality_score": 90.0,
     "problem_type": "regression",
-    "target": "SOLD PRICE"
+    "target": "SOLD PRICE",
+    "complexity": "medium",
+    "model_recommendation": "Linear Regression or Ridge"
   },
+  "target_analysis": {
+    "skewness": 1.377,
+    "kurtosis": 2.005,
+    "outlier_percentage": 6.15
+  },
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)",
+    "Encode categorical variables (One-hot or Label encoding)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

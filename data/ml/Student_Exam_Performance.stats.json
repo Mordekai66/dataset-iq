@@ -4,8 +4,21 @@
     "columns": 9,
     "data_quality_score": 81.21,
     "problem_type": "regression",
-    "target": "Writing Score"
+    "target": "Writing Score",
+    "complexity": "medium",
+    "model_recommendation": "Random Forest Regressor or XGBoost"
   },
+  "target_analysis": {
+    "skewness": -0.053,
+    "kurtosis": -0.96,
+    "outlier_percentage": 0.0
+  },
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)",
+    "Encode categorical variables (One-hot or Label encoding)",
+    "Remove low variance features"
+  ],
   "issues": {
     "missing_values_total": 683,
     "duplicate_rows": 0,

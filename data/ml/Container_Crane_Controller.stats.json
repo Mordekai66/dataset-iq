@@ -4,8 +4,16 @@
     "columns": 4,
     "data_quality_score": 95.0,
     "problem_type": "classification",
-    "target": "Power"
+    "target": "Power",
+    "complexity": "easy",
+    "model_recommendation": "Logistic Regression or Random Forest"
   },
+  "target_analysis": {},
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)",
+    "Encode categorical variables (One-hot or Label encoding)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

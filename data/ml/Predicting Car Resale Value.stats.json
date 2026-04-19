@@ -4,8 +4,19 @@
     "columns": 7,
     "data_quality_score": 99.36,
     "problem_type": "regression",
-    "target": "Resale Price"
+    "target": "Resale Price",
+    "complexity": "medium",
+    "model_recommendation": "Random Forest Regressor or XGBoost"
   },
+  "target_analysis": {
+    "skewness": 0.661,
+    "kurtosis": 0.03,
+    "outlier_percentage": 1.1
+  },
+  "preprocessing": [
+    "Apply feature scaling (Standardization or Normalization)",
+    "Encode categorical variables (One-hot or Label encoding)"
+  ],
   "issues": {
     "missing_values_total": 89,
     "duplicate_rows": 0,

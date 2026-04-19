@@ -4,8 +4,20 @@
     "columns": 21,
     "data_quality_score": 95.0,
     "problem_type": "regression",
-    "target": "ComplexAbilitiesUsed"
+    "target": "ComplexAbilitiesUsed",
+    "complexity": "medium",
+    "model_recommendation": "XGBoost with log transformation"
   },
+  "target_analysis": {
+    "skewness": 3.779,
+    "kurtosis": 21.542,
+    "outlier_percentage": 8.92
+  },
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)",
+    "Encode categorical variables (One-hot or Label encoding)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

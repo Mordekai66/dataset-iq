@@ -4,8 +4,20 @@
     "columns": 16,
     "data_quality_score": 75.0,
     "problem_type": "regression",
-    "target": "AH"
+    "target": "AH",
+    "complexity": "medium",
+    "model_recommendation": "XGBoost with log transformation"
   },
+  "target_analysis": {
+    "skewness": -4.755,
+    "kurtosis": 20.613,
+    "outlier_percentage": 3.92
+  },
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)",
+    "Encode categorical variables (One-hot or Label encoding)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

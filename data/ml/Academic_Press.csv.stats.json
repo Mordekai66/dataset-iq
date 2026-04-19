@@ -4,8 +4,19 @@
     "columns": 4,
     "data_quality_score": 95.0,
     "problem_type": "regression",
-    "target": "Order"
+    "target": "Order",
+    "complexity": "easy",
+    "model_recommendation": "Linear Regression or Ridge"
   },
+  "target_analysis": {
+    "skewness": 1.295,
+    "kurtosis": 0.886,
+    "outlier_percentage": 5.26
+  },
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

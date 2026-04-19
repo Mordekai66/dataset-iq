@@ -4,8 +4,19 @@
     "columns": 17,
     "data_quality_score": 95.0,
     "problem_type": "regression",
-    "target": "B"
+    "target": "B",
+    "complexity": "medium",
+    "model_recommendation": "Linear Regression or Ridge"
   },
+  "target_analysis": {
+    "skewness": 0.098,
+    "kurtosis": 0.163,
+    "outlier_percentage": 1.67
+  },
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

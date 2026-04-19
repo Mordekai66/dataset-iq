@@ -4,8 +4,19 @@
     "columns": 3,
     "data_quality_score": 94.21,
     "problem_type": "regression",
-    "target": "Brain_weight"
+    "target": "Brain_weight",
+    "complexity": "easy",
+    "model_recommendation": "Linear Regression or Ridge"
   },
+  "target_analysis": {
+    "skewness": 5.072,
+    "kurtosis": 26.271,
+    "outlier_percentage": 14.29
+  },
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)"
+  ],
   "issues": {
     "missing_values_total": 3,
     "duplicate_rows": 0,

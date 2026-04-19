@@ -4,8 +4,15 @@
     "columns": 10,
     "data_quality_score": 96.87,
     "problem_type": "classification",
-    "target": "age_of_marriage"
+    "target": "age_of_marriage",
+    "complexity": "medium",
+    "model_recommendation": "Random Forest or XGBoost"
   },
+  "target_analysis": {},
+  "preprocessing": [
+    "Apply feature scaling (Standardization or Normalization)",
+    "Encode categorical variables (One-hot or Label encoding)"
+  ],
   "issues": {
     "missing_values_total": 1608,
     "duplicate_rows": 0,

@@ -4,8 +4,19 @@
     "columns": 7,
     "data_quality_score": 100,
     "problem_type": "regression",
-    "target": "Octane number"
+    "target": "Octane number",
+    "complexity": "easy",
+    "model_recommendation": "Linear Regression or Ridge"
   },
+  "target_analysis": {
+    "skewness": 1.629,
+    "kurtosis": 4.61,
+    "outlier_percentage": 3.66
+  },
+  "preprocessing": [
+    "Apply feature scaling (Standardization or Normalization)",
+    "Remove low variance features"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

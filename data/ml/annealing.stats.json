@@ -4,8 +4,16 @@
     "columns": 40,
     "data_quality_score": 100,
     "problem_type": "classification",
-    "target": "classes"
+    "target": "classes",
+    "complexity": "medium",
+    "model_recommendation": "Logistic Regression or Random Forest"
   },
+  "target_analysis": {},
+  "preprocessing": [
+    "Apply feature scaling (Standardization or Normalization)",
+    "Encode categorical variables (One-hot or Label encoding)",
+    "Remove low variance features"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

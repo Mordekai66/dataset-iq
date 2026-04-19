@@ -4,8 +4,19 @@
     "columns": 4,
     "data_quality_score": 100,
     "problem_type": "regression",
-    "target": "Systolic BP"
+    "target": "Systolic BP",
+    "complexity": "easy",
+    "model_recommendation": "Linear Regression or Ridge"
   },
+  "target_analysis": {
+    "skewness": 1.361,
+    "kurtosis": 3.422,
+    "outlier_percentage": 3.33
+  },
+  "preprocessing": [
+    "Apply feature scaling (Standardization or Normalization)",
+    "Remove low variance features"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

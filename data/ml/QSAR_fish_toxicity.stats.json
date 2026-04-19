@@ -4,8 +4,18 @@
     "columns": 8,
     "data_quality_score": 100,
     "problem_type": "regression",
-    "target": "quantitative response LC50 [-LOG(mol/L)]"
+    "target": "quantitative response LC50 [-LOG(mol/L)]",
+    "complexity": "easy",
+    "model_recommendation": "Linear Regression or Ridge"
   },
+  "target_analysis": {
+    "skewness": 0.252,
+    "kurtosis": 0.664,
+    "outlier_percentage": 2.64
+  },
+  "preprocessing": [
+    "Apply feature scaling (Standardization or Normalization)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

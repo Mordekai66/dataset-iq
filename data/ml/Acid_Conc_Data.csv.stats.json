@@ -4,8 +4,15 @@
     "columns": 5,
     "data_quality_score": 95.0,
     "problem_type": "classification",
-    "target": "Unprocessed Percentage"
+    "target": "Unprocessed Percentage",
+    "complexity": "easy",
+    "model_recommendation": "Logistic Regression or Random Forest"
   },
+  "target_analysis": {},
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

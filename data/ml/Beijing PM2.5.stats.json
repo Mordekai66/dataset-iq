@@ -4,8 +4,16 @@
     "columns": 14,
     "data_quality_score": 89.83,
     "problem_type": "classification",
-    "target": "Ir"
+    "target": "Ir",
+    "complexity": "hard",
+    "model_recommendation": "XGBoost with class_weight or SMOTE"
   },
+  "target_analysis": {},
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)",
+    "Encode categorical variables (One-hot or Label encoding)"
+  ],
   "issues": {
     "missing_values_total": 2067,
     "duplicate_rows": 0,

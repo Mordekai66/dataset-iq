@@ -4,8 +4,15 @@
     "columns": 15,
     "data_quality_score": 100,
     "problem_type": "classification",
-    "target": "stabf"
+    "target": "stabf",
+    "complexity": "hard",
+    "model_recommendation": "Random Forest or XGBoost"
   },
+  "target_analysis": {},
+  "preprocessing": [
+    "Apply feature scaling (Standardization or Normalization)",
+    "Encode categorical variables (One-hot or Label encoding)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

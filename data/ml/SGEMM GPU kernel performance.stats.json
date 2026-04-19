@@ -4,8 +4,19 @@
     "columns": 19,
     "data_quality_score": 80.0,
     "problem_type": "regression",
-    "target": "Run4 (ms)"
+    "target": "Run4 (ms)",
+    "complexity": "hard",
+    "model_recommendation": "XGBoost with log transformation"
   },
+  "target_analysis": {
+    "skewness": 3.927,
+    "kurtosis": 19.416,
+    "outlier_percentage": 11.11
+  },
+  "preprocessing": [
+    "Drop highly correlated features",
+    "Apply feature scaling (Standardization or Normalization)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,

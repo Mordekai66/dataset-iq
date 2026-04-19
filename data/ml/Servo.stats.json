@@ -4,8 +4,19 @@
     "columns": 6,
     "data_quality_score": 100,
     "problem_type": "regression",
-    "target": "class: 0.13 to 7.10"
+    "target": "class: 0.13 to 7.10",
+    "complexity": "easy",
+    "model_recommendation": "Linear Regression or Ridge"
   },
+  "target_analysis": {
+    "skewness": 1.791,
+    "kurtosis": 2.073,
+    "outlier_percentage": 17.96
+  },
+  "preprocessing": [
+    "Apply feature scaling (Standardization or Normalization)",
+    "Encode categorical variables (One-hot or Label encoding)"
+  ],
   "issues": {
     "missing_values_total": 0,
     "duplicate_rows": 0,
