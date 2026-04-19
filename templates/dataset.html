@@ -39,12 +39,43 @@
                         <div class="stat-label">Target Column</div>
                         <div class="stat-value" id="targetColumn">-</div>
                     </div>
+                    <div class="stat-detail-card">
+                        <div class="stat-label">Complexity</div>
+                        <div class="stat-value" id="complexity">-</div>
+                    </div>
                 </div>
             </div>
 
             <div class="detail-section" id="issuesSection">
                 <h2>⚠️ Data Issues</h2>
                 <div class="issues-grid" id="issuesGrid"></div>
+            </div>
+
+            <!-- NEW: Recommendations Section -->
+            <div class="detail-section" id="recommendationsSection">
+                <h2>🎯 AI Recommendations</h2>
+                <div class="recommendations-grid">
+                    <div class="recommendation-card">
+                        <div class="recommendation-icon">🤖</div>
+                        <div class="recommendation-content">
+                            <h3>Model Recommendation</h3>
+                            <p id="modelRecommendation" class="recommendation-text">-</p>
+                        </div>
+                    </div>
+                    <div class="recommendation-card">
+                        <div class="recommendation-icon">⚙️</div>
+                        <div class="recommendation-content">
+                            <h3>Preprocessing Steps</h3>
+                            <ul id="preprocessingList" class="recommendation-list"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NEW: Target Analysis Section (for regression problems) -->
+            <div class="detail-section" id="targetAnalysisSection" style="display: none;">
+                <h2>📐 Target Variable Analysis</h2>
+                <div class="target-stats-grid" id="targetAnalysisGrid"></div>
             </div>
 
             <div class="detail-section" id="schemaSection">
@@ -84,12 +115,16 @@
                 const stats = await response.json();
                 
                 if (!stats.error) {
+                    // General Statistics
                     document.getElementById('rowsCount').textContent = stats.summary.rows;
                     document.getElementById('columnsCount').textContent = stats.summary.columns;
                     document.getElementById('qualityScore').textContent = `${stats.summary.data_quality_score}%`;
                     document.getElementById('problemType').textContent = stats.summary.problem_type === 'classification' ? 'Classification' : 'Regression';
                     document.getElementById('targetColumn').textContent = stats.summary.target;
+                    document.getElementById('complexity').textContent = stats.summary.complexity ? 
+                        stats.summary.complexity.charAt(0).toUpperCase() + stats.summary.complexity.slice(1) : '-';
                     
+                    // Data Issues
                     const issuesGrid = document.getElementById('issuesGrid');
                     issuesGrid.innerHTML = `
                         <div class="issue-card">
@@ -121,7 +156,53 @@
                             </div>
                         </div>
                     `;
-                    
+
+                    // NEW: Model Recommendation
+                    if (stats.summary.model_recommendation) {
+                        document.getElementById('modelRecommendation').textContent = stats.summary.model_recommendation;
+                    }
+
+                    // NEW: Preprocessing Suggestions
+                    if (stats.preprocessing && stats.preprocessing.length > 0) {
+                        const preprocessingList = document.getElementById('preprocessingList');
+                        preprocessingList.innerHTML = stats.preprocessing.map(suggestion => 
+                            `<li>✓ ${suggestion}</li>`
+                        ).join('');
+                    } else {
+                        document.getElementById('preprocessingList').innerHTML = '<li>No specific preprocessing needed</li>';
+                    }
+
+                    // NEW: Target Analysis (for regression)
+                    if (stats.target_analysis && Object.keys(stats.target_analysis).length > 0) {
+                        const targetSection = document.getElementById('targetAnalysisSection');
+                        const targetGrid = document.getElementById('targetAnalysisGrid');
+                        
+                        targetSection.style.display = 'block';
+                        targetGrid.innerHTML = `
+                            <div class="target-stat-card">
+                                <div class="target-stat-label">Skewness</div>
+                                <div class="target-stat-value ${Math.abs(stats.target_analysis.skewness) > 1 ? 'warning' : ''}">
+                                    ${stats.target_analysis.skewness}
+                                </div>
+                                ${Math.abs(stats.target_analysis.skewness) > 1 ? '<small>⚠️ Highly skewed</small>' : ''}
+                            </div>
+                            <div class="target-stat-card">
+                                <div class="target-stat-label">Kurtosis</div>
+                                <div class="target-stat-value">
+                                    ${stats.target_analysis.kurtosis}
+                                </div>
+                            </div>
+                            <div class="target-stat-card">
+                                <div class="target-stat-label">Outliers</div>
+                                <div class="target-stat-value ${stats.target_analysis.outlier_percentage > 5 ? 'warning' : ''}">
+                                    ${stats.target_analysis.outlier_percentage}%
+                                </div>
+                                ${stats.target_analysis.outlier_percentage > 5 ? '<small>⚠️ Significant outliers detected</small>' : ''}
+                            </div>
+                        `;
+                    }
+
+                    // Data Schema
                     const schemaBody = document.getElementById('schemaBody');
                     schemaBody.innerHTML = stats.schema.map(col => `
                         <tr>
