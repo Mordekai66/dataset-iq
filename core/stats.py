@@ -20,14 +20,25 @@ _QUALITY_LEAKAGE_WEIGHT = 10
 _QUALITY_OUTLIER_WEIGHT = 20
 _MI_SAMPLE_SIZE = 50_000  # cap rows fed into mutual_info to bound O(n*d) cost
 
-
 def detect_problem_type(target_col: pd.Series) -> str:
     if target_col.dtype == "object" or pd.api.types.is_bool_dtype(target_col):
         return "classification"
-    unique_ratio = target_col.nunique() / max(len(target_col), 1)
-    if target_col.nunique() <= _CLASSIFICATION_UNIQUE_THRESHOLD or unique_ratio < _CLASSIFICATION_RATIO_THRESHOLD:
+    if pd.api.types.is_float_dtype(target_col):
+        # Float targets with many decimals are almost always regression
+        non_null = target_col.dropna()
+        if len(non_null) > 0 and (non_null != non_null.round(0)).any():
+            return "regression"
+    unique_count = target_col.nunique()
+    unique_ratio = unique_count / max(len(target_col), 1)
+    # Guard: if unique_ratio > 50% it's almost certainly regression regardless of unique_count
+    if unique_ratio > 0.5 and unique_count > 10:
+        return "regression"
+    if unique_count <= _CLASSIFICATION_UNIQUE_THRESHOLD or unique_ratio < _CLASSIFICATION_RATIO_THRESHOLD:
         return "classification"
     return "regression"
+
+
+# -------------------- TARGET ANALYSIS --------------------
 
 def analyze_target(target: pd.Series, problem_type: str) -> dict:
     if problem_type == "classification":
@@ -71,11 +82,13 @@ def compute_correlation_matrix(df: pd.DataFrame) -> pd.DataFrame | None:
         return None
     return numeric.corr()
 
+
 def detect_leakage(corr_matrix: pd.DataFrame | None, target_col: str) -> list[str]:
     if corr_matrix is None or target_col not in corr_matrix.columns:
         return []
     series = corr_matrix[target_col].abs()
     return [col for col in series.index if col != target_col and series[col] > _CORRELATION_LEAKAGE_THRESHOLD]
+
 
 def detect_high_correlation_pairs(corr_matrix: pd.DataFrame | None) -> list[dict]:
     if corr_matrix is None:
@@ -90,19 +103,34 @@ def detect_high_correlation_pairs(corr_matrix: pd.DataFrame | None) -> list[dict
     return pairs
 
 # Sample rows to cap MI computation at O(sample * d * log d) instead of O(n * d * log d)
-def compute_mutual_info(df: pd.DataFrame, target: pd.Series, problem_type: str) -> dict[str, float]:
+def compute_mutual_info(df, target, problem_type):
     X = df.drop(columns=[target.name])
+    # Drop datetime columns — not promotable to float64, breaks MI
+    datetime_cols = X.select_dtypes(include=["datetime64", "datetimetz"]).columns.tolist()
+    if datetime_cols:
+        logger.info("Dropping datetime columns from MI: %s", datetime_cols)
+        X = X.drop(columns=datetime_cols)
     X = pd.get_dummies(X, drop_first=True)
-    if X.empty:
+    n = len(X)
+    if X.empty or n == 0:
         return {}
 
-    if len(X) > _MI_SAMPLE_SIZE:
-        idx = np.random.default_rng(42).choice(len(X), _MI_SAMPLE_SIZE, replace=False)
+    sample_size = min(n, _MI_SAMPLE_SIZE)
+    if n > sample_size:
+        idx = np.random.default_rng(42).choice(n, sample_size, replace=False)
         X = X.iloc[idx]
         target = target.iloc[idx]
 
+    # Override problem_type if target contains non-integer floats — avoids sklearn UserWarning
+    actual_type = problem_type
+    if problem_type == "classification" and pd.api.types.is_float_dtype(target):
+        non_null = target.dropna()
+        if len(non_null) > 0 and (non_null != non_null.round(0)).any():
+            actual_type = "regression"
+            logger.info("MI: overriding to regression — target has non-integer float values.")
+
     try:
-        fn = mutual_info_classif if problem_type == "classification" else mutual_info_regression
+        fn = mutual_info_classif if actual_type == "classification" else mutual_info_regression
         mi = fn(X.fillna(0), target, random_state=42)
         total = mi.sum() or 1.0
         return {col: round(float(score / total), 6) for col, score in zip(X.columns, mi)}
@@ -149,7 +177,11 @@ def analyze_features(df: pd.DataFrame) -> list[dict]:
     return feature_info
 
 # Outlier penalty uses per-column outlier rate (mean) not raw count sum — scale-invariant
-def compute_quality(df: pd.DataFrame,leakage_cols: list[str],outliers: dict[str, int],) -> float:
+def compute_quality(
+    df: pd.DataFrame,
+    leakage_cols: list[str],
+    outliers: dict[str, int],
+) -> float:
     n = max(len(df), 1)
     missing_penalty = df.isnull().mean().mean() * _QUALITY_MISSING_WEIGHT
     duplicate_penalty = df.duplicated().mean() * _QUALITY_DUPLICATE_WEIGHT
@@ -158,7 +190,6 @@ def compute_quality(df: pd.DataFrame,leakage_cols: list[str],outliers: dict[str,
     outlier_penalty = (np.mean(outlier_rates) if outlier_rates else 0.0) * _QUALITY_OUTLIER_WEIGHT
     score = 100 - (missing_penalty + duplicate_penalty + leakage_penalty + outlier_penalty)
     return round(float(np.clip(score, 0, 100)), 2)
-
 
 def generate_recommendations(df: pd.DataFrame, problem_type: str, leakage_cols: list[str]) -> dict:
     rec: dict = {
@@ -332,5 +363,5 @@ def run_all(data_dir: str = r"data/ml") -> None:
         return
     for file in os.listdir(data_dir):
         if file.endswith((".csv", ".xlsx", ".xls")):
-            print(f"Processing {file}...")
+            print(f"Processing {file}....")
             process_file(os.path.join(data_dir, file))
