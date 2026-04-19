@@ -87,7 +87,7 @@
                     document.getElementById('rowsCount').textContent = stats.summary.rows;
                     document.getElementById('columnsCount').textContent = stats.summary.columns;
                     document.getElementById('qualityScore').textContent = `${stats.summary.data_quality_score}%`;
-                    document.getElementById('problemType').textContent = stats.summary.problem_type === 'classification' ? 'تصنيف' : 'انحدار';
+                    document.getElementById('problemType').textContent = stats.summary.problem_type === 'classification' ? 'Classification' : 'Regression';
                     document.getElementById('targetColumn').textContent = stats.summary.target;
                     
                     const issuesGrid = document.getElementById('issuesGrid');
