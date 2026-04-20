@@ -143,4 +143,4 @@ Every dataset added improves the registry and makes it easier to reuse structure
 
 ## License
 
-MIT
+MIT - See [License](LICENSE)
